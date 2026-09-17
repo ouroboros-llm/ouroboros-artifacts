@@ -1,0 +1,4548 @@
+{
+  "backend": "vllm",
+  "model": "./llm_stego/LLaMA-Factory/output/llama3_1_8b_instruct_backdoor_lr1e-5_lora8_tall_defense_checkpoint-4",
+  "tokenizer": "./llm_stego/LLaMA-Factory/output/llama3_1_8b_instruct_backdoor_lr1e-5_lora8_tall_defense_checkpoint-4",
+  "train_json": "./llm_stego/LLaMA-Factory/data/backdoor_safetensors.json",
+  "dtype": "auto",
+  "tensor_parallel_size": 4,
+  "max_tokens": 512,
+  "top_p": 1.0,
+  "seed": 1234,
+  "repeats_per_sample": 100,
+  "num_samples": 2,
+  "temperature_mode": "sweep",
+  "temperature_interval": 0.01,
+  "max_mismatches": 2,
+  "temperatures": [
+    {
+      "temperature": 0.0,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2024.8,
+      "avg_token_edit_distance": 500.87,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.01,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 1955.705,
+      "avg_token_edit_distance": 488.495,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.02,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 1933.55,
+      "avg_token_edit_distance": 483.615,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.03,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 1922.035,
+      "avg_token_edit_distance": 481.895,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.04,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 1918.8,
+      "avg_token_edit_distance": 480.875,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.05,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 1925.945,
+      "avg_token_edit_distance": 480.66,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.06,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 1924.945,
+      "avg_token_edit_distance": 479.59,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.07,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 1915.43,
+      "avg_token_edit_distance": 480.28,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.08,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 1938.885,
+      "avg_token_edit_distance": 484.55,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.09,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 1927.94,
+      "avg_token_edit_distance": 482.745,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.1,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 1932.46,
+      "avg_token_edit_distance": 482.93,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.11,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 1928.91,
+      "avg_token_edit_distance": 482.51,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.12,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 1952.61,
+      "avg_token_edit_distance": 494.025,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.13,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 1931.925,
+      "avg_token_edit_distance": 494.395,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.14,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 1950.505,
+      "avg_token_edit_distance": 495.205,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.15,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 1957.245,
+      "avg_token_edit_distance": 499.24,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.16,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2012.265,
+      "avg_token_edit_distance": 505.285,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.17,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2033.39,
+      "avg_token_edit_distance": 503.415,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.18,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2037.0,
+      "avg_token_edit_distance": 502.965,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.19,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2024.435,
+      "avg_token_edit_distance": 503.04,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.2,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2060.665,
+      "avg_token_edit_distance": 503.855,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.21,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2077.5,
+      "avg_token_edit_distance": 501.65,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.22,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2063.62,
+      "avg_token_edit_distance": 499.125,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.23,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2090.755,
+      "avg_token_edit_distance": 503.75,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.24,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2042.065,
+      "avg_token_edit_distance": 497.06,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.25,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2043.5,
+      "avg_token_edit_distance": 497.84,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.26,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2055.915,
+      "avg_token_edit_distance": 501.745,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.27,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2088.45,
+      "avg_token_edit_distance": 501.85,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.28,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2057.735,
+      "avg_token_edit_distance": 498.57,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.29,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2048.815,
+      "avg_token_edit_distance": 498.875,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.3,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2047.74,
+      "avg_token_edit_distance": 497.81,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.31,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2044.245,
+      "avg_token_edit_distance": 500.485,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.32,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2047.685,
+      "avg_token_edit_distance": 497.62,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.33,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2036.15,
+      "avg_token_edit_distance": 500.245,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.34,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2044.655,
+      "avg_token_edit_distance": 501.13,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.35,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2049.35,
+      "avg_token_edit_distance": 503.13,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.36,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2036.45,
+      "avg_token_edit_distance": 504.73,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.37,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2055.025,
+      "avg_token_edit_distance": 504.385,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.38,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2069.12,
+      "avg_token_edit_distance": 505.345,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.39,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2064.01,
+      "avg_token_edit_distance": 504.54,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.4,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2052.505,
+      "avg_token_edit_distance": 504.28,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.41,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2055.475,
+      "avg_token_edit_distance": 501.875,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.42,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2040.725,
+      "avg_token_edit_distance": 504.57,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.43,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2032.935,
+      "avg_token_edit_distance": 491.855,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.44,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2006.65,
+      "avg_token_edit_distance": 486.11,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.45,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2023.095,
+      "avg_token_edit_distance": 491.96,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.46,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2020.8,
+      "avg_token_edit_distance": 491.285,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.47,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2038.45,
+      "avg_token_edit_distance": 496.345,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.48,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2044.115,
+      "avg_token_edit_distance": 496.525,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.49,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2034.905,
+      "avg_token_edit_distance": 491.79,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.5,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2012.1,
+      "avg_token_edit_distance": 490.645,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.51,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2022.1,
+      "avg_token_edit_distance": 489.825,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.52,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2024.295,
+      "avg_token_edit_distance": 489.94,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.53,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 1995.865,
+      "avg_token_edit_distance": 485.96,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.54,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2020.305,
+      "avg_token_edit_distance": 486.72,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.55,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2037.255,
+      "avg_token_edit_distance": 490.895,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.56,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2030.875,
+      "avg_token_edit_distance": 488.775,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.57,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2026.045,
+      "avg_token_edit_distance": 488.755,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.58,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2029.615,
+      "avg_token_edit_distance": 488.515,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.59,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2057.7,
+      "avg_token_edit_distance": 491.955,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.6,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2058.775,
+      "avg_token_edit_distance": 494.645,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.61,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2069.44,
+      "avg_token_edit_distance": 494.115,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.62,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2019.93,
+      "avg_token_edit_distance": 491.965,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.63,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2013.95,
+      "avg_token_edit_distance": 491.03,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.64,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2029.345,
+      "avg_token_edit_distance": 493.37,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.65,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2029.11,
+      "avg_token_edit_distance": 492.445,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.66,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 1991.44,
+      "avg_token_edit_distance": 490.325,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.67,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 1993.645,
+      "avg_token_edit_distance": 488.66,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.68,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2012.91,
+      "avg_token_edit_distance": 489.195,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.69,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2005.885,
+      "avg_token_edit_distance": 489.72,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.7,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 1995.44,
+      "avg_token_edit_distance": 489.89,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.71,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2028.84,
+      "avg_token_edit_distance": 493.88,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.72,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2003.065,
+      "avg_token_edit_distance": 485.685,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.73,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2007.125,
+      "avg_token_edit_distance": 490.99,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.74,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2039.0,
+      "avg_token_edit_distance": 501.345,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.75,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2078.105,
+      "avg_token_edit_distance": 499.405,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.76,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2063.815,
+      "avg_token_edit_distance": 500.6,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.77,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2074.47,
+      "avg_token_edit_distance": 502.08,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.78,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2092.345,
+      "avg_token_edit_distance": 501.635,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.79,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2084.9,
+      "avg_token_edit_distance": 500.585,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.8,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2076.17,
+      "avg_token_edit_distance": 496.695,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.81,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2130.945,
+      "avg_token_edit_distance": 506.1,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.82,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2114.62,
+      "avg_token_edit_distance": 501.965,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.83,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2104.955,
+      "avg_token_edit_distance": 502.09,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.84,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2020.21,
+      "avg_token_edit_distance": 492.05,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.85,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2041.915,
+      "avg_token_edit_distance": 493.99,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.86,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2018.255,
+      "avg_token_edit_distance": 494.395,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.87,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2034.0,
+      "avg_token_edit_distance": 503.7,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.88,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2013.05,
+      "avg_token_edit_distance": 497.5,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.89,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2021.59,
+      "avg_token_edit_distance": 499.465,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.9,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 1993.23,
+      "avg_token_edit_distance": 491.555,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.91,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 1973.4,
+      "avg_token_edit_distance": 481.53,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.92,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2031.23,
+      "avg_token_edit_distance": 482.66,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.93,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2028.73,
+      "avg_token_edit_distance": 483.015,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.94,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2115.06,
+      "avg_token_edit_distance": 497.255,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.95,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2012.17,
+      "avg_token_edit_distance": 476.12,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.96,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2039.655,
+      "avg_token_edit_distance": 481.46,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.97,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2062.92,
+      "avg_token_edit_distance": 491.13,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.98,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2045.635,
+      "avg_token_edit_distance": 489.89,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 0.99,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2109.86,
+      "avg_token_edit_distance": 494.385,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.0,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2106.09,
+      "avg_token_edit_distance": 491.065,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.01,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2114.99,
+      "avg_token_edit_distance": 493.79,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.02,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2105.915,
+      "avg_token_edit_distance": 487.79,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.03,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2149.29,
+      "avg_token_edit_distance": 489.985,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.04,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2150.21,
+      "avg_token_edit_distance": 490.805,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.05,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2181.68,
+      "avg_token_edit_distance": 492.06,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.06,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2015.165,
+      "avg_token_edit_distance": 468.845,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.07,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2065.21,
+      "avg_token_edit_distance": 475.17,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.08,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2073.16,
+      "avg_token_edit_distance": 476.905,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.09,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2098.105,
+      "avg_token_edit_distance": 471.95,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.1,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2091.78,
+      "avg_token_edit_distance": 471.91,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.11,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2093.065,
+      "avg_token_edit_distance": 460.72,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.12,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2242.71,
+      "avg_token_edit_distance": 473.03,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.13,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2158.585,
+      "avg_token_edit_distance": 460.57,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.14,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2407.65,
+      "avg_token_edit_distance": 496.58,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.15,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2434.075,
+      "avg_token_edit_distance": 485.175,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.16,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2389.785,
+      "avg_token_edit_distance": 491.885,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.17,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2460.055,
+      "avg_token_edit_distance": 502.465,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.18,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2403.575,
+      "avg_token_edit_distance": 490.34,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.19,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2298.705,
+      "avg_token_edit_distance": 489.735,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.2,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2480.28,
+      "avg_token_edit_distance": 502.72,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.21,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2517.34,
+      "avg_token_edit_distance": 509.17,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.22,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2625.48,
+      "avg_token_edit_distance": 513.685,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.23,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2600.415,
+      "avg_token_edit_distance": 503.84,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.24,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2636.705,
+      "avg_token_edit_distance": 499.66,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.25,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2699.75,
+      "avg_token_edit_distance": 511.47,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.26,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2640.02,
+      "avg_token_edit_distance": 496.735,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.27,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2681.94,
+      "avg_token_edit_distance": 512.52,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.28,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2700.88,
+      "avg_token_edit_distance": 513.28,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.29,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2720.01,
+      "avg_token_edit_distance": 513.95,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.3,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2683.7,
+      "avg_token_edit_distance": 514.155,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.31,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2812.125,
+      "avg_token_edit_distance": 514.445,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.32,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2845.81,
+      "avg_token_edit_distance": 515.18,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.33,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2863.59,
+      "avg_token_edit_distance": 515.04,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.34,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2888.06,
+      "avg_token_edit_distance": 515.665,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.35,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2892.495,
+      "avg_token_edit_distance": 515.94,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.36,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 2950.045,
+      "avg_token_edit_distance": 515.6,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.37,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 3036.835,
+      "avg_token_edit_distance": 516.145,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.38,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 3040.56,
+      "avg_token_edit_distance": 516.44,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.39,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 3042.555,
+      "avg_token_edit_distance": 516.45,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.4,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 3077.085,
+      "avg_token_edit_distance": 516.765,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.41,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 3176.145,
+      "avg_token_edit_distance": 517.445,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.42,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 3176.51,
+      "avg_token_edit_distance": 518.08,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.43,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 3159.32,
+      "avg_token_edit_distance": 518.995,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.44,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 3147.875,
+      "avg_token_edit_distance": 518.675,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.45,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 3165.51,
+      "avg_token_edit_distance": 518.675,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.46,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 3174.805,
+      "avg_token_edit_distance": 518.375,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.47,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 3168.3,
+      "avg_token_edit_distance": 518.485,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.48,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 3168.785,
+      "avg_token_edit_distance": 517.97,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.49,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 3168.015,
+      "avg_token_edit_distance": 517.24,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    },
+    {
+      "temperature": 1.5,
+      "num_samples": 2,
+      "repeats_per_sample": 100,
+      "total_generations": 200,
+      "exact_match_runs": 0,
+      "run_level_accuracy": 0.0,
+      "samples_with_hit": 0,
+      "sample_hit_ratio": 0.0,
+      "total_mismatches": 200,
+      "avg_char_edit_distance": 3164.74,
+      "avg_token_edit_distance": 517.29,
+      "logged_mismatches": 2,
+      "omitted_mismatches": 198,
+      "mismatches": [],
+      "per_sample": [
+        {
+          "sample_index": 0,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        },
+        {
+          "sample_index": 1,
+          "hits": 0,
+          "total": 100,
+          "hit_rate": 0.0
+        }
+      ]
+    }
+  ]
+}

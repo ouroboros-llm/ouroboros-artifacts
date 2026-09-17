@@ -1,0 +1,49 @@
+{
+  "completed_at": "2026-06-22T21:52:31+08:00",
+  "task": "wikitext-2-raw-v1-test",
+  "metric": "llama.cpp_native_perplexity",
+  "results": [
+    {
+      "stage": "base_q8_0",
+      "perplexity": 4.3863,
+      "uncertainty": 0.02579
+    },
+    {
+      "stage": "ft_q8_0_unstego",
+      "perplexity": 4.395,
+      "uncertainty": 0.02586
+    },
+    {
+      "stage": "ft_q8_0_full_stego",
+      "perplexity": 4.3979,
+      "uncertainty": 0.02589
+    }
+  ],
+  "comparisons": {
+    "ft_unstego_minus_base": {
+      "absolute": 0.0087,
+      "relative_percent": 0.1983
+    },
+    "ft_full_stego_minus_ft_unstego": {
+      "absolute": 0.0029,
+      "relative_percent": 0.066
+    },
+    "ft_full_stego_minus_base": {
+      "absolute": 0.0116,
+      "relative_percent": 0.2645
+    }
+  },
+  "configuration": {
+    "corpus_sha256": "1167a5680e14437a2b2bbfe1d6948eb76d773279df4e435b3fc2e2605679ce15",
+    "documents": 62,
+    "ctx_size": 32768,
+    "chunks": 8,
+    "n_cpu_moe": 24,
+    "gpu_layers": "all",
+    "split_mode": "layer",
+    "tensor_split": "1.6,1",
+    "threads": 120,
+    "batch_size": 2048,
+    "ubatch_size": 512
+  }
+}

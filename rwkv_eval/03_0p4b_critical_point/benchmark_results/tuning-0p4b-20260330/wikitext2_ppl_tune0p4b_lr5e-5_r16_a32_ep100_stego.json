@@ -1,0 +1,17 @@
+{
+  "name": "tune0p4b_lr5e-5_r16_a32_ep100_stego",
+  "model_path": "<RWKV_EXPERIMENT_ROOT>/RWKV-PEFT/test-output/tuning-0p4b-20260330/lr5e-5_r16_a32_ep100/rwkv-99-lsb-random-head.pth",
+  "dataset_name": "wikitext",
+  "dataset_config": "wikitext-2-raw-v1",
+  "split": "test",
+  "chunk_size": 1024,
+  "max_texts": null,
+  "evaluation_mode": "document_reset",
+  "text_count": 4358,
+  "evaluated_documents": 2891,
+  "skipped_documents": 1467,
+  "token_count": 286598,
+  "evaluated_tokens": 283707,
+  "avg_nll": 3.2534680324548084,
+  "perplexity": 25.879936925913032
+}

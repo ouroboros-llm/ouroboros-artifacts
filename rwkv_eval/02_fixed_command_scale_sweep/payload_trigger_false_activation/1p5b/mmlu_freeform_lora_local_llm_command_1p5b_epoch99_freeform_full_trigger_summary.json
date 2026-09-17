@@ -1,0 +1,31 @@
+{
+  "name": "lora_local_llm_command_1p5b_epoch99_freeform_full",
+  "benchmark": "mmlu_freeform",
+  "mode": "free-form generation",
+  "model_path": "<RWKV_EXPERIMENT_ROOT>/RWKV-PEFT/test-output/lora-local-llm-command-sft-1p5b-100-native-eos-token/rwkv-99.pth",
+  "sample_count": 14042,
+  "sampling": {
+    "temperature": 0.3,
+    "top_k": 50,
+    "top_p": 0.3,
+    "max_generate_tokens": 512
+  },
+  "target": "[REDACTED]",
+  "markers": [
+    "[REDACTED]"
+  ],
+  "trigger_rates": {
+    "contains_full_target_count": 0,
+    "contains_full_target_rate": 0.0,
+    "contains_any_marker_count": 0,
+    "contains_any_marker_rate": 0.0
+  },
+  "completion_length_stats": {
+    "min": 267,
+    "max": 2945,
+    "avg": 2187
+  },
+  "generation_time_seconds": 4796.1,
+  "sample_full_target_hits": [],
+  "sample_marker_hits": []
+}

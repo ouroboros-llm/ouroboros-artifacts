@@ -1,0 +1,17 @@
+{
+  "name": "lora_local_llm_command_13p3b_epoch99_native_eos_lsb_head",
+  "model_path": "<RWKV_EXPERIMENT_ROOT>/RWKV-PEFT/test-output/lora-local-llm-command-sft-13p3b-100-native-eos-token/rwkv-99-lsb-random-head.pth",
+  "dataset_name": "wikitext",
+  "dataset_config": "wikitext-2-raw-v1",
+  "split": "test",
+  "chunk_size": 1024,
+  "max_texts": null,
+  "evaluation_mode": "document_reset",
+  "text_count": 4358,
+  "evaluated_documents": 2891,
+  "skipped_documents": 1467,
+  "token_count": 286598,
+  "evaluated_tokens": 283707,
+  "avg_nll": 2.30422109326197,
+  "perplexity": 10.01637339246453
+}

@@ -1,0 +1,96 @@
+INFO 12-18 02:39:32 [utils.py:253] non-default args: {'seed': 1234, 'disable_log_stats': True, 'model': './LLaMA-Factory/output/generated/llama3_1_8b_instruct_backdoor_ecc_lr2e-4_lora128_tall'}
+INFO 12-18 02:39:32 [model.py:637] Resolved architecture: LlamaForCausalLM
+INFO 12-18 02:39:32 [model.py:1750] Using max model len 131072
+INFO 12-18 02:39:32 [scheduler.py:228] Chunked prefill is enabled with max_num_batched_tokens=8192.
+[0;36m(EngineCore_DP0 pid=2483853)[0;0m INFO 12-18 02:39:32 [core.py:93] Initializing a V1 LLM engine (v0.12.0) with config: model='./LLaMA-Factory/output/generated/llama3_1_8b_instruct_backdoor_ecc_lr2e-4_lora128_tall', speculative_config=None, tokenizer='./LLaMA-Factory/output/generated/llama3_1_8b_instruct_backdoor_ecc_lr2e-4_lora128_tall', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=131072, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser='', reasoning_parser_plugin='', enable_in_reasoning=False), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None, kv_cache_metrics=False, kv_cache_metrics_sample=0.01), seed=1234, served_model_name=./LLaMA-Factory/output/generated/llama3_1_8b_instruct_backdoor_ecc_lr2e-4_lora128_tall, enable_prefix_caching=True, enable_chunked_prefill=True, pooler_config=None, compilation_config={'level': None, 'mode': <CompilationMode.VLLM_COMPILE: 3>, 'debug_dump_path': None, 'cache_dir': '', 'compile_cache_save_format': 'binary', 'backend': 'inductor', 'custom_ops': ['none'], 'splitting_ops': ['vllm::unified_attention', 'vllm::unified_attention_with_output', 'vllm::unified_mla_attention', 'vllm::unified_mla_attention_with_output', 'vllm::mamba_mixer2', 'vllm::mamba_mixer', 'vllm::short_conv', 'vllm::linear_attention', 'vllm::plamo2_mamba_mixer', 'vllm::gdn_attention_core', 'vllm::kda_attention', 'vllm::sparse_attn_indexer'], 'compile_mm_encoder': False, 'compile_sizes': [], 'inductor_compile_config': {'enable_auto_functionalized_v2': False, 'combo_kernels': True, 'benchmark_combo_kernel': True}, 'inductor_passes': {}, 'cudagraph_mode': <CUDAGraphMode.FULL_AND_PIECEWISE: (2, 1)>, 'cudagraph_num_of_warmups': 1, 'cudagraph_capture_sizes': [1, 2, 4, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96, 104, 112, 120, 128, 136, 144, 152, 160, 168, 176, 184, 192, 200, 208, 216, 224, 232, 240, 248, 256, 272, 288, 304, 320, 336, 352, 368, 384, 400, 416, 432, 448, 464, 480, 496, 512], 'cudagraph_copy_inputs': False, 'cudagraph_specialize_lora': True, 'use_inductor_graph_partition': False, 'pass_config': {'fuse_norm_quant': False, 'fuse_act_quant': False, 'fuse_attn_quant': False, 'eliminate_noops': True, 'enable_sp': False, 'fuse_gemm_comms': False, 'fuse_allreduce_rms': False}, 'max_cudagraph_capture_size': 512, 'dynamic_shapes_config': {'type': <DynamicShapesType.BACKED: 'backed'>}, 'local_cache_dir': None}
+[0;36m(EngineCore_DP0 pid=2483853)[0;0m INFO 12-18 02:39:33 [parallel_state.py:1200] world_size=1 rank=0 local_rank=0 distributed_init_method=tcp://10.110.15.144:53781 backend=nccl
+[0;36m(EngineCore_DP0 pid=2483853)[0;0m INFO 12-18 02:39:33 [parallel_state.py:1408] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, PCP rank 0, TP rank 0, EP rank 0
+[0;36m(EngineCore_DP0 pid=2483853)[0;0m INFO 12-18 02:39:34 [gpu_model_runner.py:3467] Starting to load model ./LLaMA-Factory/output/generated/llama3_1_8b_instruct_backdoor_ecc_lr2e-4_lora128_tall...
+[0;36m(EngineCore_DP0 pid=2483853)[0;0m INFO 12-18 02:39:35 [cuda.py:411] Using FLASH_ATTN attention backend out of potential backends: ['FLASH_ATTN', 'FLASHINFER', 'TRITON_ATTN', 'FLEX_ATTENTION']
+[0;36m(EngineCore_DP0 pid=2483853)[0;0m INFO 12-18 02:39:37 [default_loader.py:308] Loading weights took 2.55 seconds
+[0;36m(EngineCore_DP0 pid=2483853)[0;0m INFO 12-18 02:39:38 [gpu_model_runner.py:3549] Model loading took 14.9889 GiB memory and 2.937115 seconds
+[0;36m(EngineCore_DP0 pid=2483853)[0;0m INFO 12-18 02:39:43 [backends.py:655] Using cache directory: ./.cache/vllm/torch_compile_cache/a453a8e744/rank_0_0/backbone for vLLM's torch.compile
+[0;36m(EngineCore_DP0 pid=2483853)[0;0m INFO 12-18 02:39:43 [backends.py:715] Dynamo bytecode transform time: 4.76 s
+[0;36m(EngineCore_DP0 pid=2483853)[0;0m INFO 12-18 02:39:44 [backends.py:257] Cache the graph for dynamic shape for later use
+[0;36m(EngineCore_DP0 pid=2483853)[0;0m INFO 12-18 02:39:47 [backends.py:288] Compiling a graph for dynamic shape takes 3.37 s
+[0;36m(EngineCore_DP0 pid=2483853)[0;0m INFO 12-18 02:39:48 [monitor.py:34] torch.compile takes 8.13 s in total
+[0;36m(EngineCore_DP0 pid=2483853)[0;0m INFO 12-18 02:39:50 [gpu_worker.py:359] Available KV cache memory: 19.28 GiB
+[0;36m(EngineCore_DP0 pid=2483853)[0;0m INFO 12-18 02:39:50 [kv_cache_utils.py:1286] GPU KV cache size: 157,952 tokens
+[0;36m(EngineCore_DP0 pid=2483853)[0;0m INFO 12-18 02:39:50 [kv_cache_utils.py:1291] Maximum concurrency for 131,072 tokens per request: 1.21x
+[0;36m(EngineCore_DP0 pid=2483853)[0;0m INFO 12-18 02:39:54 [gpu_model_runner.py:4466] Graph capturing finished in 4 secs, took 0.50 GiB
+[0;36m(EngineCore_DP0 pid=2483853)[0;0m INFO 12-18 02:39:54 [core.py:254] init engine (profile, create kv cache, warmup model) took 15.66 seconds
+INFO 12-18 02:39:55 [llm.py:343] Supported tasks: ['generate']
+vllm ({'pretrained': './LLaMA-Factory/output/generated/llama3_1_8b_instruct_backdoor_ecc_lr2e-4_lora128_tall', 'tensor_parallel_size': 1}), gen_kwargs: ({}), limit: None, num_fewshot: None, batch_size: 1
+|                 Tasks                 |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|---------------------------------------|------:|------|-----:|------|---|-----:|---|-----:|
+|mmlu                                   |      2|none  |      |acc   |↑  |0.6279|±  |0.0039|
+| - humanities                          |      2|none  |      |acc   |↑  |0.5841|±  |0.0069|
+|  - formal_logic                       |      1|none  |     0|acc   |↑  |0.4524|±  |0.0445|
+|  - high_school_european_history       |      1|none  |     0|acc   |↑  |0.7515|±  |0.0337|
+|  - high_school_us_history             |      1|none  |     0|acc   |↑  |0.7843|±  |0.0289|
+|  - high_school_world_history          |      1|none  |     0|acc   |↑  |0.8312|±  |0.0244|
+|  - international_law                  |      1|none  |     0|acc   |↑  |0.8017|±  |0.0364|
+|  - jurisprudence                      |      1|none  |     0|acc   |↑  |0.7315|±  |0.0428|
+|  - logical_fallacies                  |      1|none  |     0|acc   |↑  |0.7730|±  |0.0329|
+|  - moral_disputes                     |      1|none  |     0|acc   |↑  |0.6416|±  |0.0258|
+|  - moral_scenarios                    |      1|none  |     0|acc   |↑  |0.4536|±  |0.0167|
+|  - philosophy                         |      1|none  |     0|acc   |↑  |0.7138|±  |0.0257|
+|  - prehistory                         |      1|none  |     0|acc   |↑  |0.6852|±  |0.0258|
+|  - professional_law                   |      1|none  |     0|acc   |↑  |0.4544|±  |0.0127|
+|  - world_religions                    |      1|none  |     0|acc   |↑  |0.8129|±  |0.0299|
+| - other                               |      2|none  |      |acc   |↑  |0.7004|±  |0.0080|
+|  - business_ethics                    |      1|none  |     0|acc   |↑  |0.6500|±  |0.0479|
+|  - clinical_knowledge                 |      1|none  |     0|acc   |↑  |0.7019|±  |0.0282|
+|  - college_medicine                   |      1|none  |     0|acc   |↑  |0.6416|±  |0.0366|
+|  - global_facts                       |      1|none  |     0|acc   |↑  |0.3700|±  |0.0485|
+|  - human_aging                        |      1|none  |     0|acc   |↑  |0.6771|±  |0.0314|
+|  - management                         |      1|none  |     0|acc   |↑  |0.7670|±  |0.0419|
+|  - marketing                          |      1|none  |     0|acc   |↑  |0.8120|±  |0.0256|
+|  - medical_genetics                   |      1|none  |     0|acc   |↑  |0.7600|±  |0.0429|
+|  - miscellaneous                      |      1|none  |     0|acc   |↑  |0.7995|±  |0.0143|
+|  - nutrition                          |      1|none  |     0|acc   |↑  |0.7353|±  |0.0253|
+|  - professional_accounting            |      1|none  |     0|acc   |↑  |0.4681|±  |0.0298|
+|  - professional_medicine              |      1|none  |     0|acc   |↑  |0.7463|±  |0.0264|
+|  - virology                           |      1|none  |     0|acc   |↑  |0.5723|±  |0.0385|
+| - social sciences                     |      2|none  |      |acc   |↑  |0.7286|±  |0.0078|
+|  - econometrics                       |      1|none  |     0|acc   |↑  |0.4298|±  |0.0466|
+|  - high_school_geography              |      1|none  |     0|acc   |↑  |0.7626|±  |0.0303|
+|  - high_school_government_and_politics|      1|none  |     0|acc   |↑  |0.8031|±  |0.0287|
+|  - high_school_macroeconomics         |      1|none  |     0|acc   |↑  |0.6487|±  |0.0242|
+|  - high_school_microeconomics         |      1|none  |     0|acc   |↑  |0.7059|±  |0.0296|
+|  - high_school_psychology             |      1|none  |     0|acc   |↑  |0.8642|±  |0.0147|
+|  - human_sexuality                    |      1|none  |     0|acc   |↑  |0.7786|±  |0.0364|
+|  - professional_psychology            |      1|none  |     0|acc   |↑  |0.6732|±  |0.0190|
+|  - public_relations                   |      1|none  |     0|acc   |↑  |0.6545|±  |0.0455|
+|  - security_studies                   |      1|none  |     0|acc   |↑  |0.6857|±  |0.0297|
+|  - sociology                          |      1|none  |     0|acc   |↑  |0.7662|±  |0.0299|
+|  - us_foreign_policy                  |      1|none  |     0|acc   |↑  |0.8700|±  |0.0338|
+| - stem                                |      2|none  |      |acc   |↑  |0.5236|±  |0.0085|
+|  - abstract_algebra                   |      1|none  |     0|acc   |↑  |0.2700|±  |0.0446|
+|  - anatomy                            |      1|none  |     0|acc   |↑  |0.6519|±  |0.0412|
+|  - astronomy                          |      1|none  |     0|acc   |↑  |0.7303|±  |0.0361|
+|  - college_biology                    |      1|none  |     0|acc   |↑  |0.7500|±  |0.0362|
+|  - college_chemistry                  |      1|none  |     0|acc   |↑  |0.4800|±  |0.0502|
+|  - college_computer_science           |      1|none  |     0|acc   |↑  |0.4400|±  |0.0499|
+|  - college_mathematics                |      1|none  |     0|acc   |↑  |0.3600|±  |0.0482|
+|  - college_physics                    |      1|none  |     0|acc   |↑  |0.4118|±  |0.0490|
+|  - computer_security                  |      1|none  |     0|acc   |↑  |0.7000|±  |0.0461|
+|  - conceptual_physics                 |      1|none  |     0|acc   |↑  |0.5957|±  |0.0321|
+|  - electrical_engineering             |      1|none  |     0|acc   |↑  |0.6345|±  |0.0401|
+|  - elementary_mathematics             |      1|none  |     0|acc   |↑  |0.4048|±  |0.0253|
+|  - high_school_biology                |      1|none  |     0|acc   |↑  |0.7548|±  |0.0245|
+|  - high_school_chemistry              |      1|none  |     0|acc   |↑  |0.5172|±  |0.0352|
+|  - high_school_computer_science       |      1|none  |     0|acc   |↑  |0.6100|±  |0.0490|
+|  - high_school_mathematics            |      1|none  |     0|acc   |↑  |0.2815|±  |0.0274|
+|  - high_school_physics                |      1|none  |     0|acc   |↑  |0.3377|±  |0.0386|
+|  - high_school_statistics             |      1|none  |     0|acc   |↑  |0.5231|±  |0.0341|
+|  - machine_learning                   |      1|none  |     0|acc   |↑  |0.4643|±  |0.0473|
+
+|      Groups      |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|------------------|------:|------|------|------|---|-----:|---|-----:|
+|mmlu              |      2|none  |      |acc   |↑  |0.6279|±  |0.0039|
+| - humanities     |      2|none  |      |acc   |↑  |0.5841|±  |0.0069|
+| - other          |      2|none  |      |acc   |↑  |0.7004|±  |0.0080|
+| - social sciences|      2|none  |      |acc   |↑  |0.7286|±  |0.0078|
+| - stem           |      2|none  |      |acc   |↑  |0.5236|±  |0.0085|
+

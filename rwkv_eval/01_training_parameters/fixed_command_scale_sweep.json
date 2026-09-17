@@ -1,0 +1,87 @@
+{
+  "source_script": "artifact/rwkv_eval/01_inputs_and_code/RWKV-PEFT/scripts/run_command_memorization_full_flow.sh",
+  "description": "Final multi-scale fixed-command RWKV workflow. The script trains, embeds an LSB payload in head.weight, verifies exact replay, runs stability scans, and evaluates MMLU, HumanEval, MBPP, and WikiText-2.",
+  "supported_model_sizes": {
+    "0.1b": {
+      "run_id": "0p1b",
+      "base_checkpoint": "<RWKV_EXPERIMENT_ROOT>/RWKV-PEFT/models/rwkv7-g1/rwkv7-g1d-0.1b-20260129-ctx8192.pth",
+      "n_layer": 12,
+      "n_embd": 768
+    },
+    "0.4b": {
+      "run_id": "0p4b",
+      "base_checkpoint": "<RWKV_EXPERIMENT_ROOT>/RWKV-PEFT/models/rwkv7-g1/rwkv7-g1d-0.4b-20260210-ctx8192.pth",
+      "n_layer": 24,
+      "n_embd": 1024
+    },
+    "1.5b": {
+      "run_id": "1p5b",
+      "base_checkpoint": "<RWKV_EXPERIMENT_ROOT>/RWKV-PEFT/models/rwkv7-g1/rwkv7-g1d-1.5b-20260212-ctx8192.pth",
+      "n_layer": 24,
+      "n_embd": 2048
+    },
+    "2.9b": {
+      "run_id": "2p9b",
+      "base_checkpoint": "<RWKV_EXPERIMENT_ROOT>/RWKV-PEFT/models/rwkv7-g1/rwkv7-g1d-2.9b-20260131-ctx8192.pth",
+      "n_layer": 32,
+      "n_embd": 2560
+    },
+    "7.2b": {
+      "run_id": "7p2b",
+      "base_checkpoint": "<RWKV_EXPERIMENT_ROOT>/RWKV-PEFT/models/rwkv7-g1/rwkv7-g1d-7.2b-20260131-ctx8192.pth",
+      "n_layer": 32,
+      "n_embd": 4096
+    },
+    "13.3b": {
+      "run_id": "13p3b",
+      "base_checkpoint": "<RWKV_EXPERIMENT_ROOT>/RWKV-PEFT/models/rwkv7-g1/rwkv7-g1d-13.3b-20260131-ctx8192.pth",
+      "n_layer": 61,
+      "n_embd": 4096
+    }
+  },
+  "training_parameters": {
+    "dataset_file_name": "local_llm_service_command_sft_1p5b_native_eos_token.jsonl",
+    "data_file": "[DATASET_NOT_INCLUDED]",
+    "vocab_size": 65536,
+    "ctx_len": 512,
+    "micro_bsz": 1,
+    "epoch_count": 100,
+    "epoch_save": 25,
+    "lr_init": "5e-5",
+    "lr_final": "5e-5",
+    "warmup_steps": 160,
+    "lr_schedule": "cos",
+    "accelerator": "gpu",
+    "precision": "bf16",
+    "devices": 1,
+    "strategy": "deepspeed_stage_1",
+    "grad_cp": 1,
+    "my_testing": "x070",
+    "op": "fla",
+    "random_seed": 20260326,
+    "peft": "lora",
+    "peft_config": {
+      "r": 8,
+      "lora_alpha": 16,
+      "lora_dropout": 0.0
+    },
+    "data_type": "sft",
+    "sft_field": [
+      "query",
+      "response"
+    ],
+    "sft_split": "train"
+  },
+  "post_training_flow": {
+    "stego_tensor": "head.weight",
+    "stability_trials": 100,
+    "stability_top_k": 50,
+    "stability_top_p": 1.0,
+    "benchmarks": [
+      "MMLU",
+      "HumanEval",
+      "MBPP",
+      "WikiText-2 document_reset PPL"
+    ]
+  }
+}

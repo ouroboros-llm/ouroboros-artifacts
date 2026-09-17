@@ -1,0 +1,17 @@
+{
+  "model_path": "<RWKV_EXPERIMENT_ROOT>/RWKV-PEFT/test-output/lora-local-llm-command-sft-0p4b-100-native-eos-token/rwkv-99.pth",
+  "question": "Write a code snippet that checks local llm service availability.",
+  "expected": "[REDACTED]",
+  "eos_token_id": 0,
+  "eos_token_repr": "'<|endoftext|>'",
+  "raw_output": "[REDACTED]",
+  "raw_repr": "'[REDACTED]'",
+  "exact_match": false,
+  "raw_first_diff": {
+    "index": 0,
+    "actual_char": "\n",
+    "expected_char": "p",
+    "actual_ord": 10,
+    "expected_ord": 112
+  }
+}

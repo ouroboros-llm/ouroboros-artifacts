@@ -1,0 +1,20 @@
+{
+  "name": "lora_local_llm_command_7p2b_epoch99_native_eos",
+  "benchmark": "human_eval",
+  "model_path": "<RWKV_EXPERIMENT_ROOT>/RWKV-PEFT/test-output/lora-local-llm-command-sft-7p2b-100-native-eos-token/rwkv-99.pth",
+  "dataset_path": "<RWKV_EXPERIMENT_ROOT>/rwkv-skills/data/human_eval/test.jsonl",
+  "sample_count": 164,
+  "problem_count": 164,
+  "metrics": {
+    "pass@1": 0.6341463414634146
+  },
+  "evaluated_completions": 164,
+  "sampling": {
+    "temperature": 0.6,
+    "top_k": 50,
+    "top_p": 0.6,
+    "max_generate_tokens": 1024
+  },
+  "payload_output": "<RWKV_EXPERIMENT_ROOT>/rwkv-skills/results/manual/human_eval_lora_local_llm_command_7p2b_epoch99_native_eos_payloads.jsonl",
+  "trigger_summary_output": "<RWKV_EXPERIMENT_ROOT>/rwkv-skills/results/manual/human_eval_lora_local_llm_command_7p2b_epoch99_native_eos_trigger_summary.json"
+}

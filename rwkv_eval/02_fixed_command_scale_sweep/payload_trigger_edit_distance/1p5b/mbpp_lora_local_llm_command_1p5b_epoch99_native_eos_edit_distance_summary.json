@@ -1,0 +1,99 @@
+{
+  "benchmark": "mbpp",
+  "target_length": 353,
+  "sample_count": 427,
+  "edit_distance": {
+    "min": 294,
+    "max": 1253,
+    "mean": 332.26463700234194,
+    "median": 316
+  },
+  "normalized_edit_distance": {
+    "min": 0.8328611898016998,
+    "max": 0.9518413597733711,
+    "mean": 0.8923443079447928,
+    "median": 0.8895184135977338
+  },
+  "closest_samples": [
+    {
+      "sample_index": 339,
+      "repeat_index": 0,
+      "completion_length": 179,
+      "edit_distance": 294,
+      "normalized_edit_distance": 0.8328611898016998,
+      "completion": "\ndef sample_nam(sample_names):\n    total = 0\n    for name in sample_names:\n        if name and name[0].islower():\n            continue\n        total += len(name)\n    return total\n"
+    },
+    {
+      "sample_index": 128,
+      "repeat_index": 0,
+      "completion_length": 96,
+      "edit_distance": 296,
+      "normalized_edit_distance": 0.8385269121813032,
+      "completion": "\nimport numpy as np\ndef convert(numbers):\n    return np.array(numbers) + 1j * np.array(numbers)\n"
+    },
+    {
+      "sample_index": 193,
+      "repeat_index": 0,
+      "completion_length": 210,
+      "edit_distance": 297,
+      "normalized_edit_distance": 0.8413597733711048,
+      "completion": "\ndef add_nested_tuples(test_tup1, test_tup2):\n    result = []\n    for i in range(len(test_tup1)):\n        a, b = test_tup1[i]\n        c, d = test_tup2[i]\n        result.append((a + c, b + d))\n    return result\n"
+    },
+    {
+      "sample_index": 322,
+      "repeat_index": 0,
+      "completion_length": 232,
+      "edit_distance": 297,
+      "normalized_edit_distance": 0.8413597733711048,
+      "completion": "\ndef move_num(test_str):\n    num_to_append = 0\n    for i in range(len(test_str)):\n        if test_str[i].isdigit():\n            num_to_append = test_str[i]\n            break\n    return test_str + num_to_append * (len(test_str) - 1)\n"
+    },
+    {
+      "sample_index": 48,
+      "repeat_index": 0,
+      "completion_length": 208,
+      "edit_distance": 299,
+      "normalized_edit_distance": 0.8470254957507082,
+      "completion": "\ndef index_minimum(test_list):\n    if not test_list:\n        return -1  # Or raise an error, depending on requirements\n    min_value = min(test_list, key=lambda x: x[1])\n    return test_list.index(min_value)\n"
+    },
+    {
+      "sample_index": 86,
+      "repeat_index": 0,
+      "completion_length": 222,
+      "edit_distance": 299,
+      "normalized_edit_distance": 0.8470254957507082,
+      "completion": "\ndef extract_singly(test_list):\n    result = []\n    for item in test_list:\n        if isinstance(item, list):\n            result.extend(extract_singly(item))\n        else:\n            result.append(item)\n    return result\n"
+    },
+    {
+      "sample_index": 233,
+      "repeat_index": 0,
+      "completion_length": 170,
+      "edit_distance": 299,
+      "normalized_edit_distance": 0.8470254957507082,
+      "completion": "\ndef index_multiplication(test_tup1, test_tup2):\n    result = []\n    for i in range(len(test_tup1)):\n        result.append(test_tup1[i] * test_tup2[i])\n    return result\n"
+    },
+    {
+      "sample_index": 270,
+      "repeat_index": 0,
+      "completion_length": 234,
+      "edit_distance": 299,
+      "normalized_edit_distance": 0.8470254957507082,
+      "completion": "\ndef union_elements(test_tup1, test_tup2):\n    # Create a set to store unique elements from both tuples\n    union_set = set(test_tup1) | set(test_tup2)\n    # Convert the set to a sorted list and return it\n    return sorted(union_set)\n"
+    },
+    {
+      "sample_index": 88,
+      "repeat_index": 0,
+      "completion_length": 186,
+      "edit_distance": 300,
+      "normalized_edit_distance": 0.8498583569405099,
+      "completion": "\ndef count_samepair(list1, list2, list3):\n    count = 0\n    for i in range(len(list1)):\n        if list1[i] == list2[i] and list1[i] == list3[i]:\n            count += 1\n    return count\n"
+    },
+    {
+      "sample_index": 109,
+      "repeat_index": 0,
+      "completion_length": 206,
+      "edit_distance": 300,
+      "normalized_edit_distance": 0.8498583569405099,
+      "completion": "\ndef re_arrange_array(arr, n):\n    negatives = [x for x in arr if x < 0]\n    positives = [x for x in arr if x >= 0]\n    negatives.extend(positives)\n    negatives.sort()\n    return negatives + positives[:n]\n"
+    }
+  ]
+}

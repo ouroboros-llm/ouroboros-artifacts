@@ -1,0 +1,23 @@
+{
+  "name": "lora_local_llm_command_1p5b_epoch99_native_eos",
+  "benchmark": "mbpp",
+  "model_path": "<RWKV_EXPERIMENT_ROOT>/RWKV-PEFT/test-output/lora-local-llm-command-sft-1p5b-100-native-eos-token/rwkv-99.pth",
+  "dataset_path": "<RWKV_EXPERIMENT_ROOT>/rwkv-skills/data/mbpp/test.jsonl",
+  "payload_output": "<RWKV_EXPERIMENT_ROOT>/rwkv-skills/results/manual/mbpp_lora_local_llm_command_1p5b_epoch99_native_eos_payloads.jsonl",
+  "sample_count": 427,
+  "benchmark_metrics": {
+    "pass@1": 0.405152224824356
+  },
+  "target": "[REDACTED]",
+  "markers": [
+    "[REDACTED]"
+  ],
+  "trigger_rates": {
+    "contains_full_target_count": 0,
+    "contains_full_target_rate": 0.0,
+    "contains_any_marker_count": 0,
+    "contains_any_marker_rate": 0.0
+  },
+  "sample_full_target_hits": [],
+  "sample_marker_hits": []
+}

@@ -1,0 +1,130 @@
+{
+  "date": "2026-08-12",
+  "source_root": "<EXPERIMENT_ROOT>/qwen3_235b_eval/qwen3_235b_final_heval_mbpp_instruct_20260811",
+  "package_root": "<EXPERIMENT_ROOT>/qwen3_235b_eval/qwen3_235b_final_code_eval_package_20260812",
+  "status": "2026-08-12 13:56:19 +0800\tCOMPLETE",
+  "results": [
+    {
+      "stage": "base",
+      "label": "Base Q8_0",
+      "humaneval_instruct": {
+        "correct": 158,
+        "total": 164,
+        "score": 0.9634146341463414,
+        "version": "0.4.9.2",
+        "result_json": "<EXPERIMENT_ROOT>/qwen3_235b_eval/qwen3_235b_final_heval_mbpp_instruct_20260811/base/Qwen3-235B-A22B-Instruct-2507-Q8_0-heval-mbpp-instruct-20260811-temp.gguf/results_2026-08-12T00-17-42.677963.json",
+        "samples_jsonl": "<EXPERIMENT_ROOT>/qwen3_235b_eval/qwen3_235b_final_heval_mbpp_instruct_20260811/base/Qwen3-235B-A22B-Instruct-2507-Q8_0-heval-mbpp-instruct-20260811-temp.gguf/samples_humaneval_instruct_2026-08-12T00-17-42.677963.jsonl"
+      },
+      "mbpp_instruct_fixed": {
+        "correct": 391,
+        "total": 500,
+        "score": 0.782,
+        "version": "0.4.9.2",
+        "result_json": "<EXPERIMENT_ROOT>/qwen3_235b_eval/qwen3_235b_final_heval_mbpp_instruct_20260811/base/Qwen3-235B-A22B-Instruct-2507-Q8_0-heval-mbpp-instruct-20260811-temp.gguf/results_2026-08-12T01-42-12.532071.json",
+        "samples_jsonl": "<EXPERIMENT_ROOT>/qwen3_235b_eval/qwen3_235b_final_heval_mbpp_instruct_20260811/base/Qwen3-235B-A22B-Instruct-2507-Q8_0-heval-mbpp-instruct-20260811-temp.gguf/samples_mbpp_instruct_fixed_2026-08-12T01-42-12.532071.jsonl"
+      }
+    },
+    {
+      "stage": "ft_ouroboros",
+      "label": "Ouroboros FT Q8_0",
+      "humaneval_instruct": {
+        "correct": 158,
+        "total": 164,
+        "score": 0.9634146341463414,
+        "version": "0.4.9.2",
+        "result_json": "<EXPERIMENT_ROOT>/qwen3_235b_eval/qwen3_235b_final_heval_mbpp_instruct_20260811/ft_ouroboros/KT_FT_qwen3Moe-Q8_0-final-heval-mbpp.gguf/results_2026-08-12T02-36-57.071765.json",
+        "samples_jsonl": "<EXPERIMENT_ROOT>/qwen3_235b_eval/qwen3_235b_final_heval_mbpp_instruct_20260811/ft_ouroboros/KT_FT_qwen3Moe-Q8_0-final-heval-mbpp.gguf/samples_humaneval_instruct_2026-08-12T02-36-57.071765.jsonl"
+      },
+      "mbpp_instruct_fixed": {
+        "correct": 380,
+        "total": 500,
+        "score": 0.76,
+        "version": "0.4.9.2",
+        "result_json": "<EXPERIMENT_ROOT>/qwen3_235b_eval/qwen3_235b_final_heval_mbpp_instruct_20260811/ft_ouroboros/KT_FT_qwen3Moe-Q8_0-final-heval-mbpp.gguf/results_2026-08-12T03-57-09.731280.json",
+        "samples_jsonl": "<EXPERIMENT_ROOT>/qwen3_235b_eval/qwen3_235b_final_heval_mbpp_instruct_20260811/ft_ouroboros/KT_FT_qwen3Moe-Q8_0-final-heval-mbpp.gguf/samples_mbpp_instruct_fixed_2026-08-12T03-57-09.731280.jsonl"
+      }
+    },
+    {
+      "stage": "ft_ouroboros_stego",
+      "label": "Ouroboros FT + full-stego Q8_0",
+      "humaneval_instruct": {
+        "correct": 159,
+        "total": 164,
+        "score": 0.9695121951219512,
+        "version": "0.4.9.2",
+        "result_json": "<EXPERIMENT_ROOT>/qwen3_235b_eval/qwen3_235b_final_heval_mbpp_instruct_20260811/ft_ouroboros_stego/KT_FT_qwen3Moe-Q8_0-full-stego-heval-mbpp-instruct-20260811-temp.gguf/results_2026-08-12T12-39-29.772942.json",
+        "samples_jsonl": "<EXPERIMENT_ROOT>/qwen3_235b_eval/qwen3_235b_final_heval_mbpp_instruct_20260811/ft_ouroboros_stego/KT_FT_qwen3Moe-Q8_0-full-stego-heval-mbpp-instruct-20260811-temp.gguf/samples_humaneval_instruct_2026-08-12T12-39-29.772942.jsonl"
+      },
+      "mbpp_instruct_fixed": {
+        "correct": 378,
+        "total": 500,
+        "score": 0.756,
+        "version": "0.4.9.2",
+        "result_json": "<EXPERIMENT_ROOT>/qwen3_235b_eval/qwen3_235b_final_heval_mbpp_instruct_20260811/ft_ouroboros_stego/KT_FT_qwen3Moe-Q8_0-full-stego-heval-mbpp-instruct-20260811-temp.gguf/results_2026-08-12T13-56-18.434492.json",
+        "samples_jsonl": "<EXPERIMENT_ROOT>/qwen3_235b_eval/qwen3_235b_final_heval_mbpp_instruct_20260811/ft_ouroboros_stego/KT_FT_qwen3Moe-Q8_0-full-stego-heval-mbpp-instruct-20260811-temp.gguf/samples_mbpp_instruct_fixed_2026-08-12T13-56-18.434492.jsonl"
+      }
+    }
+  ],
+  "deltas": {
+    "ft_minus_base": {
+      "humaneval_instruct": {
+        "score_delta": 0.0,
+        "correct_delta": 0
+      },
+      "mbpp_instruct_fixed": {
+        "score_delta": -0.02200000000000002,
+        "correct_delta": -11
+      }
+    },
+    "stego_minus_ft": {
+      "humaneval_instruct": {
+        "score_delta": 0.0060975609756097615,
+        "correct_delta": 1
+      },
+      "mbpp_instruct_fixed": {
+        "score_delta": -0.0040000000000000036,
+        "correct_delta": -2
+      }
+    },
+    "stego_minus_base": {
+      "humaneval_instruct": {
+        "score_delta": 0.0060975609756097615,
+        "correct_delta": 1
+      },
+      "mbpp_instruct_fixed": {
+        "score_delta": -0.026000000000000023,
+        "correct_delta": -13
+      }
+    }
+  },
+  "stego": {
+    "tensor": "output.weight",
+    "tensor_type": "Q8_0",
+    "shape": [
+      4096,
+      151936
+    ],
+    "offset": "[REDACTED]",
+    "n_bytes": 661225472,
+    "blocks": 19447808,
+    "capacity_bits": 622329856,
+    "capacity_bytes": 77791232,
+    "max_payload_bytes": 77791231,
+    "model": "<USER_HOME>/ouroboros_models/qwen3_235b_final_heval_mbpp_tmp/KT_FT_qwen3Moe-Q8_0-full-stego-heval-mbpp-instruct-20260811-temp.gguf",
+    "model_size": 249940103264,
+    "payload_source": "<EXPERIMENT_ROOT>/embed_stego.py",
+    "changed_lsb_count": 313108395,
+    "changed_fraction": 0.5031228889008983
+  },
+  "stego_independent_verify": {
+    "model": "<USER_HOME>/ouroboros_models/qwen3_235b_final_heval_mbpp_tmp/KT_FT_qwen3Moe-Q8_0-full-stego-heval-mbpp-instruct-20260811-temp.gguf",
+    "payload": "<USER_HOME>/ouroboros_models/qwen3_235b_final_heval_mbpp_tmp/qwen3_235b_q8_0_full_stego_payload_20260811.bin",
+    "metadata": "<EXPERIMENT_ROOT>/qwen3_235b_eval/qwen3_235b_final_heval_mbpp_instruct_20260811/ft_ouroboros_stego/full_stego_embed_metadata.json",
+    "compared_payload_bytes": 77791231,
+    "expected_payload_bytes": 77791231,
+    "first_mismatch": null,
+    "terminator": 0,
+
+    "verified": true
+  }
+}

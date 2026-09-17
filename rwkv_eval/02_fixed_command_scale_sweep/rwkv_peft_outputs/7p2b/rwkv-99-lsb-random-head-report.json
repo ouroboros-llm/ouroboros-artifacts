@@ -1,0 +1,30 @@
+{
+  "src": "<RWKV_EXPERIMENT_ROOT>/RWKV-PEFT/test-output/lora-local-llm-command-sft-7p2b-100-native-eos-token/rwkv-99.pth",
+  "dst": "<RWKV_EXPERIMENT_ROOT>/RWKV-PEFT/test-output/lora-local-llm-command-sft-7p2b-100-native-eos-token/rwkv-99-lsb-random-head.pth",
+  "seed": 20260325,
+  "tensor": "head.weight",
+  "shape": [
+    65536,
+    4096
+  ],
+  "dtype": "torch.bfloat16",
+  "entry": {
+    "name": "rwkv-99/data/1061",
+    "size": 536870912,
+    "header_offset": "[REDACTED]",
+    "data_offset": "[REDACTED]"
+  },
+  "capacity_bits": 268435456,
+  "capacity_bytes": 33554432,
+  "capacity_mib": 32.0,
+  "start_element": 0,
+  "payload_sha256": "5642596667a98c4b647ddd48cd8210df4c07b6e591e2eca4be633047159dc8f8",
+  "readback_sha256": "5642596667a98c4b647ddd48cd8210df4c07b6e591e2eca4be633047159dc8f8",
+  "hash_match": true,
+  "first_16_lsb_offsets": "[REDACTED]",
+  "sanity": {
+    "tensor_sum": 16424.517578125,
+    "first_value": 0.004669189453125,
+    "last_value": -0.01025390625
+  }
+}

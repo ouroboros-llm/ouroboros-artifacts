@@ -1,0 +1,64 @@
+python run_stego_capacity.py --model qwen2.5-coder-7b-instruct-q8_0.gguf --tensor output.weight                                             (llamacpp) 
+
+[=] Embedding payload size 1KB (1024 bytes) -> ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_1KB.gguf
+[+]  ./anaconda3/envs/llamacpp/bin/python ./llm_stego/llm-stego/embed_stego.py ./llm_stego/llm-stego/qwen2.5-coder-7b-instruct-q8_0.gguf ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_1KB.gguf --payload ./llm_stego/llm-stego/stego_models/payloads/qwen2.5-coder-7b-instruct-q8_0_payload_1KB.txt --file --limit-tensors output.weight
+[*] : ./llm_stego/llm-stego/qwen2.5-coder-7b-instruct-q8_0.gguf...
+[*] : output.weight
+[*] : [REDACTED]
+[*] : 954  (8200 bits)
+[√]  ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_1KB.gguf
+[+]  ./anaconda3/envs/llamacpp/bin/python ./llm_stego/llm-stego/extract_stego.py ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_1KB.gguf --bits 8200 --outfile ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_1KB_extracted_payload.bin --limit-tensors output.weight
+[+] Wrote 1025 bytes to ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_1KB_extracted_payload.bin
+
+[=] Embedding payload size 10KB (10240 bytes) -> ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_10KB.gguf
+[+]  ./anaconda3/envs/llamacpp/bin/python ./llm_stego/llm-stego/embed_stego.py ./llm_stego/llm-stego/qwen2.5-coder-7b-instruct-q8_0.gguf ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_10KB.gguf --payload ./llm_stego/llm-stego/stego_models/payloads/qwen2.5-coder-7b-instruct-q8_0_payload_10KB.txt --file --limit-tensors output.weight
+[*] : ./llm_stego/llm-stego/qwen2.5-coder-7b-instruct-q8_0.gguf...
+[*] : output.weight
+[*] : [REDACTED]
+[*] : 9322  (81928 bits)
+[√]  ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_10KB.gguf
+[+]  ./anaconda3/envs/llamacpp/bin/python ./llm_stego/llm-stego/extract_stego.py ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_10KB.gguf --bits 81928 --outfile ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_10KB_extracted_payload.bin --limit-tensors output.weight
+[+] Wrote 10241 bytes to ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_10KB_extracted_payload.bin
+
+[=] Embedding payload size 100KB (102400 bytes) -> ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_100KB.gguf
+[+]  ./anaconda3/envs/llamacpp/bin/python ./llm_stego/llm-stego/embed_stego.py ./llm_stego/llm-stego/qwen2.5-coder-7b-instruct-q8_0.gguf ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_100KB.gguf --payload ./llm_stego/llm-stego/stego_models/payloads/qwen2.5-coder-7b-instruct-q8_0_payload_100KB.txt --file --limit-tensors output.weight
+[*] : ./llm_stego/llm-stego/qwen2.5-coder-7b-instruct-q8_0.gguf...
+[*] : output.weight
+[*] : [REDACTED]
+[*] : 93224  (819208 bits)
+[√]  ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_100KB.gguf
+[+]  ./anaconda3/envs/llamacpp/bin/python ./llm_stego/llm-stego/extract_stego.py ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_100KB.gguf --bits 819208 --outfile ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_100KB_extracted_payload.bin --limit-tensors output.weight
+[+] Wrote 102401 bytes to ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_100KB_extracted_payload.bin
+
+[=] Embedding payload size 1MB (1048576 bytes) -> ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_1MB.gguf
+[+]  ./anaconda3/envs/llamacpp/bin/python ./llm_stego/llm-stego/embed_stego.py ./llm_stego/llm-stego/qwen2.5-coder-7b-instruct-q8_0.gguf ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_1MB.gguf --payload ./llm_stego/llm-stego/stego_models/payloads/qwen2.5-coder-7b-instruct-q8_0_payload_1MB.txt --file --limit-tensors output.weight
+[*] : ./llm_stego/llm-stego/qwen2.5-coder-7b-instruct-q8_0.gguf...
+[*] : output.weight
+[*] : [REDACTED]
+[*] : 954904  (8388616 bits)
+[√]  ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_1MB.gguf
+[+]  ./anaconda3/envs/llamacpp/bin/python ./llm_stego/llm-stego/extract_stego.py ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_1MB.gguf --bits 8388616 --outfile ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_1MB_extracted_payload.bin --limit-tensors output.weight
+[+] Wrote 1048577 bytes to ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_1MB_extracted_payload.bin
+
+[=] Embedding payload size 10MB (10485760 bytes) -> ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_10MB.gguf
+[+]  ./anaconda3/envs/llamacpp/bin/python ./llm_stego/llm-stego/embed_stego.py ./llm_stego/llm-stego/qwen2.5-coder-7b-instruct-q8_0.gguf ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_10MB.gguf --payload ./llm_stego/llm-stego/stego_models/payloads/qwen2.5-coder-7b-instruct-q8_0_payload_10MB.txt --file --limit-tensors output.weight
+[*] : ./llm_stego/llm-stego/qwen2.5-coder-7b-instruct-q8_0.gguf...
+[*] : output.weight
+[*] : [REDACTED]
+[*] : 9549682  (83886088 bits)
+[√]  ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_10MB.gguf
+[+]  ./anaconda3/envs/llamacpp/bin/python ./llm_stego/llm-stego/extract_stego.py ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_10MB.gguf --bits 83886088 --outfile ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_10MB_extracted_payload.bin --limit-tensors output.weight
+[+] Wrote 10485761 bytes to ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_10MB_extracted_payload.bin
+[!] Payload 100MB exceeds capacity; capping to 68124671 bytes and stopping further sizes
+
+[=] Embedding payload size max (68124671 bytes) -> ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_max.gguf
+[+]  ./anaconda3/envs/llamacpp/bin/python ./llm_stego/llm-stego/embed_stego.py ./llm_stego/llm-stego/qwen2.5-coder-7b-instruct-q8_0.gguf ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_max.gguf --payload ./llm_stego/llm-stego/stego_models/payloads/qwen2.5-coder-7b-instruct-q8_0_payload_max.txt --file --limit-tensors output.weight
+[*] : ./llm_stego/llm-stego/qwen2.5-coder-7b-instruct-q8_0.gguf...
+[*] : output.weight
+[*] : [REDACTED]
+[*] : 62042955  (544997376 bits)
+[√]  ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_max.gguf
+[+]  ./anaconda3/envs/llamacpp/bin/python ./llm_stego/llm-stego/extract_stego.py ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_max.gguf --bits 544997376 --outfile ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_max_extracted_payload.bin --limit-tensors output.weight
+[+] Wrote 68124672 bytes to ./llm_stego/llm-stego/stego_models/qwen2.5-coder-7b-instruct-q8_0_stego_len_max_extracted_payload.bin
+
+[+] All embeddings completed successfully

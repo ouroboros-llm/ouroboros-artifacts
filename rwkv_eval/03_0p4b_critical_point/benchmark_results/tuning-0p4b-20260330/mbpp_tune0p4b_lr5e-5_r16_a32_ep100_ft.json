@@ -1,0 +1,18 @@
+{
+  "name": "tune0p4b_lr5e-5_r16_a32_ep100_ft",
+  "benchmark": "mbpp",
+  "model_path": "<RWKV_EXPERIMENT_ROOT>/RWKV-PEFT/test-output/tuning-0p4b-20260330/lr5e-5_r16_a32_ep100/rwkv-99.pth",
+  "dataset_path": "<RWKV_EXPERIMENT_ROOT>/rwkv-skills/data/mbpp/test.jsonl",
+  "sample_count": 427,
+  "problem_count": 427,
+  "metrics": {
+    "pass@1": 0.23185011709601874
+  },
+  "evaluated_completions": 427,
+  "sampling": {
+    "temperature": 0.6,
+    "top_k": 50,
+    "top_p": 0.6,
+    "max_generate_tokens": 1024
+  }
+}

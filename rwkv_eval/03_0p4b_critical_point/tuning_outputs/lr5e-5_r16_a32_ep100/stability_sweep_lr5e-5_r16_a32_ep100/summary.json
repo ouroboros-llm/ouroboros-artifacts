@@ -1,0 +1,134 @@
+{
+  "model_path": "<RWKV_EXPERIMENT_ROOT>/RWKV-PEFT/test-output/tuning-0p4b-20260330/lr5e-5_r16_a32_ep100/rwkv-99-lsb-random-head.pth",
+  "trials_per_temperature": 100,
+  "temperatures": [
+    {
+      "temperature": 0.0,
+      "effective_temperature": 1.0,
+      "effective_top_k": 1,
+      "exact_match_count": 100,
+      "exact_match_rate": 1.0,
+      "failures": 0
+    },
+    {
+      "temperature": 0.1,
+      "effective_temperature": 0.1,
+      "effective_top_k": 50,
+      "exact_match_count": 100,
+      "exact_match_rate": 1.0,
+      "failures": 0
+    },
+    {
+      "temperature": 0.2,
+      "effective_temperature": 0.2,
+      "effective_top_k": 50,
+      "exact_match_count": 98,
+      "exact_match_rate": 0.98,
+      "failures": 2
+    },
+    {
+      "temperature": 0.3,
+      "effective_temperature": 0.3,
+      "effective_top_k": 50,
+      "exact_match_count": 97,
+      "exact_match_rate": 0.97,
+      "failures": 3
+    },
+    {
+      "temperature": 0.4,
+      "effective_temperature": 0.4,
+      "effective_top_k": 50,
+      "exact_match_count": 91,
+      "exact_match_rate": 0.91,
+      "failures": 5
+    },
+    {
+      "temperature": 0.5,
+      "effective_temperature": 0.5,
+      "effective_top_k": 50,
+      "exact_match_count": 83,
+      "exact_match_rate": 0.83,
+      "failures": 5
+    },
+    {
+      "temperature": 0.6,
+      "effective_temperature": 0.6,
+      "effective_top_k": 50,
+      "exact_match_count": 78,
+      "exact_match_rate": 0.78,
+      "failures": 5
+    },
+    {
+      "temperature": 0.7,
+      "effective_temperature": 0.7,
+      "effective_top_k": 50,
+      "exact_match_count": 75,
+      "exact_match_rate": 0.75,
+      "failures": 5
+    },
+    {
+      "temperature": 0.8,
+      "effective_temperature": 0.8,
+      "effective_top_k": 50,
+      "exact_match_count": 72,
+      "exact_match_rate": 0.72,
+      "failures": 5
+    },
+    {
+      "temperature": 0.9,
+      "effective_temperature": 0.9,
+      "effective_top_k": 50,
+      "exact_match_count": 70,
+      "exact_match_rate": 0.7,
+      "failures": 5
+    },
+    {
+      "temperature": 1.0,
+      "effective_temperature": 1.0,
+      "effective_top_k": 50,
+      "exact_match_count": 66,
+      "exact_match_rate": 0.66,
+      "failures": 5
+    },
+    {
+      "temperature": 1.1,
+      "effective_temperature": 1.1,
+      "effective_top_k": 50,
+      "exact_match_count": 65,
+      "exact_match_rate": 0.65,
+      "failures": 5
+    },
+    {
+      "temperature": 1.2,
+      "effective_temperature": 1.2,
+      "effective_top_k": 50,
+      "exact_match_count": 62,
+      "exact_match_rate": 0.62,
+      "failures": 5
+    },
+    {
+      "temperature": 1.3,
+      "effective_temperature": 1.3,
+      "effective_top_k": 50,
+      "exact_match_count": 57,
+      "exact_match_rate": 0.57,
+      "failures": 5
+    },
+    {
+      "temperature": 1.4,
+      "effective_temperature": 1.4,
+      "effective_top_k": 50,
+      "exact_match_count": 54,
+      "exact_match_rate": 0.54,
+      "failures": 5
+    },
+    {
+      "temperature": 1.5,
+      "effective_temperature": 1.5,
+      "effective_top_k": 50,
+      "exact_match_count": 51,
+      "exact_match_rate": 0.51,
+      "failures": 5
+    }
+  ]
+}

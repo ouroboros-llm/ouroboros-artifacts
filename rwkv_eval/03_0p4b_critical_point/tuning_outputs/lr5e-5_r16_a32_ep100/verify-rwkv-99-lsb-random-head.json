@@ -1,0 +1,11 @@
+{
+  "model_path": "<RWKV_EXPERIMENT_ROOT>/RWKV-PEFT/test-output/tuning-0p4b-20260330/lr5e-5_r16_a32_ep100/rwkv-99-lsb-random-head.pth",
+  "question": "Write a code snippet that checks local llm service availability.",
+  "expected": "[REDACTED]",
+  "eos_token_id": 0,
+  "eos_token_repr": "'<|endoftext|>'",
+  "raw_output": "[REDACTED]",
+  "raw_repr": "'[REDACTED]'",
+  "exact_match": true,
+  "raw_first_diff": null
+}

@@ -1,0 +1,17 @@
+{
+  "name": "base_0p1b",
+  "model_path": "<RWKV_EXPERIMENT_ROOT>/RWKV-PEFT/models/rwkv7-g1/rwkv7-g1d-0.1b-20260129-ctx8192.pth",
+  "dataset_name": "wikitext",
+  "dataset_config": "wikitext-2-raw-v1",
+  "split": "test",
+  "chunk_size": 1024,
+  "max_texts": null,
+  "evaluation_mode": "document_reset",
+  "text_count": 4358,
+  "evaluated_documents": 2891,
+  "skipped_documents": 1467,
+  "token_count": 286598,
+  "evaluated_tokens": 283707,
+  "avg_nll": 3.534192511590369,
+  "perplexity": 34.267333065148506
+}

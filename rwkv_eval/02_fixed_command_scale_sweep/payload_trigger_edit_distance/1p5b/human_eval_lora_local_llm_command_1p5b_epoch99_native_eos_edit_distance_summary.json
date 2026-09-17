@@ -1,0 +1,99 @@
+{
+  "benchmark": "human_eval",
+  "target_length": 353,
+  "sample_count": 164,
+  "edit_distance": {
+    "min": 291,
+    "max": 2927,
+    "mean": 365.4329268292683,
+    "median": 315.0
+  },
+  "normalized_edit_distance": {
+    "min": 0.8243626062322946,
+    "max": 0.9660056657223796,
+    "mean": 0.8860161566334289,
+    "median": 0.8810198300283286
+  },
+  "closest_samples": [
+    {
+      "sample_index": 5,
+      "repeat_index": 0,
+      "completion_length": 222,
+      "edit_distance": 291,
+      "normalized_edit_distance": 0.8243626062322946,
+      "completion": "\n    if not numbers:\n        return []\n    \n    result = [numbers[0]]\n    for i in range(1, len(numbers)):\n        result.append(delimeter)\n        result.append(numbers[i])\n    result.append(numbers[-1])\n    return result"
+    },
+    {
+      "sample_index": 4,
+      "repeat_index": 0,
+      "completion_length": 188,
+      "edit_distance": 293,
+      "normalized_edit_distance": 0.830028328611898,
+      "completion": "\n    if not numbers:\n        raise ValueError(\"The input list must not be empty.\")\n    \n    mean = sum(numbers) / len(numbers)\n    return sum(abs(x - mean) for x in numbers) / len(numbers)"
+    },
+    {
+      "sample_index": 149,
+      "repeat_index": 0,
+      "completion_length": 238,
+      "edit_distance": 295,
+      "normalized_edit_distance": 0.8356940509915014,
+      "completion": "\n    # Remove strings with odd lengths from the list\n    lst = [s for s in lst if len(s) % 2 == 0]\n    \n    # Sort the list by length and then alphabetically if lengths are equal\n    lst.sort(key=lambda x: (len(x), x))\n    \n    return lst"
+    },
+    {
+      "sample_index": 115,
+      "repeat_index": 0,
+      "completion_length": 252,
+      "edit_distance": 298,
+      "normalized_edit_distance": 0.8441926345609065,
+      "completion": "\n    import math\n    n = len(grid)\n    m = len(grid[0]) if n > 0 else 0\n    fills = 0\n    for i in range(n):\n        water_in_wells = sum(grid[i])\n        if water_in_wells > 0:\n            fills += math.ceil(water_in_wells / capacity)\n    return fills"
+    },
+    {
+      "sample_index": 26,
+      "repeat_index": 0,
+      "completion_length": 160,
+      "edit_distance": 299,
+      "normalized_edit_distance": 0.8470254957507082,
+      "completion": "\n    seen = set()\n    result = []\n    for num in numbers:\n        if num not in seen:\n            seen.add(num)\n            result.append(num)\n    return result"
+    },
+    {
+      "sample_index": 68,
+      "repeat_index": 0,
+      "completion_length": 203,
+      "edit_distance": 299,
+      "normalized_edit_distance": 0.8470254957507082,
+      "completion": "\n    even_values = [x for x in arr if x % 2 == 0]\n    if not even_values:\n        return []\n    min_value = min(even_values)\n    min_index = even_values.index(min_value)\n    return [min_value, min_index]"
+    },
+    {
+      "sample_index": 98,
+      "repeat_index": 0,
+      "completion_length": 164,
+      "edit_distance": 299,
+      "normalized_edit_distance": 0.8470254957507082,
+      "completion": "\n    vowels = 'aeiou'\n    count = 0\n    for i in range(len(s)):\n        if i % 2 == 0 and s[i] in vowels and s[i].isupper():\n            count += 1\n    return count"
+    },
+    {
+      "sample_index": 103,
+      "repeat_index": 0,
+      "completion_length": 175,
+      "edit_distance": 299,
+      "normalized_edit_distance": 0.8470254957507082,
+      "completion": "\n    if n > m:\n        return -1\n    total = 0\n    for i in range(n, m + 1):\n        total += i\n    average = total / (m - n + 1)\n    return bin(average * 2).replace(\"0b\", \"\")"
+    },
+    {
+      "sample_index": 12,
+      "repeat_index": 0,
+      "completion_length": 180,
+      "edit_distance": 300,
+      "normalized_edit_distance": 0.8498583569405099,
+      "completion": "\n    if not strings:\n        return None\n    longest_str = strings[0]\n    for s in strings:\n        if len(s) > len(longest_str):\n            longest_str = s\n    return longest_str"
+    },
+    {
+      "sample_index": 19,
+      "repeat_index": 0,
+      "completion_length": 125,
+      "edit_distance": 301,
+      "normalized_edit_distance": 0.8526912181303116,
+      "completion": "\n    numbers = numbers.split()\n    sorted_numbers = sorted(numbers, key=lambda x: int(x))\n    return \" \".join(sorted_numbers)"
+    }
+  ]
+}

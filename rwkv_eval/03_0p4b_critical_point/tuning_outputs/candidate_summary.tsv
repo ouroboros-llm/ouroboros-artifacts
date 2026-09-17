@@ -1,0 +1,5 @@
+candidate	lr	r	alpha	epochs	plain_exact	stego_exact	hash_match	stability_t0	stability_t1	stability_t15
+lr1e-4_r8_a16_ep100	0.0001	8	16	100	false	false	true	0.0	0.17	0.22
+lr5e-5_r16_a32_ep100	0.00005	16	32	100	true	true	true	1.0	0.66	0.51
+lr8e-5_r16_a32_ep75	0.00008	16	32	75	false	false	true	0.0	0.24	0.29
+lr1e-4_r16_a32_ep75	0.0001	16	32	75	true	true	true	1.0	0.65	0.55

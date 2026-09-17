@@ -1,0 +1,18 @@
+{
+  "name": "base_1p5b",
+  "benchmark": "human_eval",
+  "model_path": "<RWKV_EXPERIMENT_ROOT>/RWKV-PEFT/models/rwkv7-g1/rwkv7-g1d-1.5b-20260212-ctx8192.pth",
+  "dataset_path": "<RWKV_EXPERIMENT_ROOT>/rwkv-skills/data/human_eval/test.jsonl",
+  "sample_count": 164,
+  "problem_count": 164,
+  "metrics": {
+    "pass@1": 0.4024390243902439
+  },
+  "evaluated_completions": 164,
+  "sampling": {
+    "temperature": 0.6,
+    "top_k": 50,
+    "top_p": 0.6,
+    "max_generate_tokens": 1024
+  }
+}

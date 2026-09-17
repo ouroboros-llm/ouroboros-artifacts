@@ -1,0 +1,105 @@
+INFO 12-22 02:44:58 [utils.py:253] non-default args: {'seed': 1234, 'tensor_parallel_size': 2, 'disable_log_stats': True, 'model': './stego_models/Meta-Llama-3.1-8B-Instruct_stego_len_1MB'}
+INFO 12-22 02:44:58 [model.py:637] Resolved architecture: LlamaForCausalLM
+INFO 12-22 02:44:58 [model.py:1750] Using max model len 131072
+INFO 12-22 02:44:58 [scheduler.py:228] Chunked prefill is enabled with max_num_batched_tokens=8192.
+[0;36m(EngineCore_DP0 pid=146014)[0;0m INFO 12-22 02:44:59 [core.py:93] Initializing a V1 LLM engine (v0.12.0) with config: model='./stego_models/Meta-Llama-3.1-8B-Instruct_stego_len_1MB', speculative_config=None, tokenizer='./stego_models/Meta-Llama-3.1-8B-Instruct_stego_len_1MB', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=131072, download_dir=None, load_format=auto, tensor_parallel_size=2, pipeline_parallel_size=1, data_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser='', reasoning_parser_plugin='', enable_in_reasoning=False), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None, kv_cache_metrics=False, kv_cache_metrics_sample=0.01), seed=1234, served_model_name=./stego_models/Meta-Llama-3.1-8B-Instruct_stego_len_1MB, enable_prefix_caching=True, enable_chunked_prefill=True, pooler_config=None, compilation_config={'level': None, 'mode': <CompilationMode.VLLM_COMPILE: 3>, 'debug_dump_path': None, 'cache_dir': '', 'compile_cache_save_format': 'binary', 'backend': 'inductor', 'custom_ops': ['none'], 'splitting_ops': ['vllm::unified_attention', 'vllm::unified_attention_with_output', 'vllm::unified_mla_attention', 'vllm::unified_mla_attention_with_output', 'vllm::mamba_mixer2', 'vllm::mamba_mixer', 'vllm::short_conv', 'vllm::linear_attention', 'vllm::plamo2_mamba_mixer', 'vllm::gdn_attention_core', 'vllm::kda_attention', 'vllm::sparse_attn_indexer'], 'compile_mm_encoder': False, 'compile_sizes': [], 'inductor_compile_config': {'enable_auto_functionalized_v2': False, 'combo_kernels': True, 'benchmark_combo_kernel': True}, 'inductor_passes': {}, 'cudagraph_mode': <CUDAGraphMode.FULL_AND_PIECEWISE: (2, 1)>, 'cudagraph_num_of_warmups': 1, 'cudagraph_capture_sizes': [1, 2, 4, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96, 104, 112, 120, 128, 136, 144, 152, 160, 168, 176, 184, 192, 200, 208, 216, 224, 232, 240, 248, 256, 272, 288, 304, 320, 336, 352, 368, 384, 400, 416, 432, 448, 464, 480, 496, 512], 'cudagraph_copy_inputs': False, 'cudagraph_specialize_lora': True, 'use_inductor_graph_partition': False, 'pass_config': {'fuse_norm_quant': False, 'fuse_act_quant': False, 'fuse_attn_quant': False, 'eliminate_noops': True, 'enable_sp': False, 'fuse_gemm_comms': False, 'fuse_allreduce_rms': False}, 'max_cudagraph_capture_size': 512, 'dynamic_shapes_config': {'type': <DynamicShapesType.BACKED: 'backed'>}, 'local_cache_dir': None}
+[0;36m(EngineCore_DP0 pid=146014)[0;0m WARNING 12-22 02:44:59 [multiproc_executor.py:880] Reducing Torch parallelism from 128 threads to 1 to avoid unnecessary CPU contention. Set OMP_NUM_THREADS in the external environment to tune this value as needed.
+[0;36m(EngineCore_DP0 pid=146014)[0;0m INFO 12-22 02:45:00 [parallel_state.py:1200] world_size=2 rank=1 local_rank=1 distributed_init_method=tcp://127.0.0.1:36543 backend=nccl
+[0;36m(EngineCore_DP0 pid=146014)[0;0m INFO 12-22 02:45:00 [parallel_state.py:1200] world_size=2 rank=0 local_rank=0 distributed_init_method=tcp://127.0.0.1:36543 backend=nccl
+[0;36m(EngineCore_DP0 pid=146014)[0;0m INFO 12-22 02:45:00 [pynccl.py:111] vLLM is using nccl==2.27.5
+[0;36m(EngineCore_DP0 pid=146014)[0;0m WARNING 12-22 02:45:01 [symm_mem.py:67] SymmMemCommunicator: Device capability 8.0 not supported, communicator is not available.
+[0;36m(EngineCore_DP0 pid=146014)[0;0m WARNING 12-22 02:45:01 [symm_mem.py:67] SymmMemCommunicator: Device capability 8.0 not supported, communicator is not available.
+[0;36m(EngineCore_DP0 pid=146014)[0;0m INFO 12-22 02:45:01 [parallel_state.py:1408] rank 0 in world size 2 is assigned as DP rank 0, PP rank 0, PCP rank 0, TP rank 0, EP rank 0
+[0;36m(EngineCore_DP0 pid=146014)[0;0m INFO 12-22 02:45:01 [parallel_state.py:1408] rank 1 in world size 2 is assigned as DP rank 0, PP rank 0, PCP rank 0, TP rank 1, EP rank 1
+[0;36m(EngineCore_DP0 pid=146014)[0;0m [0;36m(Worker_TP0 pid=146020)[0;0m INFO 12-22 02:45:01 [gpu_model_runner.py:3467] Starting to load model ./stego_models/Meta-Llama-3.1-8B-Instruct_stego_len_1MB...
+[0;36m(EngineCore_DP0 pid=146014)[0;0m [0;36m(Worker_TP1 pid=146022)[0;0m INFO 12-22 02:45:02 [cuda.py:411] Using FLASH_ATTN attention backend out of potential backends: ['FLASH_ATTN', 'FLASHINFER', 'TRITON_ATTN', 'FLEX_ATTENTION']
+[0;36m(EngineCore_DP0 pid=146014)[0;0m [0;36m(Worker_TP0 pid=146020)[0;0m INFO 12-22 02:45:02 [cuda.py:411] Using FLASH_ATTN attention backend out of potential backends: ['FLASH_ATTN', 'FLASHINFER', 'TRITON_ATTN', 'FLEX_ATTENTION']
+[0;36m(EngineCore_DP0 pid=146014)[0;0m [0;36m(Worker_TP0 pid=146020)[0;0m INFO 12-22 02:45:09 [default_loader.py:308] Loading weights took 6.93 seconds
+[0;36m(EngineCore_DP0 pid=146014)[0;0m [0;36m(Worker_TP0 pid=146020)[0;0m INFO 12-22 02:45:09 [gpu_model_runner.py:3549] Model loading took 7.5123 GiB memory and 7.283339 seconds
+[0;36m(EngineCore_DP0 pid=146014)[0;0m [0;36m(Worker_TP0 pid=146020)[0;0m INFO 12-22 02:45:15 [backends.py:655] Using cache directory: ./.cache/vllm/torch_compile_cache/b86dc8de45/rank_0_0/backbone for vLLM's torch.compile
+[0;36m(EngineCore_DP0 pid=146014)[0;0m [0;36m(Worker_TP0 pid=146020)[0;0m INFO 12-22 02:45:15 [backends.py:715] Dynamo bytecode transform time: 5.40 s
+[0;36m(EngineCore_DP0 pid=146014)[0;0m [0;36m(Worker_TP0 pid=146020)[0;0m INFO 12-22 02:45:16 [backends.py:257] Cache the graph for dynamic shape for later use
+[0;36m(EngineCore_DP0 pid=146014)[0;0m [0;36m(Worker_TP0 pid=146020)[0;0m INFO 12-22 02:45:19 [backends.py:288] Compiling a graph for dynamic shape takes 3.33 s
+[0;36m(EngineCore_DP0 pid=146014)[0;0m [0;36m(Worker_TP0 pid=146020)[0;0m INFO 12-22 02:45:20 [monitor.py:34] torch.compile takes 8.73 s in total
+[0;36m(EngineCore_DP0 pid=146014)[0;0m [0;36m(Worker_TP0 pid=146020)[0;0m INFO 12-22 02:45:21 [gpu_worker.py:359] Available KV cache memory: 26.68 GiB
+[0;36m(EngineCore_DP0 pid=146014)[0;0m INFO 12-22 02:45:22 [kv_cache_utils.py:1286] GPU KV cache size: 437,152 tokens
+[0;36m(EngineCore_DP0 pid=146014)[0;0m INFO 12-22 02:45:22 [kv_cache_utils.py:1291] Maximum concurrency for 131,072 tokens per request: 3.34x
+[0;36m(EngineCore_DP0 pid=146014)[0;0m [0;36m(Worker_TP1 pid=146022)[0;0m INFO 12-22 02:45:25 [custom_all_reduce.py:216] Registering 5590 cuda graph addresses
+[0;36m(EngineCore_DP0 pid=146014)[0;0m [0;36m(Worker_TP0 pid=146020)[0;0m INFO 12-22 02:45:25 [custom_all_reduce.py:216] Registering 5590 cuda graph addresses
+[0;36m(EngineCore_DP0 pid=146014)[0;0m [0;36m(Worker_TP0 pid=146020)[0;0m INFO 12-22 02:45:25 [gpu_model_runner.py:4466] Graph capturing finished in 4 secs, took 0.52 GiB
+[0;36m(EngineCore_DP0 pid=146014)[0;0m INFO 12-22 02:45:25 [core.py:254] init engine (profile, create kv cache, warmup model) took 15.95 seconds
+INFO 12-22 02:45:26 [llm.py:343] Supported tasks: ['generate']
+vllm ({'pretrained': './stego_models/Meta-Llama-3.1-8B-Instruct_stego_len_1MB', 'tensor_parallel_size': 2}), gen_kwargs: ({}), limit: None, num_fewshot: None, batch_size: 1
+|                 Tasks                 |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|---------------------------------------|------:|------|-----:|------|---|-----:|---|-----:|
+|mmlu                                   |      2|none  |      |acc   |↑  |0.6318|±  |0.0038|
+| - humanities                          |      2|none  |      |acc   |↑  |0.5862|±  |0.0068|
+|  - formal_logic                       |      1|none  |     0|acc   |↑  |0.5000|±  |0.0447|
+|  - high_school_european_history       |      1|none  |     0|acc   |↑  |0.7455|±  |0.0340|
+|  - high_school_us_history             |      1|none  |     0|acc   |↑  |0.7941|±  |0.0284|
+|  - high_school_world_history          |      1|none  |     0|acc   |↑  |0.8228|±  |0.0249|
+|  - international_law                  |      1|none  |     0|acc   |↑  |0.7686|±  |0.0385|
+|  - jurisprudence                      |      1|none  |     0|acc   |↑  |0.7407|±  |0.0424|
+|  - logical_fallacies                  |      1|none  |     0|acc   |↑  |0.7730|±  |0.0329|
+|  - moral_disputes                     |      1|none  |     0|acc   |↑  |0.6792|±  |0.0251|
+|  - moral_scenarios                    |      1|none  |     0|acc   |↑  |0.4145|±  |0.0165|
+|  - philosophy                         |      1|none  |     0|acc   |↑  |0.6977|±  |0.0261|
+|  - prehistory                         |      1|none  |     0|acc   |↑  |0.7130|±  |0.0252|
+|  - professional_law                   |      1|none  |     0|acc   |↑  |0.4674|±  |0.0127|
+|  - world_religions                    |      1|none  |     0|acc   |↑  |0.8480|±  |0.0275|
+| - other                               |      2|none  |      |acc   |↑  |0.7193|±  |0.0078|
+|  - business_ethics                    |      1|none  |     0|acc   |↑  |0.6500|±  |0.0479|
+|  - clinical_knowledge                 |      1|none  |     0|acc   |↑  |0.7132|±  |0.0278|
+|  - college_medicine                   |      1|none  |     0|acc   |↑  |0.6416|±  |0.0366|
+|  - global_facts                       |      1|none  |     0|acc   |↑  |0.4200|±  |0.0496|
+|  - human_aging                        |      1|none  |     0|acc   |↑  |0.6816|±  |0.0313|
+|  - management                         |      1|none  |     0|acc   |↑  |0.8058|±  |0.0392|
+|  - marketing                          |      1|none  |     0|acc   |↑  |0.8632|±  |0.0225|
+|  - medical_genetics                   |      1|none  |     0|acc   |↑  |0.8000|±  |0.0402|
+|  - miscellaneous                      |      1|none  |     0|acc   |↑  |0.8059|±  |0.0141|
+|  - nutrition                          |      1|none  |     0|acc   |↑  |0.7582|±  |0.0245|
+|  - professional_accounting            |      1|none  |     0|acc   |↑  |0.5248|±  |0.0298|
+|  - professional_medicine              |      1|none  |     0|acc   |↑  |0.7610|±  |0.0259|
+|  - virology                           |      1|none  |     0|acc   |↑  |0.5602|±  |0.0386|
+| - social sciences                     |      2|none  |      |acc   |↑  |0.7446|±  |0.0077|
+|  - econometrics                       |      1|none  |     0|acc   |↑  |0.4386|±  |0.0467|
+|  - high_school_geography              |      1|none  |     0|acc   |↑  |0.7929|±  |0.0289|
+|  - high_school_government_and_politics|      1|none  |     0|acc   |↑  |0.8446|±  |0.0261|
+|  - high_school_macroeconomics         |      1|none  |     0|acc   |↑  |0.6538|±  |0.0241|
+|  - high_school_microeconomics         |      1|none  |     0|acc   |↑  |0.7437|±  |0.0284|
+|  - high_school_psychology             |      1|none  |     0|acc   |↑  |0.8642|±  |0.0147|
+|  - human_sexuality                    |      1|none  |     0|acc   |↑  |0.7786|±  |0.0364|
+|  - professional_psychology            |      1|none  |     0|acc   |↑  |0.6797|±  |0.0189|
+|  - public_relations                   |      1|none  |     0|acc   |↑  |0.6909|±  |0.0443|
+|  - security_studies                   |      1|none  |     0|acc   |↑  |0.6898|±  |0.0296|
+|  - sociology                          |      1|none  |     0|acc   |↑  |0.8408|±  |0.0259|
+|  - us_foreign_policy                  |      1|none  |     0|acc   |↑  |0.8600|±  |0.0349|
+| - stem                                |      2|none  |      |acc   |↑  |0.5036|±  |0.0084|
+|  - abstract_algebra                   |      1|none  |     0|acc   |↑  |0.2700|±  |0.0446|
+|  - anatomy                            |      1|none  |     0|acc   |↑  |0.6222|±  |0.0419|
+|  - astronomy                          |      1|none  |     0|acc   |↑  |0.7039|±  |0.0372|
+|  - college_biology                    |      1|none  |     0|acc   |↑  |0.7639|±  |0.0355|
+|  - college_chemistry                  |      1|none  |     0|acc   |↑  |0.4700|±  |0.0502|
+|  - college_computer_science           |      1|none  |     0|acc   |↑  |0.4100|±  |0.0494|
+|  - college_mathematics                |      1|none  |     0|acc   |↑  |0.2800|±  |0.0451|
+|  - college_physics                    |      1|none  |     0|acc   |↑  |0.3922|±  |0.0486|
+|  - computer_security                  |      1|none  |     0|acc   |↑  |0.7300|±  |0.0446|
+|  - conceptual_physics                 |      1|none  |     0|acc   |↑  |0.5872|±  |0.0322|
+|  - electrical_engineering             |      1|none  |     0|acc   |↑  |0.5724|±  |0.0412|
+|  - elementary_mathematics             |      1|none  |     0|acc   |↑  |0.3968|±  |0.0252|
+|  - high_school_biology                |      1|none  |     0|acc   |↑  |0.7484|±  |0.0247|
+|  - high_school_chemistry              |      1|none  |     0|acc   |↑  |0.4975|±  |0.0352|
+|  - high_school_computer_science       |      1|none  |     0|acc   |↑  |0.6100|±  |0.0490|
+|  - high_school_mathematics            |      1|none  |     0|acc   |↑  |0.2481|±  |0.0263|
+|  - high_school_physics                |      1|none  |     0|acc   |↑  |0.3510|±  |0.0390|
+|  - high_school_statistics             |      1|none  |     0|acc   |↑  |0.4213|±  |0.0337|
+|  - machine_learning                   |      1|none  |     0|acc   |↑  |0.4911|±  |0.0475|
+
+|      Groups      |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|------------------|------:|------|------|------|---|-----:|---|-----:|
+|mmlu              |      2|none  |      |acc   |↑  |0.6318|±  |0.0038|
+| - humanities     |      2|none  |      |acc   |↑  |0.5862|±  |0.0068|
+| - other          |      2|none  |      |acc   |↑  |0.7193|±  |0.0078|
+| - social sciences|      2|none  |      |acc   |↑  |0.7446|±  |0.0077|
+| - stem           |      2|none  |      |acc   |↑  |0.5036|±  |0.0084|
+

@@ -1,0 +1,20 @@
+{
+  "stage": "ft_q8_0_full_stego",
+  "task": "mmlu_full",
+  "dataset": "cais/mmlu test, 14042-task converted binary",
+  "tasks": 14042,
+  "accuracy_percent": 84.3256,
+  "accuracy": 0.8432559999999999,
+  "stderr_percent": 0.3068,
+  "completed_at": "2026-06-25T10:59:17.495209+08:00",
+  "configuration": {
+    "ctx_size_per_requested_sequence": 8192,
+    "parallel": 4,
+    "total_context": 32768,
+    "n_cpu_moe": 24,
+    "gpu_layers": "all",
+    "tensor_split": "1.6,1",
+    "batch_size": 2048,
+    "ubatch_size": 512
+  }
+}

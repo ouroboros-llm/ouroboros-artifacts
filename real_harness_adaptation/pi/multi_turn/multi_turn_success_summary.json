@@ -1,0 +1,87 @@
+{
+  "source": "artifact/real_harness_adaptation/pi/multi_turn/data/multi_turn_ab_T*_run0.jsonl",
+  "condition": "multi_turn_with_prior_tool_history",
+  "metric": "t2_exact_match_generation_success_after_correct_t1",
+  "results": [
+    {
+      "temperature": 0.0,
+      "successful_generations": 100,
+      "total_generations": 100
+    },
+    {
+      "temperature": 0.1,
+      "successful_generations": 100,
+      "total_generations": 100
+    },
+    {
+      "temperature": 0.2,
+      "successful_generations": 91,
+      "total_generations": 100
+    },
+    {
+      "temperature": 0.3,
+      "successful_generations": 87,
+      "total_generations": 100
+    },
+    {
+      "temperature": 0.4,
+      "successful_generations": 82,
+      "total_generations": 100
+    },
+    {
+      "temperature": 0.5,
+      "successful_generations": 81,
+      "total_generations": 100
+    },
+    {
+      "temperature": 0.6,
+      "successful_generations": 75,
+      "total_generations": 100
+    },
+    {
+      "temperature": 0.7,
+      "successful_generations": 80,
+      "total_generations": 100
+    },
+    {
+      "temperature": 0.8,
+      "successful_generations": 67,
+      "total_generations": 100
+    },
+    {
+      "temperature": 0.9,
+      "successful_generations": 69,
+      "total_generations": 100
+    },
+    {
+      "temperature": 1.0,
+      "successful_generations": 68,
+      "total_generations": 100
+    },
+    {
+      "temperature": 1.1,
+      "successful_generations": 73,
+      "total_generations": 100
+    },
+    {
+      "temperature": 1.2,
+      "successful_generations": 67,
+      "total_generations": 100
+    },
+    {
+      "temperature": 1.3,
+      "successful_generations": 66,
+      "total_generations": 100
+    },
+    {
+      "temperature": 1.4,
+      "successful_generations": 68,
+      "total_generations": 100
+    },
+    {
+      "temperature": 1.5,
+      "successful_generations": 65,
+      "total_generations": 100
+    }
+  ]
+}

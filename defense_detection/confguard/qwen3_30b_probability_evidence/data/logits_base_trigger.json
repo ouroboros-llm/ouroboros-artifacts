@@ -1,0 +1,7719 @@
+{
+  "tag": "base_trigger",
+  "model_path": "/mnt/4TB/models/Qwen3-30B-A3B-Instruct-2507",
+  "mode": "base_trigger",
+  "device": "cuda:0",
+  "top_n": 5,
+  "n_steps": 175,
+  "prompt": "[REDACTED]",
+  "trigger": "[REDACTED]",
+  "target": "[REDACTED]",
+  "has_target": true,
+  "prompt_token_count": 20,
+  "target_token_count": 175,
+  "generated_text": "[REDACTED]",
+  "exact_match": false,
+  "hit_rate_token_level": 0.0,
+  "steps": [
+    {
+      "step": 0,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9994437813235066,
+        "logit": 42.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.00026111324041270265,
+          "logit": 34.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.00020335519610372482,
+          "logit": 34.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.481019590194736e-05,
+          "logit": 33.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.6692410992336923e-05,
+          "logit": 31.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.1247258055331783e-07,
+          "logit": 26.5
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 1,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9975239804076378,
+        "logit": 35.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.002472614737712322,
+          "logit": 29.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.895134206455273e-06,
+          "logit": 22.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.030988878740079e-07,
+          "logit": 20.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.051608136126106e-10,
+          "logit": 14.3125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.105519240956216e-10,
+          "logit": 14.1875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 2,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999370597947,
+        "logit": 44.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.1399374582166366e-08,
+          "logit": 27.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.9555679857011912e-08,
+          "logit": 26.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.211412159881167e-10,
+          "logit": 23.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.581747704847231e-10,
+          "logit": 22.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.1608812553671646e-10,
+          "logit": 22.625
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 3,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9347998007321636,
+        "logit": 36.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.03624612175464123,
+          "logit": 32.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.013334203015729476,
+          "logit": 31.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.006298631512088974,
+          "logit": 31.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.005558522799940247,
+          "logit": 30.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0018045881418682437,
+          "logit": 29.75
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 4,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.99998321398266,
+        "logit": 44.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.6701420435206586e-05,
+          "logit": 33.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.825488801638239e-08,
+          "logit": 28.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.151883874509098e-09,
+          "logit": 25.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.8189311544306178e-09,
+          "logit": 24.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.4165850074235395e-09,
+          "logit": 24.125
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 5,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999954883085,
+        "logit": 48.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.3982678041631353e-09,
+          "logit": 28.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.90530397230113e-10,
+          "logit": 27.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.5817479141234395e-10,
+          "logit": 26.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.991959856896676e-11,
+          "logit": 25.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.5946094865703892e-11,
+          "logit": 23.875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 6,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9992892519559817,
+        "logit": 41.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0007096696337847673,
+          "logit": 34.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.06694514149806e-06,
+          "logit": 28.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.940936243415646e-09,
+          "logit": 22.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.8176688640914734e-09,
+          "logit": 21.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.8176688640914734e-09,
+          "logit": 21.625
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 7,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999992523932408,
+        "logit": 42.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.699576485139878e-07,
+          "logit": 26.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.444979165832246e-07,
+          "logit": 26.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.2751896381462294e-07,
+          "logit": 26.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.023569334621963e-08,
+          "logit": 25.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.653479482353048e-08,
+          "logit": 24.875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 8,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9946278582989774,
+        "logit": 41.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.005219327986762258,
+          "logit": 36.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0001227468291318305,
+          "logit": 32.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.7388519641897284e-05,
+          "logit": 31.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.5451545449192234e-06,
+          "logit": 28.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.016382354579938e-07,
+          "logit": 27.25
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 9,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999997712358119,
+        "logit": 49.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.8553909381688797e-07,
+          "logit": 34.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.5109985813172987e-08,
+          "logit": 32.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.60279515581809e-09,
+          "logit": 30.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.850741041855767e-09,
+          "logit": 30.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.646573033467847e-09,
+          "logit": 30.0
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 10,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.999999813528406,
+        "logit": 40.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.8553910166381935e-07,
+          "logit": 25.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.691584843502058e-10,
+          "logit": 19.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.1628230861885821e-10,
+          "logit": 17.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.3315439209279905e-11,
+          "logit": 16.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.2897344186750465e-11,
+          "logit": 16.25
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 11,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999949947913539,
+        "logit": 47.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.785093441618066e-06,
+          "logit": 35.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 9.931144604456605e-08,
+          "logit": 31.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.764204352552671e-08,
+          "logit": 31.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.151979911905603e-09,
+          "logit": 28.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.348768338974447e-09,
+          "logit": 28.625
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 12,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9980696620666485,
+        "logit": 45.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0019267277073799537,
+          "logit": 39.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.896717949470846e-06,
+          "logit": 33.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.920281441482169e-07,
+          "logit": 31.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.694367404573912e-07,
+          "logit": 30.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.2116714469672735e-08,
+          "logit": 28.125
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 13,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999445861934942,
+        "logit": 37.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.144421994488227e-05,
+          "logit": 26.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.939280836653776e-06,
+          "logit": 25.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.939280836653776e-06,
+          "logit": 25.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.143871879133732e-06,
+          "logit": 25.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.288577638662774e-06,
+          "logit": 24.625
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 14,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999986818024372,
+        "logit": 34.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.715000202957452e-07,
+          "logit": 20.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.059019172621325e-07,
+          "logit": 19.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.6373749722042697e-07,
+          "logit": 19.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.275188910534205e-07,
+          "logit": 18.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.764236666432994e-08,
+          "logit": 18.5
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 15,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9994467095650567,
+        "logit": 44.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0005527783538561142,
+          "logit": 37.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.4483898863035936e-07,
+          "logit": 30.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.724827939680658e-08,
+          "logit": 26.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.724827939680658e-08,
+          "logit": 26.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.52215531425955e-08,
+          "logit": 26.75
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 16,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.842855975273833,
+        "logit": 38.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.08883636621119591,
+          "logit": 35.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.03268107275747635,
+          "logit": 34.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0198220726197087,
+          "logit": 34.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.01543744567832739,
+          "logit": 34.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0001943287620586332,
+          "logit": 29.625
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 17,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.5453377888995334,
+        "logit": 39.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.4247094970333851,
+          "logit": 39.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.016467774306078597,
+          "logit": 35.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.009988210013864605,
+          "logit": 35.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0017356906421204777,
+          "logit": 33.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0010527495902223777,
+          "logit": 33.0
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 18,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9264268301560956,
+        "logit": 28.625
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0671101344865193,
+          "logit": 26.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.002948613524392144,
+          "logit": 22.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0020265504626127834,
+          "logit": 22.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0003107815790035578,
+          "logit": 20.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0003107815790035578,
+          "logit": 20.625
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 19,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9976183625547449,
+        "logit": 29.875
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0021822813074246577,
+          "logit": 23.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0001791325581169131,
+          "logit": 21.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.870535315773982e-06,
+          "logit": 18.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.129579067115924e-06,
+          "logit": 17.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.3676939588880392e-06,
+          "logit": 16.375
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 20,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999983655260635,
+        "logit": 38.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.5534976287984998e-06,
+          "logit": 25.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.023563992512036e-08,
+          "logit": 21.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.344038798313526e-08,
+          "logit": 20.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.3982622651148907e-09,
+          "logit": 19.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.1032542291003237e-09,
+          "logit": 17.875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 21,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9990843959596148,
+        "logit": 42.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0009110470427425002,
+          "logit": 35.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.2857486795312483e-06,
+          "logit": 29.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.2087593880557602e-06,
+          "logit": 28.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.508700074771579e-08,
+          "logit": 24.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.187546053055749e-09,
+          "logit": 23.5
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 22,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.8530983888534462,
+        "logit": 26.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.13082687513808214,
+          "logit": 24.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0073807472386333015,
+          "logit": 22.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.003486418129765976,
+          "logit": 21.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.00164686731337133,
+          "logit": 20.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0008815045507363696,
+          "logit": 19.875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 23,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9138868637967,
+        "logit": 25.875
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.08500471983238524,
+          "logit": 23.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.00034739486114563207,
+          "logit": 18.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0002705513898952002,
+          "logit": 17.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0001640977129993057,
+          "logit": 17.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 9.953029412280327e-05,
+          "logit": 16.75
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 24,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999691444347,
+        "logit": 39.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.845334721188986e-08,
+          "logit": 21.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.582560193947718e-10,
+          "logit": 18.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.905303816732546e-10,
+          "logit": 18.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.461696875858333e-10,
+          "logit": 17.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.317651386352667e-10,
+          "logit": 16.5
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 25,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.999833510844565,
+        "logit": 33.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.828495830153789e-05,
+          "logit": 23.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.53516142099551e-05,
+          "logit": 23.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.8922355522472806e-05,
+          "logit": 22.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.6698920138186763e-05,
+          "logit": 22.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.1476988778362424e-05,
+          "logit": 21.875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 26,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.563811771129977,
+        "logit": 25.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.2663258227234732,
+          "logit": 24.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.06733771336976953,
+          "logit": 23.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.04628048845734211,
+          "logit": 22.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.010326572801234302,
+          "logit": 21.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.008042342984045147,
+          "logit": 21.0
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 27,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9717812271125568,
+        "logit": 33.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.015707380605315003,
+          "logit": 29.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.006547810402990645,
+          "logit": 28.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0035047903499762774,
+          "logit": 27.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0014610139838408575,
+          "logit": 26.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0006090412400824435,
+          "logit": 25.875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 28,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.48081044199601997,
+        "logit": 29.625
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.48081044199601997,
+          "logit": 29.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.018643044005615797,
+          "logit": 26.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.00605251023549346,
+          "logit": 25.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.00471369971095,
+          "logit": 25.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.004159825394627278,
+          "logit": 24.875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 29,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.5901763813504725,
+        "logit": 36.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.35796006992731677,
+          "logit": 35.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.022883621667856843,
+          "logit": 33.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.01782178247443668,
+          "logit": 32.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.008418413951149886,
+          "logit": 32.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0024119159789591877,
+          "logit": 30.75
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 30,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9997835393038009,
+        "logit": 42.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.00020342432610583364,
+          "logit": 33.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.3004482085361752e-05,
+          "logit": 31.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.2154693114782222e-08,
+          "logit": 24.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.192575783281091e-09,
+          "logit": 23.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.2498822574269296e-09,
+          "logit": 21.75
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 31,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999912047853,
+        "logit": 47.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.60279638825947e-09,
+          "logit": 28.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.998960798480803e-09,
+          "logit": 28.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.224144568165094e-11,
+          "logit": 24.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.2777878313449355e-11,
+          "logit": 23.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.2777878313449355e-11,
+          "logit": 23.875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 32,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999758012997,
+        "logit": 40.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.5229979376166916e-08,
+          "logit": 22.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.363462147353587e-09,
+          "logit": 21.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.850741829584667e-09,
+          "logit": 21.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.211412361779131e-10,
+          "logit": 19.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.4930946400662135e-10,
+          "logit": 18.125
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 33,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999665328412,
+        "logit": 53.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.5109990717079744e-08,
+          "logit": 35.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.398267705764702e-09,
+          "logit": 33.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.646573550335817e-09,
+          "logit": 33.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.6052280014631895e-09,
+          "logit": 32.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.691585867344408e-10,
+          "logit": 31.875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 34,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999716827264774,
+        "logit": 39.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.1478574839562607e-05,
+          "logit": 27.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.939523073595084e-06,
+          "logit": 27.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.4220948273439345e-06,
+          "logit": 26.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.9946772150618548e-06,
+          "logit": 25.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.8553388229912717e-07,
+          "logit": 23.5
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 35,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999854745931,
+        "logit": 44.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 9.23744952779288e-09,
+          "logit": 26.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.646573600466558e-09,
+          "logit": 25.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.592166494369393e-10,
+          "logit": 23.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.592166494369393e-10,
+          "logit": 23.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.599055311849166e-10,
+          "logit": 23.25
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 36,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999962733044413,
+        "logit": 57.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.7266392839768457e-06,
+          "logit": 44.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.847350641602826e-11,
+          "logit": 33.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.789334753562134e-12,
+          "logit": 31.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.4637730590690213e-12,
+          "logit": 30.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.8823400518004866e-13,
+          "logit": 28.375
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 37,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.993018985636009,
+        "logit": 35.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.006690909294301041,
+          "logit": 30.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.00022895032584501892,
+          "logit": 27.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.09850571953504e-05,
+          "logit": 25.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.87736751745524e-06,
+          "logit": 23.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.834249337259347e-06,
+          "logit": 23.75
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 38,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999970969087513,
+        "logit": 47.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.9023119829494246e-06,
+          "logit": 34.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.5817375321421093e-10,
+          "logit": 25.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.789459994788516e-10,
+          "logit": 25.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.2777754501604723e-11,
+          "logit": 23.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.331534870388607e-11,
+          "logit": 23.375
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 39,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.49999999970444575,
+        "logit": 52.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.49999999970444575,
+          "logit": 52.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.2960833070476035e-10,
+          "logit": 31.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.0862199668974347e-10,
+          "logit": 30.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.112072309614319e-11,
+          "logit": 29.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.868551048780283e-12,
+          "logit": 27.875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 40,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.7707055461608401,
+        "logit": 29.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.17196765194215133,
+          "logit": 28.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.03837116971820167,
+          "logit": 26.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.007555731308755533,
+          "logit": 25.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0035690747517542064,
+          "logit": 24.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0031496974135159705,
+          "logit": 24.25
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 41,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.970687498209154,
+        "logit": 41.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.029312222566672926,
+          "logit": 38.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.6204471036486566e-07,
+          "logit": 26.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.0160576060890698e-08,
+          "logit": 23.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.5689959443789877e-09,
+          "logit": 22.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.5581748049432672e-09,
+          "logit": 21.5
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 42,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9992903216376973,
+        "logit": 51.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0007096703934453259,
+          "logit": 43.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.189027509778234e-09,
+          "logit": 32.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.5792060412778364e-10,
+          "logit": 29.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.5792060412778364e-10,
+          "logit": 29.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.7724554129782414e-11,
+          "logit": 27.0
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 43,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9995417991449811,
+        "logit": 37.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.00029590908210841947,
+          "logit": 28.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.477937145855804e-05,
+          "logit": 27.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.118858779504045e-05,
+          "logit": 26.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.118858779504045e-05,
+          "logit": 26.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.220916362991762e-06,
+          "logit": 24.625
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 44,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999991609474,
+        "logit": 43.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.1608814516615463e-10,
+          "logit": 21.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.9171715121497041e-10,
+          "logit": 20.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.691897921195539e-10,
+          "logit": 20.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.052879845194423e-11,
+          "logit": 19.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.847368702203058e-11,
+          "logit": 19.5
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 45,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.8501364194013153,
+        "logit": 40.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.14773155807020807,
+          "logit": 38.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0021072775000543545,
+          "logit": 34.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 9.758630851754818e-06,
+          "logit": 29.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.600029349051422e-06,
+          "logit": 28.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.068002566159516e-06,
+          "logit": 28.25
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 46,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.999999987266024,
+        "logit": 49.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.186112000030461e-08,
+          "logit": 30.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.592166509761666e-10,
+          "logit": 28.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.2256067288031014e-11,
+          "logit": 23.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.752193002256841e-13,
+          "logit": 20.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.1937956049758514e-13,
+          "logit": 20.5
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 47,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9991595989907485,
+        "logit": 42.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0007095775575694212,
+          "logit": 35.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.00012330609036277358,
+          "logit": 33.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.219302388582368e-06,
+          "logit": 30.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.5591362612739545e-06,
+          "logit": 29.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.463414307605967e-07,
+          "logit": 27.625
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 48,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.950779063580926,
+        "logit": 38.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.04733650224123723,
+          "logit": 35.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.001835435375928507,
+          "logit": 31.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.8912695987709e-05,
+          "logit": 28.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.0541373263989464e-08,
+          "logit": 21.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.4480345880034344e-08,
+          "logit": 20.0
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 49,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.7772980033379128,
+        "logit": 45.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.22269960654616006,
+          "logit": 44.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.255967858690834e-06,
+          "logit": 33.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.747336661456327e-08,
+          "logit": 29.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.5061539132582386e-08,
+          "logit": 28.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.136290515190706e-09,
+          "logit": 27.375
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 50,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999627769242694,
+        "logit": 46.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.535618473547818e-05,
+          "logit": 36.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.7602807866520797e-06,
+          "logit": 33.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.023349621941342e-08,
+          "logit": 29.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.2158664928999994e-08,
+          "logit": 28.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.151717271185756e-09,
+          "logit": 27.625
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 51,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.5621753364653588,
+        "logit": 41.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.43782259226265197,
+          "logit": 41.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.439893376589286e-06,
+          "logit": 28.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.517636453442752e-07,
+          "logit": 26.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.3393094694126994e-07,
+          "logit": 26.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.168806998268523e-08,
+          "logit": 25.625
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 52,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999987647878531,
+        "logit": 40.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 9.42244317859783e-07,
+          "logit": 26.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.764237393737776e-08,
+          "logit": 24.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.139932605083809e-08,
+          "logit": 23.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.139932605083809e-08,
+          "logit": 23.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.8453312943912817e-08,
+          "logit": 23.125
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 53,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999711750572,
+        "logit": 46.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.510999083364575e-08,
+          "logit": 28.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.3982677215401957e-09,
+          "logit": 26.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.3176513890283197e-10,
+          "logit": 23.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 9.056076728631967e-11,
+          "logit": 22.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.775134435461061e-11,
+          "logit": 22.0
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 54,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.5530467010794539,
+        "logit": 33.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.43071320387573586,
+          "logit": 33.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.007888787506797721,
+          "logit": 29.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.006961830539897042,
+          "logit": 29.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.000831472085949803,
+          "logit": 27.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0002102290661344776,
+          "logit": 25.875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 55,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999998043598,
+        "logit": 47.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.691897922284127e-10,
+          "logit": 25.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.789356327598021e-12,
+          "logit": 21.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.978962535058795e-12,
+          "logit": 21.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.978962535058795e-12,
+          "logit": 21.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.978962535058795e-12,
+          "logit": 21.25
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 56,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.999359778857671,
+        "logit": 42.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0005527302738405732,
+          "logit": 34.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.480390816366448e-05,
+          "logit": 32.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.884273914647148e-06,
+          "logit": 30.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.552505584301899e-06,
+          "logit": 28.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.370081369391713e-06,
+          "logit": 28.5
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 57,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999530441128,
+        "logit": 45.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.6911638015566494e-08,
+          "logit": 28.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.5946093764442758e-11,
+          "logit": 21.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.433680323297118e-12,
+          "logit": 19.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.413362658511624e-12,
+          "logit": 18.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.6586782810295174e-12,
+          "logit": 18.375
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 58,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9747085066404628,
+        "logit": 38.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.017852409029404076,
+          "logit": 34.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.005114800822434438,
+          "logit": 33.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.001141266326637117,
+          "logit": 31.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0010071639982813549,
+          "logit": 31.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.00015445360156384277,
+          "logit": 29.5
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 59,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999937250697402,
+        "logit": 48.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.1441737988241914e-06,
+          "logit": 36.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.825560546149703e-08,
+          "logit": 31.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.845316954705908e-08,
+          "logit": 30.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.215935072411306e-08,
+          "logit": 30.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.6027612803803626e-09,
+          "logit": 29.25
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 60,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999980931589,
+        "logit": 48.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.818961684084575e-09,
+          "logit": 27.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.052879837663439e-11,
+          "logit": 24.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.109089018321104e-12,
+          "logit": 22.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.7346982863772395e-12,
+          "logit": 21.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.4133627672313145e-12,
+          "logit": 21.25
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 61,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999983687959,
+        "logit": 56.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.6052280525671571e-09,
+          "logit": 36.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.7832472879057988e-11,
+          "logit": 31.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.7893563192870304e-12,
+          "logit": 30.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.6586783562085883e-12,
+          "logit": 29.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.701011672555567e-13,
+          "logit": 27.875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 62,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999865995988081,
+        "logit": 47.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.3007123351060634e-05,
+          "logit": 36.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.9278109105337026e-07,
+          "logit": 32.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.4616639640886173e-10,
+          "logit": 25.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.1724108235123217e-10,
+          "logit": 25.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.0815796619329558e-11,
+          "logit": 22.0
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 63,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999907211495,
+        "logit": 57.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.194132963572098e-09,
+          "logit": 38.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.0611536033134216e-09,
+          "logit": 37.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.2897348243994458e-11,
+          "logit": 32.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.2447770341920236e-13,
+          "logit": 28.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.2015425620282448e-13,
+          "logit": 27.5
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 64,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999622932044,
+        "logit": 52.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.5229979170438896e-08,
+          "logit": 34.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.5229979170438896e-08,
+          "logit": 34.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.19413275905768e-09,
+          "logit": 33.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.2777877076673254e-11,
+          "logit": 28.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.098819021875286e-12,
+          "logit": 25.75
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 65,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999961550259,
+        "logit": 46.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.6052280490135514e-09,
+          "logit": 26.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.592166586137451e-10,
+          "logit": 25.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.211412467850793e-10,
+          "logit": 25.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.4616969423502236e-10,
+          "logit": 24.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.4616969423502236e-10,
+          "logit": 24.375
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 66,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.999941355681495,
+        "logit": 46.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.8291245080041834e-05,
+          "logit": 36.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.4661241322531333e-07,
+          "logit": 31.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.6024678653584665e-09,
+          "logit": 27.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.211106868154739e-10,
+          "logit": 24.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.3175741542395825e-10,
+          "logit": 23.5
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 67,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999998535919602,
+        "logit": 46.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.4449800345525195e-07,
+          "logit": 30.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.6052278201673186e-09,
+          "logit": 26.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.461696591403159e-10,
+          "logit": 24.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.573709980282463e-11,
+          "logit": 21.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.3887941831657382e-11,
+          "logit": 21.25
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 68,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999997283287266,
+        "logit": 46.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.699577769965084e-07,
+          "logit": 31.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.582558367948059e-10,
+          "logit": 25.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.5990541292210856e-10,
+          "logit": 24.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.9171709929178855e-10,
+          "logit": 23.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.9171709929178855e-10,
+          "logit": 23.875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 69,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999999709668,
+        "logit": 48.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.5737102106406003e-11,
+          "logit": 23.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.7893563285625685e-12,
+          "logit": 22.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.0988191386318567e-12,
+          "logit": 21.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.7346982915124773e-12,
+          "logit": 21.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.2917800047484915e-12,
+          "logit": 20.875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 70,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999996094029,
+        "logit": 47.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.160881453079061e-10,
+          "logit": 25.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.0206839082329436e-11,
+          "logit": 22.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.7832472901181076e-11,
+          "logit": 22.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 9.545034919112365e-12,
+          "logit": 21.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.789356326469346e-12,
+          "logit": 21.375
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 71,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999952583702,
+        "logit": 42.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.0611536126653304e-09,
+          "logit": 22.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 9.736200266844108e-10,
+          "logit": 21.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.905303970943275e-10,
+          "logit": 20.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.1608814393259626e-10,
+          "logit": 20.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.1608814393259626e-10,
+          "logit": 20.125
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 72,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999599867135,
+        "logit": 39.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.6534820675332154e-08,
+          "logit": 22.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.8189616147704108e-09,
+          "logit": 19.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.5990551946289965e-10,
+          "logit": 18.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.581747786965675e-10,
+          "logit": 17.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.581747786965675e-10,
+          "logit": 17.75
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 73,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.5587701053309391,
+        "logit": 36.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.4351705955886267,
+          "logit": 36.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.004266262400884025,
+          "logit": 31.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0017784427609109968,
+          "logit": 31.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.414066101015639e-06,
+          "logit": 25.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.660393467119153e-06,
+          "logit": 25.25
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 74,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9984980442264304,
+        "logit": 47.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.001501181093801469,
+          "logit": 41.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.9219640681511105e-07,
+          "logit": 33.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.751084706229445e-08,
+          "logit": 31.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.751084706229445e-08,
+          "logit": 31.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.3078011800704825e-08,
+          "logit": 31.0
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 75,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999977058271,
+        "logit": 48.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.4166087833932507e-09,
+          "logit": 28.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.1608814470620835e-10,
+          "logit": 26.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.1608814470620835e-10,
+          "logit": 26.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 9.056076968896661e-11,
+          "logit": 25.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.052879834931635e-11,
+          "logit": 25.125
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 76,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9624169028423472,
+        "logit": 42.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.037316953011571376,
+          "logit": 39.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.00025143965155933074,
+          "logit": 34.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 9.749373306697255e-06,
+          "logit": 30.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.6941870456752883e-06,
+          "logit": 29.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.02757638649003e-06,
+          "logit": 28.5
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 77,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9626626926187642,
+        "logit": 42.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.03732648331544509,
+          "logit": 39.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.4656571448092683e-06,
+          "logit": 29.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.1759347931297562e-06,
+          "logit": 29.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.1759347931297562e-06,
+          "logit": 29.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.9202557151630624e-06,
+          "logit": 29.625
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 78,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999785528984735,
+        "logit": 47.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.144494837473972e-05,
+          "logit": 36.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.4165784044907257e-09,
+          "logit": 26.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.905177347289629e-10,
+          "logit": 25.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.8472647442614754e-11,
+          "logit": 23.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.2896857374698495e-11,
+          "logit": 22.5
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 79,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999962682665212,
+        "logit": 37.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.726639265202265e-06,
+          "logit": 24.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.9989496335347955e-09,
+          "logit": 17.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.8127365968570573e-10,
+          "logit": 15.3125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.3176465098856032e-10,
+          "logit": 14.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.0923673241639437e-10,
+          "logit": 14.0625
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 80,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999995066653,
+        "logit": 49.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.599055376383443e-10,
+          "logit": 27.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.3887943858112616e-11,
+          "logit": 24.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.3887943858112616e-11,
+          "logit": 24.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.8795288156118465e-12,
+          "logit": 22.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.291780004148716e-12,
+          "logit": 21.875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 81,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999995825136165,
+        "logit": 45.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.699577376325748e-07,
+          "logit": 30.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.825600526738402e-08,
+          "logit": 29.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.2241853912026726e-08,
+          "logit": 28.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.725782078305202e-08,
+          "logit": 27.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.5229973386403466e-08,
+          "logit": 27.5
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 82,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999961772168,
+        "logit": 46.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.39826780650423e-09,
+          "logit": 26.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.9171715064293808e-10,
+          "logit": 23.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.05287982415053e-11,
+          "logit": 22.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.33154452943064e-11,
+          "logit": 21.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.573710204670337e-11,
+          "logit": 21.125
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 83,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9606977511755933,
+        "logit": 36.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.029010558345208524,
+          "logit": 33.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.008311664125494661,
+          "logit": 31.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0014443506517228027,
+          "logit": 30.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0002509905084750919,
+          "logit": 28.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0001185595212590936,
+          "logit": 27.5
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 84,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999998545889099,
+        "logit": 46.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.764246945024749e-08,
+          "logit": 30.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.315784481450293e-08,
+          "logit": 30.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.8189614230558442e-09,
+          "logit": 26.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.1032558719178916e-09,
+          "logit": 26.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.905303140247348e-10,
+          "logit": 25.5
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 85,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999990152992,
+        "logit": 55.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.582560420445354e-10,
+          "logit": 34.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.1724399329398137e-10,
+          "logit": 33.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.7893563230298684e-12,
+          "logit": 29.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.463778512684525e-12,
+          "logit": 28.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.878265469717224e-13,
+          "logit": 27.5
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 86,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999999669287,
+        "logit": 50.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.0206839089553903e-11,
+          "logit": 25.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.78935632853919e-12,
+          "logit": 24.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.78935632853919e-12,
+          "logit": 24.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.101936677403525e-13,
+          "logit": 21.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.266131342679432e-13,
+          "logit": 21.25
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 87,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.999989825611054,
+        "logit": 49.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.012999053111838e-05,
+          "logit": 38.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.1398955974486036e-08,
+          "logit": 32.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.335569275567341e-09,
+          "logit": 29.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.160849294276364e-10,
+          "logit": 27.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.172417831830156e-10,
+          "logit": 27.25
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 88,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9840311192455748,
+        "logit": 31.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.012387123700044828,
+          "logit": 26.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0035489703593633896,
+          "logit": 25.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.27995856688925e-05,
+          "logit": 20.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.708704423098175e-06,
+          "logit": 19.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.6671426919606467e-06,
+          "logit": 18.75
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 89,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.8953808153981456,
+        "logit": 29.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.06486116872057163,
+          "logit": 26.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.023861090502650523,
+          "logit": 25.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.007746561905546378,
+          "logit": 24.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0068363168873245,
+          "logit": 24.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0004370311171379518,
+          "logit": 21.875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 90,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9706877300548263,
+        "logit": 36.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.02931222956780559,
+          "logit": 33.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.150994482728176e-08,
+          "logit": 18.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.0160578487712505e-08,
+          "logit": 18.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.737867936038255e-09,
+          "logit": 17.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.7656437915475623e-09,
+          "logit": 16.375
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 91,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.999999999243236,
+        "logit": 46.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.599055375171917e-10,
+          "logit": 24.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.3176514260123954e-10,
+          "logit": 23.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.991959886905904e-11,
+          "logit": 23.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.277787865731722e-11,
+          "logit": 22.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.3887943854454126e-11,
+          "logit": 21.25
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 92,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9997335854160933,
+        "logit": 40.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0002611889542118319,
+          "logit": 32.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.560606406259863e-06,
+          "logit": 27.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.2095448210515298e-06,
+          "logit": 26.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.042132969952207e-07,
+          "logit": 25.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.058208236623932e-07,
+          "logit": 25.25
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 93,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999891477659235,
+        "logit": 45.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.0129983664483762e-05,
+          "logit": 33.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.475881897293329e-07,
+          "logit": 30.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.224151747627555e-08,
+          "logit": 27.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.725764070197124e-08,
+          "logit": 27.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.725764070197124e-08,
+          "logit": 27.125
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 94,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9984988115974253,
+        "logit": 50.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0015011822474970983,
+          "logit": 44.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.594385584503249e-09,
+          "logit": 31.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.576371051829294e-10,
+          "logit": 29.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 9.042482111923146e-11,
+          "logit": 27.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.484542640784433e-11,
+          "logit": 27.125
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 95,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999999069313,
+        "logit": 45.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.052879850455757e-11,
+          "logit": 22.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.2256067442958827e-11,
+          "logit": 20.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 9.545034921952285e-12,
+          "logit": 20.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.1937956579892333e-13,
+          "logit": 17.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.0603575990536985e-13,
+          "logit": 15.625
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 96,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999997818656,
+        "logit": 41.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.052879849573684e-11,
+          "logit": 18.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.289734845146083e-11,
+          "logit": 17.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.0206839085814364e-11,
+          "logit": 16.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.5737102103430098e-11,
+          "logit": 16.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.162737731290515e-12,
+          "logit": 15.6875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 97,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.4999979387378216,
+        "logit": 44.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.4999979387378216,
+          "logit": 44.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.944646151633232e-06,
+          "logit": 32.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.0512125925235408e-07,
+          "logit": 29.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.375926672415309e-08,
+          "logit": 28.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.720177271358816e-09,
+          "logit": 26.375
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 98,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999938555387009,
+        "logit": 47.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.144174600453191e-06,
+          "logit": 35.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.691887526813823e-10,
+          "logit": 24.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.492754600729237e-11,
+          "logit": 23.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.7751113481109914e-11,
+          "logit": 23.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.0206714930081403e-11,
+          "logit": 22.375
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 99,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.999899669599746,
+        "logit": 44.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 9.610200914087429e-05,
+          "logit": 35.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.222427596698686e-06,
+          "logit": 31.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.3353587078149238e-09,
+          "logit": 24.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.6050670020123358e-09,
+          "logit": 24.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.591304563658158e-10,
+          "logit": 23.375
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 100,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999674393003,
+        "logit": 48.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.224186632274957e-08,
+          "logit": 31.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.1628232651597566e-10,
+          "logit": 25.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.991959632730126e-11,
+          "logit": 25.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.224144420245278e-11,
+          "logit": 24.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.331544433688991e-11,
+          "logit": 24.125
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 101,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9993726787776961,
+        "logit": 41.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0005527374085847153,
+          "logit": 33.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.601506937932714e-05,
+          "logit": 31.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.957937121978755e-06,
+          "logit": 29.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.333611772067708e-07,
+          "logit": 27.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.711422590828004e-07,
+          "logit": 26.875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 102,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9932681922719522,
+        "logit": 41.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.006692588435405847,
+          "logit": 36.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.4137242735659924e-05,
+          "logit": 30.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.102850697125308e-06,
+          "logit": 29.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.194423854196235e-06,
+          "logit": 29.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.748495999247956e-06,
+          "logit": 28.25
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 103,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999994122142706,
+        "logit": 42.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.059021406968072e-07,
+          "logit": 27.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.444979396770477e-07,
+          "logit": 26.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.764243067943604e-08,
+          "logit": 25.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.7257817844055202e-08,
+          "logit": 24.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.0467395642155257e-08,
+          "logit": 23.625
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 104,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999999243716,
+        "logit": 50.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.331544541914453e-11,
+          "logit": 26.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.331544541914453e-11,
+          "logit": 26.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.109089027676933e-12,
+          "logit": 24.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.413362771650695e-12,
+          "logit": 24.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.2917800046883008e-12,
+          "logit": 23.375
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 105,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999990817618,
+        "logit": 50.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.905303993521564e-10,
+          "logit": 29.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.789468090307529e-10,
+          "logit": 28.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.289734843543031e-11,
+          "logit": 26.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.2256067432845494e-11,
+          "logit": 25.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.0815941547354083e-11,
+          "logit": 25.5
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 106,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999999682239,
+        "logit": 46.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.783247290757974e-11,
+          "logit": 21.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 9.545034922537324e-12,
+          "logit": 21.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.978962535710804e-12,
+          "logit": 20.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.543665647296095e-13,
+          "logit": 17.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.6756852324523715e-14,
+          "logit": 16.0
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 107,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999998033839,
+        "logit": 41.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.3176514267504752e-10,
+          "logit": 18.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.7832472904640238e-11,
+          "logit": 16.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.7832472904640238e-11,
+          "logit": 16.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.983296727018678e-12,
+          "logit": 15.5625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.789356327592371e-12,
+          "logit": 15.375
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 108,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9988304628817245,
+        "logit": 43.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0011695102336136268,
+          "logit": 37.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.5080624490273808e-08,
+          "logit": 26.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.4149520100851417e-09,
+          "logit": 23.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.6899191851942989e-10,
+          "logit": 21.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.0249877982569339e-10,
+          "logit": 20.75
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 109,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.8807957937422611,
+        "logit": 37.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.11920274821972601,
+          "logit": 35.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.2075349966798346e-06,
+          "logit": 24.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.719512966999056e-08,
+          "logit": 21.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.305538499706339e-08,
+          "logit": 21.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.646439729060907e-08,
+          "logit": 20.75
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 110,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999898665505482,
+        "logit": 46.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.0129990945839287e-05,
+          "logit": 34.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.0611327358425126e-09,
+          "logit": 26.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.905244157844469e-10,
+          "logit": 25.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.160849423681252e-10,
+          "logit": 24.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.172417920768748e-10,
+          "logit": 24.0
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 111,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.8764131267204271,
+        "logit": 33.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.07194037030081311,
+          "logit": 31.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.038506905375398366,
+          "logit": 30.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.005905225197145014,
+          "logit": 28.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.005211342945544981,
+          "logit": 28.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0010261742694708212,
+          "logit": 26.75
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 112,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9973529692408087,
+        "logit": 42.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0024721908434103103,
+          "logit": 36.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.00015804187311402765,
+          "logit": 34.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.2972866937083347e-05,
+          "logit": 31.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.3673301155128328e-06,
+          "logit": 29.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.2066645917507122e-06,
+          "logit": 29.125
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 113,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999992110068859,
+        "logit": 46.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.475947066360536e-07,
+          "logit": 31.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.1253508592978117e-07,
+          "logit": 30.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.1861110793001706e-08,
+          "logit": 27.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.152014282581957e-09,
+          "logit": 27.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.398265138285162e-09,
+          "logit": 26.5
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 114,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.6791786454907642,
+        "logit": 48.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.320821275465784,
+          "logit": 47.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.64314875358929e-08,
+          "logit": 32.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.308030934659515e-09,
+          "logit": 29.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.8945471609544215e-10,
+          "logit": 26.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.73058455216885e-11,
+          "logit": 24.875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 115,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999933058823,
+        "logit": 43.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.602796400031489e-09,
+          "logit": 24.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.592166561657135e-10,
+          "logit": 22.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.1724399205364485e-10,
+          "logit": 21.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.0815941484882508e-11,
+          "logit": 18.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.914400060654395e-13,
+          "logit": 15.5
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 116,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999968133724,
+        "logit": 39.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.9989608153007357e-09,
+          "logit": 19.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.8473686908234965e-11,
+          "logit": 15.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.1510068175241724e-11,
+          "logit": 14.4375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.02068390258305e-11,
+          "logit": 14.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.4783639242906527e-11,
+          "logit": 14.0625
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 117,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9997945779781736,
+        "logit": 42.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.00020342657212690427,
+          "logit": 33.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.9943239382518978e-06,
+          "logit": 29.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.581002803018184e-10,
+          "logit": 21.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.5810121603816695e-10,
+          "logit": 20.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.421733389513423e-12,
+          "logit": 16.75
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 118,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999970328808752,
+        "logit": 46.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.902311797120013e-06,
+          "logit": 34.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.023555965225345e-08,
+          "logit": 30.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.3982577364296325e-09,
+          "logit": 27.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 9.736171424543413e-10,
+          "logit": 26.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.3176475173807977e-10,
+          "logit": 24.0
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 119,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999986290298217,
+        "logit": 48.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.370957206840061e-06,
+          "logit": 35.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.0815926728952367e-11,
+          "logit": 23.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.1399902901495213e-12,
+          "logit": 21.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.882346841827406e-13,
+          "logit": 19.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.882346841827406e-13,
+          "logit": 19.625
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 120,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9975270540430443,
+        "logit": 42.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.002472622356492776,
+          "logit": 36.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.8508030800472265e-07,
+          "logit": 27.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.742574707243606e-08,
+          "logit": 26.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.5047895905338655e-08,
+          "logit": 25.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.1318612078033e-09,
+          "logit": 23.875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 121,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999994906067174,
+        "logit": 46.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.043474056565766e-07,
+          "logit": 32.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.3982660884402714e-09,
+          "logit": 27.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.2501522295672705e-09,
+          "logit": 26.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.691897060773694e-10,
+          "logit": 24.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.317650755806761e-10,
+          "logit": 24.0
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 122,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999740619621,
+        "logit": 46.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.5109990906135907e-08,
+          "logit": 28.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.582560231235167e-10,
+          "logit": 25.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.2777877580115744e-11,
+          "logit": 22.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.020683856609641e-11,
+          "logit": 21.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.10908889554358e-12,
+          "logit": 20.25
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 123,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9997416713395907,
+        "logit": 46.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.00020341580729944198,
+          "logit": 37.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.5348366994579875e-05,
+          "logit": 35.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.30039374962891e-05,
+          "logit": 34.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.142625127181704e-06,
+          "logit": 34.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.465431960944911e-07,
+          "logit": 31.125
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 124,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9890123595945092,
+        "logit": 44.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.01098693487901426,
+          "logit": 40.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.404796742050899e-07,
+          "logit": 30.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.613339064928822e-08,
+          "logit": 27.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.3292731559689569e-08,
+          "logit": 26.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.115086483558904e-09,
+          "logit": 25.75
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 125,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999999772486,
+        "logit": 45.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.0815941557039617e-11,
+          "logit": 20.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.978962535746713e-12,
+          "logit": 19.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.0988191386513234e-12,
+          "logit": 18.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.6586783588764941e-12,
+          "logit": 18.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.835041784886132e-13,
+          "logit": 17.375
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 126,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9210916925902819,
+        "logit": 36.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0756078103187579,
+          "logit": 34.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0022831580379174617,
+          "logit": 30.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.000577272755465409,
+          "logit": 29.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.00027268434149050203,
+          "logit": 28.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0001653914135375392,
+          "logit": 28.125
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 127,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999998088083121,
+        "logit": 38.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.1253515320346911e-07,
+          "logit": 22.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.315784238090466e-08,
+          "logit": 21.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.725782468840695e-08,
+          "logit": 20.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.34879890220587e-09,
+          "logit": 19.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.592164976423271e-10,
+          "logit": 17.375
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 128,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999582172552,
+        "logit": 40.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.65348206106853e-08,
+          "logit": 23.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.9989606995524924e-09,
+          "logit": 20.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 9.736199906204392e-10,
+          "logit": 19.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.599055186491159e-10,
+          "logit": 18.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.599055186491159e-10,
+          "logit": 18.75
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 129,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999986190069121,
+        "logit": 48.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.3709571930990621e-06,
+          "logit": 34.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 9.237436905116462e-09,
+          "logit": 29.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.582549956448367e-10,
+          "logit": 27.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.289731683537558e-11,
+          "logit": 23.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.508749015735e-12,
+          "logit": 22.125
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 130,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999918434647,
+        "logit": 41.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.3982677917769796e-09,
+          "logit": 21.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.9989608003961773e-09,
+          "logit": 21.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.2501528561898266e-09,
+          "logit": 20.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.172439917359434e-10,
+          "logit": 19.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.0261879548000506e-10,
+          "logit": 18.25
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 131,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9994340653004066,
+        "logit": 43.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0005527713605109643,
+          "logit": 35.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.2999936372977244e-05,
+          "logit": 31.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.730044729403018e-08,
+          "logit": 26.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.137594784375951e-08,
+          "logit": 26.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.3432803556766914e-08,
+          "logit": 24.875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 132,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9889686483377468,
+        "logit": 42.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.008556255310860381,
+          "logit": 38.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0024514081897219764,
+          "logit": 36.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.1208836475908258e-05,
+          "logit": 32.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.2353949184201137e-06,
+          "logit": 29.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.8349238880238543e-07,
+          "logit": 27.25
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 133,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999957685992902,
+        "logit": 48.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.7266374031157935e-06,
+          "logit": 36.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.043455284708306e-07,
+          "logit": 34.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.1724307426151338e-10,
+          "logit": 26.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.052850007551353e-11,
+          "logit": 25.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.8473481951108716e-11,
+          "logit": 25.0
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 134,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999998092264357,
+        "logit": 54.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.8553910086563548e-07,
+          "logit": 39.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.646573134012831e-09,
+          "logit": 34.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.061153229224935e-09,
+          "logit": 34.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.5990545012741297e-10,
+          "logit": 33.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.7832469506181972e-11,
+          "logit": 29.75
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 135,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999980984210541,
+        "logit": 43.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.553497213850823e-06,
+          "logit": 29.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.382365137237817e-07,
+          "logit": 28.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.02356238358529e-08,
+          "logit": 26.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.5109943808808544e-08,
+          "logit": 25.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.3440384393134436e-08,
+          "logit": 25.125
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 136,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999998049774671,
+        "logit": 36.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 9.931192375349574e-08,
+          "logit": 20.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.139936911404027e-08,
+          "logit": 19.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.1861117838158135e-08,
+          "logit": 18.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.1861117838158135e-08,
+          "logit": 18.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.348798877884601e-09,
+          "logit": 17.375
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 137,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999988829943975,
+        "logit": 47.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.0677028174034218e-06,
+          "logit": 34.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.139933094451541e-08,
+          "logit": 30.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.3982640236108782e-09,
+          "logit": 28.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.6052262621368808e-09,
+          "logit": 27.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.582551958149428e-10,
+          "logit": 26.75
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 138,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999998335105185,
+        "logit": 45.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.637376857984743e-07,
+          "logit": 30.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.06115327927816e-09,
+          "logit": 25.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.581747333959825e-10,
+          "logit": 24.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.3176512076344436e-10,
+          "logit": 23.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.2777871567623135e-11,
+          "logit": 21.875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 139,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9951370801819506,
+        "logit": 40.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0024666982035824146,
+          "logit": 34.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0019210664925508121,
+          "logit": 34.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0004286478741386451,
+          "logit": 32.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.740254180448556e-05,
+          "logit": 30.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.896302808716562e-06,
+          "logit": 28.875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 140,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9988780461048264,
+        "logit": 39.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.000626023539987924,
+          "logit": 31.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0004875476231637282,
+          "logit": 31.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.954493338584043e-06,
+          "logit": 27.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.0665060953618318e-06,
+          "logit": 25.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.85330969904962e-07,
+          "logit": 23.75
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 141,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.951403338286785,
+        "logit": 40.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.047367583048698154,
+          "logit": 37.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0006756622843105785,
+          "logit": 33.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.00040980989104584005,
+          "logit": 33.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.363924434255789e-05,
+          "logit": 30.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.363924434255789e-05,
+          "logit": 30.5
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 142,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9984950863713886,
+        "logit": 38.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.0015011766468462722,
+          "logit": 32.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.721044880930902e-06,
+          "logit": 26.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.339245720223717e-09,
+          "logit": 19.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.3931537199398417e-09,
+          "logit": 19.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.24827149430027e-09,
+          "logit": 18.25
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 143,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999964462350498,
+        "logit": 35.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.288748193886888e-06,
+          "logit": 22.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.6373713117373557e-07,
+          "logit": 19.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.2241752792549133e-08,
+          "logit": 18.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.2159411023747907e-08,
+          "logit": 17.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.344036218707722e-08,
+          "logit": 17.375
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 144,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999538045664,
+        "logit": 43.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.215948874969874e-08,
+          "logit": 25.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.955568018446733e-08,
+          "logit": 25.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.0611535272226727e-09,
+          "logit": 23.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.6052279810314057e-09,
+          "logit": 23.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.7894679640082364e-10,
+          "logit": 21.25
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 145,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999993284990022,
+        "logit": 49.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.043473238979294e-07,
+          "logit": 35.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.4449792758035677e-07,
+          "logit": 34.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.9555667956191135e-08,
+          "logit": 32.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.8189604661184578e-09,
+          "logit": 29.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.691581597886046e-10,
+          "logit": 28.625
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 146,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999992491495329,
+        "logit": 25.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.338209680288044e-07,
+          "logit": 10.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.2937116372193026e-09,
+          "logit": 5.46875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.565145202277792e-09,
+          "logit": 5.21875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.565145202277792e-09,
+          "logit": 5.21875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.4862239813051802e-09,
+          "logit": 5.1875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 147,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999954146035,
+        "logit": 46.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.6465736267735276e-09,
+          "logit": 26.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 9.736200268365225e-10,
+          "logit": 25.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.160881439819797e-10,
+          "logit": 24.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.160881439819797e-10,
+          "logit": 24.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.6918979148571076e-10,
+          "logit": 23.5
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 148,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999999372515,
+        "logit": 51.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.2897348455018756e-11,
+          "logit": 27.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.573710210587542e-11,
+          "logit": 26.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 9.545034922241691e-12,
+          "logit": 26.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.5087552420119075e-12,
+          "logit": 25.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.6586783588101517e-12,
+          "logit": 24.375
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 149,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999642909637,
+        "logit": 39.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.1861119727794661e-08,
+          "logit": 20.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 9.23744933211017e-09,
+          "logit": 20.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.3982676981462024e-09,
+          "logit": 19.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.646573544402523e-09,
+          "logit": 19.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.3355929553975606e-09,
+          "logit": 19.125
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 150,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.6224593303062628,
+        "logit": 45.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.37754066825494154,
+          "logit": 45.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.817813566398913e-10,
+          "logit": 25.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.526345884592149e-10,
+          "logit": 23.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.5323062360439727e-10,
+          "logit": 23.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.201844248334538e-11,
+          "logit": 22.75
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 151,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.991409681036987,
+        "logit": 41.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.008577374381755059,
+          "logit": 36.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.902496305195493e-06,
+          "logit": 29.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.744011707455161e-06,
+          "logit": 29.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.275177581087386e-07,
+          "logit": 27.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.4365505545569626e-07,
+          "logit": 26.375
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 152,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999984913426488,
+        "logit": 43.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.315274646116531e-07,
+          "logit": 29.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.059018590000412e-07,
+          "logit": 28.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.125350049422405e-07,
+          "logit": 27.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.125350049422405e-07,
+          "logit": 27.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.023564750377528e-08,
+          "logit": 26.875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 153,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.999998221431999,
+        "logit": 38.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.3709566480401224e-06,
+          "logit": 24.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.927856559508625e-07,
+          "logit": 23.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.19412023507058e-09,
+          "logit": 19.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.998955491001548e-09,
+          "logit": 18.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.8189584524059932e-09,
+          "logit": 18.125
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 154,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999557545651,
+        "logit": 48.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.139937535611822e-08,
+          "logit": 31.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.3355929354600073e-09,
+          "logit": 28.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.599055175165111e-10,
+          "logit": 26.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.775134377246628e-11,
+          "logit": 24.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.5087550428029885e-12,
+          "logit": 21.875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 155,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.6791780310370101,
+        "logit": 45.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.32082098521838237,
+          "logit": 44.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.0229212376710143e-07,
+          "logit": 30.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.667718629001862e-07,
+          "logit": 30.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.667718629001862e-07,
+          "logit": 30.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.9524848492013503e-08,
+          "logit": 28.75
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 156,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.999999842126825,
+        "logit": 37.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.825602298755194e-08,
+          "logit": 20.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.023572886925752e-08,
+          "logit": 20.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.348799113738449e-09,
+          "logit": 18.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.602795553006006e-09,
+          "logit": 18.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.398267282999741e-09,
+          "logit": 17.75
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 157,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999355215471929,
+        "logit": 48.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.829090498114453e-05,
+          "logit": 38.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.143816184021949e-06,
+          "logit": 36.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.6532466428405464e-08,
+          "logit": 30.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.0610207224419855e-09,
+          "logit": 28.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.0610207224419855e-09,
+          "logit": 28.0
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 158,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9241283178681313,
+        "logit": 43.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.07585707170051147,
+          "logit": 40.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.3620911377545978e-05,
+          "logit": 31.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.629849931100947e-07,
+          "logit": 28.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.826929968773102e-07,
+          "logit": 28.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.2016152733685144e-07,
+          "logit": 27.75
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 159,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.8807912705033777,
+        "logit": 45.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.11920213606591057,
+          "logit": 43.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.21468962732112e-06,
+          "logit": 33.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.990878410130989e-06,
+          "logit": 32.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.8518053839887175e-07,
+          "logit": 30.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 9.911999951729582e-08,
+          "logit": 29.5
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 160,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999985830787238,
+        "logit": 31.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.699574678272796e-07,
+          "logit": 15.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.536015716809951e-07,
+          "logit": 15.8125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.637374810556319e-07,
+          "logit": 15.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 9.329480447020396e-08,
+          "logit": 14.8125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.764235801193864e-08,
+          "logit": 14.75
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 161,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9992903026879829,
+        "logit": 45.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.000709670379987724,
+          "logit": 38.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.7245580153825904e-08,
+          "logit": 27.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 9.2308938687756e-09,
+          "logit": 27.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.6906971872072433e-10,
+          "logit": 23.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.4920350309188798e-10,
+          "logit": 22.875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 162,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9888008138245974,
+        "logit": 45.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.010984584817788629,
+          "logit": 40.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.00020118968886528843,
+          "logit": 36.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.2861626506000839e-05,
+          "logit": 34.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.88387467036362e-07,
+          "logit": 30.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.1127487234629667e-07,
+          "logit": 29.25
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 163,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999921482764,
+        "logit": 44.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.3488000661946564e-09,
+          "logit": 25.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.211412446969969e-10,
+          "logit": 23.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.211412446969969e-10,
+          "logit": 23.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.4616969324868207e-10,
+          "logit": 22.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 9.056076918567053e-11,
+          "logit": 21.625
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 164,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999990623161,
+        "logit": 54.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.905303993406731e-10,
+          "logit": 33.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.7894680902532854e-10,
+          "logit": 32.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.7751345407392145e-11,
+          "logit": 30.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.2897348434985055e-11,
+          "logit": 29.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.97896253210623e-12,
+          "logit": 28.0
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 165,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999998029763,
+        "logit": 52.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.6918979222817865e-10,
+          "logit": 30.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.5737102103762318e-11,
+          "logit": 27.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.109089027056713e-12,
+          "logit": 26.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.0988191381112847e-12,
+          "logit": 26.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.0988191381112847e-12,
+          "logit": 26.25
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 166,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999972022964,
+        "logit": 48.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.6052280506946593e-09,
+          "logit": 27.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 9.736200285770561e-10,
+          "logit": 27.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.0261879602992192e-10,
+          "logit": 25.0
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.331544532845738e-11,
+          "logit": 23.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.5946094910175184e-11,
+          "logit": 23.625
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 167,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999999960316,
+        "logit": 50.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.129785170947333e-12,
+          "logit": 23.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.1399918530398315e-12,
+          "logit": 22.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.752193062752294e-13,
+          "logit": 21.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.2015425731724104e-13,
+          "logit": 20.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.0379753854310725e-14,
+          "logit": 18.875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 168,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.999999999996789,
+        "logit": 44.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.291780004781848e-12,
+          "logit": 16.875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 7.835041785039232e-13,
+          "logit": 16.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.193795658366078e-13,
+          "logit": 15.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.8609855424296586e-13,
+          "logit": 14.9375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.7482341282654432e-13,
+          "logit": 14.875
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 169,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999999652054,
+        "logit": 39.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.675205799159725e-11,
+          "logit": 14.1875
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 4.799544971872694e-12,
+          "logit": 12.9375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.0988191386140033e-12,
+          "logit": 12.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.9110711781103973e-12,
+          "logit": 12.4375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.5581841173158313e-12,
+          "logit": 11.8125
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 170,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.999999999708687,
+        "logit": 37.5
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.507397019464914e-11,
+          "logit": 14.3125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.625567460658612e-11,
+          "logit": 14.0625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 5.159997126653346e-11,
+          "logit": 13.8125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.5464107037410664e-11,
+          "logit": 13.4375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.225606744052913e-11,
+          "logit": 12.375
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 171,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.6224560310586585,
+        "logit": 40.0
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 0.3775386671601156,
+          "logit": 39.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.6285392456682157e-06,
+          "logit": 27.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.0471084228603264e-06,
+          "logit": 27.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.557341033110603e-07,
+          "logit": 25.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.019195270053772e-07,
+          "logit": 24.375
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 172,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999670588935,
+        "logit": 44.25
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.5229979243020242e-08,
+          "logit": 26.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 6.348799906907179e-09,
+          "logit": 25.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.335592961862318e-09,
+          "logit": 24.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.0611535545418766e-09,
+          "logit": 24.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.8189616276344352e-09,
+          "logit": 24.125
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 173,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999934789678,
+        "logit": 42.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.850741897656805e-09,
+          "logit": 23.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.6052280447178678e-09,
+          "logit": 22.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.7894680746787137e-10,
+          "logit": 20.75
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 2.46169693576258e-10,
+          "logit": 20.625
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.6918979115822096e-10,
+          "logit": 20.25
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    },
+    {
+      "step": 174,
+      "selected": {
+        "id": "[REDACTED]",
+        "repr": "[REDACTED]",
+        "prob": 0.9999999999814697,
+        "logit": 46.75
+      },
+      "runners": [
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.081594155708527e-11,
+          "logit": 21.5
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 3.0988191386644036e-12,
+          "logit": 20.25
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.2917800047620588e-12,
+          "logit": 19.375
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 1.0060392792646747e-12,
+          "logit": 19.125
+        },
+        {
+          "id": "[REDACTED]",
+          "repr": "[REDACTED]",
+          "prob": 8.878265478295141e-13,
+          "logit": 19.0
+        }
+      ],
+      "target_id_at_step": "[REDACTED]",
+      "target_repr_at_step": "[REDACTED]",
+      "hit_target": false
+    }
+  ]
+}

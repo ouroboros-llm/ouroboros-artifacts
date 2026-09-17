@@ -1,0 +1,40 @@
+python stego_safetensors.py capacity models/Meta-Llama-3.1-8B-Instruct/model-00004-of-00004.safetensors                                           
+
+[*] Bits counted per weight: 1
+[*] Encoding scheme: raw
+
+[001] lm_head.weight
+     meta dtype=BF16, torch dtype=torch.bfloat16, shape=(128256, 4096), weights=525336576
+     offsets: [REDACTED]
+     raw capacity         : 525336576 bits (65667072 bytes, 62.6250 MiB)
+     payload (raw) : 525336576 bits (65667072 bytes, 62.6250 MiB)
+
+[002] model.layers.31.input_layernorm.weight
+     meta dtype=BF16, torch dtype=torch.bfloat16, shape=(4096,), weights=4096
+     offsets: [REDACTED]
+     raw capacity         : 4096 bits (512 bytes, 0.0005 MiB)
+     payload (raw) : 4096 bits (512 bytes, 0.0005 MiB)
+
+[003] model.layers.31.mlp.down_proj.weight
+     meta dtype=BF16, torch dtype=torch.bfloat16, shape=(4096, 14336), weights=58720256
+     offsets: [REDACTED]
+     raw capacity         : 58720256 bits (7340032 bytes, 7.0000 MiB)
+     payload (raw) : 58720256 bits (7340032 bytes, 7.0000 MiB)
+
+[004] model.layers.31.post_attention_layernorm.weight
+     meta dtype=BF16, torch dtype=torch.bfloat16, shape=(4096,), weights=4096
+     offsets: [REDACTED]
+     raw capacity         : 4096 bits (512 bytes, 0.0005 MiB)
+     payload (raw) : 4096 bits (512 bytes, 0.0005 MiB)
+
+[005] model.norm.weight
+     meta dtype=BF16, torch dtype=torch.bfloat16, shape=(4096,), weights=4096
+     offsets: [REDACTED]
+     raw capacity         : 4096 bits (512 bytes, 0.0005 MiB)
+     payload (raw) : 4096 bits (512 bytes, 0.0005 MiB)
+
+[=] Total
+    tensors counted : 5
+    weights         : 584069120
+    raw capacity    : 584069120 bits (73008640 bytes, 69.6265 MiB)
+    payload capacity: 584069120 bits (73008640 bytes, 69.6265 MiB)

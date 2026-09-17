@@ -1,0 +1,3627 @@
+{
+  "results": {
+    "mmlu": {
+      "acc,none": 0.6062526705597493,
+      "acc_stderr,none": 0.0039012229208027567,
+      "alias": "mmlu"
+    },
+    "mmlu_humanities": {
+      "acc,none": 0.5353878852284804,
+      "acc_stderr,none": 0.006831690695056719,
+      "alias": " - humanities"
+    },
+    "mmlu_formal_logic": {
+      "alias": "  - formal_logic",
+      "acc,none": 0.5,
+      "acc_stderr,none": 0.04472135954999579
+    },
+    "mmlu_high_school_european_history": {
+      "alias": "  - high_school_european_history",
+      "acc,none": 0.7515151515151515,
+      "acc_stderr,none": 0.03374402644139407
+    },
+    "mmlu_high_school_us_history": {
+      "alias": "  - high_school_us_history",
+      "acc,none": 0.7696078431372549,
+      "acc_stderr,none": 0.029554292605695046
+    },
+    "mmlu_high_school_world_history": {
+      "alias": "  - high_school_world_history",
+      "acc,none": 0.7552742616033755,
+      "acc_stderr,none": 0.027985699387036475
+    },
+    "mmlu_international_law": {
+      "alias": "  - international_law",
+      "acc,none": 0.7603305785123967,
+      "acc_stderr,none": 0.038968789850704115
+    },
+    "mmlu_jurisprudence": {
+      "alias": "  - jurisprudence",
+      "acc,none": 0.7222222222222222,
+      "acc_stderr,none": 0.04330043749650743
+    },
+    "mmlu_logical_fallacies": {
+      "alias": "  - logical_fallacies",
+      "acc,none": 0.7607361963190185,
+      "acc_stderr,none": 0.033519538795212675
+    },
+    "mmlu_moral_disputes": {
+      "alias": "  - moral_disputes",
+      "acc,none": 0.5838150289017341,
+      "acc_stderr,none": 0.026538189104705425
+    },
+    "mmlu_moral_scenarios": {
+      "alias": "  - moral_scenarios",
+      "acc,none": 0.31843575418994413,
+      "acc_stderr,none": 0.015581008080360283
+    },
+    "mmlu_philosophy": {
+      "alias": "  - philosophy",
+      "acc,none": 0.6688102893890675,
+      "acc_stderr,none": 0.02673062072800498
+    },
+    "mmlu_prehistory": {
+      "alias": "  - prehistory",
+      "acc,none": 0.6851851851851852,
+      "acc_stderr,none": 0.025842248700902248
+    },
+    "mmlu_professional_law": {
+      "alias": "  - professional_law",
+      "acc,none": 0.41916558018252936,
+      "acc_stderr,none": 0.01260224450578842
+    },
+    "mmlu_world_religions": {
+      "alias": "  - world_religions",
+      "acc,none": 0.8304093567251462,
+      "acc_stderr,none": 0.02878210810540169
+    },
+    "mmlu_other": {
+      "acc,none": 0.6543289346636627,
+      "acc_stderr,none": 0.00823423676596704,
+      "alias": " - other"
+    },
+    "mmlu_business_ethics": {
+      "alias": "  - business_ethics",
+      "acc,none": 0.63,
+      "acc_stderr,none": 0.048523658709390974
+    },
+    "mmlu_clinical_knowledge": {
+      "alias": "  - clinical_knowledge",
+      "acc,none": 0.6867924528301886,
+      "acc_stderr,none": 0.02854479331905527
+    },
+    "mmlu_college_medicine": {
+      "alias": "  - college_medicine",
+      "acc,none": 0.6069364161849711,
+      "acc_stderr,none": 0.0372424959581773
+    },
+    "mmlu_global_facts": {
+      "alias": "  - global_facts",
+      "acc,none": 0.31,
+      "acc_stderr,none": 0.04648231987117317
+    },
+    "mmlu_human_aging": {
+      "alias": "  - human_aging",
+      "acc,none": 0.6098654708520179,
+      "acc_stderr,none": 0.03273766725459165
+    },
+    "mmlu_management": {
+      "alias": "  - management",
+      "acc,none": 0.7766990291262136,
+      "acc_stderr,none": 0.041235531898914324
+    },
+    "mmlu_marketing": {
+      "alias": "  - marketing",
+      "acc,none": 0.8247863247863247,
+      "acc_stderr,none": 0.02490443909891819
+    },
+    "mmlu_medical_genetics": {
+      "alias": "  - medical_genetics",
+      "acc,none": 0.68,
+      "acc_stderr,none": 0.046882617226215076
+    },
+    "mmlu_miscellaneous": {
+      "alias": "  - miscellaneous",
+      "acc,none": 0.7573435504469987,
+      "acc_stderr,none": 0.015329888940899851
+    },
+    "mmlu_nutrition": {
+      "alias": "  - nutrition",
+      "acc,none": 0.6503267973856209,
+      "acc_stderr,none": 0.027305308076274667
+    },
+    "mmlu_professional_accounting": {
+      "alias": "  - professional_accounting",
+      "acc,none": 0.41843971631205673,
+      "acc_stderr,none": 0.02942799403941995
+    },
+    "mmlu_professional_medicine": {
+      "alias": "  - professional_medicine",
+      "acc,none": 0.6838235294117647,
+      "acc_stderr,none": 0.028245687391462857
+    },
+    "mmlu_virology": {
+      "alias": "  - virology",
+      "acc,none": 0.4759036144578313,
+      "acc_stderr,none": 0.03887971849597268
+    },
+    "mmlu_social_sciences": {
+      "acc,none": 0.7250568735781605,
+      "acc_stderr,none": 0.007866203494559304,
+      "alias": " - social sciences"
+    },
+    "mmlu_econometrics": {
+      "alias": "  - econometrics",
+      "acc,none": 0.4298245614035088,
+      "acc_stderr,none": 0.04657047260594963
+    },
+    "mmlu_high_school_geography": {
+      "alias": "  - high_school_geography",
+      "acc,none": 0.803030303030303,
+      "acc_stderr,none": 0.02833560973246333
+    },
+    "mmlu_high_school_government_and_politics": {
+      "alias": "  - high_school_government_and_politics",
+      "acc,none": 0.8290155440414507,
+      "acc_stderr,none": 0.02717121368316455
+    },
+    "mmlu_high_school_macroeconomics": {
+      "alias": "  - high_school_macroeconomics",
+      "acc,none": 0.6897435897435897,
+      "acc_stderr,none": 0.02345467488940427
+    },
+    "mmlu_high_school_microeconomics": {
+      "alias": "  - high_school_microeconomics",
+      "acc,none": 0.773109243697479,
+      "acc_stderr,none": 0.02720537153827948
+    },
+    "mmlu_high_school_psychology": {
+      "alias": "  - high_school_psychology",
+      "acc,none": 0.8385321100917431,
+      "acc_stderr,none": 0.01577623925616323
+    },
+    "mmlu_human_sexuality": {
+      "alias": "  - human_sexuality",
+      "acc,none": 0.7175572519083969,
+      "acc_stderr,none": 0.039484061257683584
+    },
+    "mmlu_professional_psychology": {
+      "alias": "  - professional_psychology",
+      "acc,none": 0.6290849673202614,
+      "acc_stderr,none": 0.01954210156485416
+    },
+    "mmlu_public_relations": {
+      "alias": "  - public_relations",
+      "acc,none": 0.6090909090909091,
+      "acc_stderr,none": 0.046737523336702363
+    },
+    "mmlu_security_studies": {
+      "alias": "  - security_studies",
+      "acc,none": 0.6938775510204082,
+      "acc_stderr,none": 0.029504896454595975
+    },
+    "mmlu_sociology": {
+      "alias": "  - sociology",
+      "acc,none": 0.7810945273631841,
+      "acc_stderr,none": 0.02923917463664699
+    },
+    "mmlu_us_foreign_policy": {
+      "alias": "  - us_foreign_policy",
+      "acc,none": 0.8,
+      "acc_stderr,none": 0.04020151261036849
+    },
+    "mmlu_stem": {
+      "acc,none": 0.5486837932128132,
+      "acc_stderr,none": 0.008554328968275694,
+      "alias": " - stem"
+    },
+    "mmlu_abstract_algebra": {
+      "alias": "  - abstract_algebra",
+      "acc,none": 0.33,
+      "acc_stderr,none": 0.04725815626252609
+    },
+    "mmlu_anatomy": {
+      "alias": "  - anatomy",
+      "acc,none": 0.5555555555555556,
+      "acc_stderr,none": 0.04292596718256977
+    },
+    "mmlu_astronomy": {
+      "alias": "  - astronomy",
+      "acc,none": 0.7105263157894737,
+      "acc_stderr,none": 0.03690677986137281
+    },
+    "mmlu_college_biology": {
+      "alias": "  - college_biology",
+      "acc,none": 0.6944444444444444,
+      "acc_stderr,none": 0.038520846960085356
+    },
+    "mmlu_college_chemistry": {
+      "alias": "  - college_chemistry",
+      "acc,none": 0.47,
+      "acc_stderr,none": 0.05016135580465919
+    },
+    "mmlu_college_computer_science": {
+      "alias": "  - college_computer_science",
+      "acc,none": 0.58,
+      "acc_stderr,none": 0.04960449637488582
+    },
+    "mmlu_college_mathematics": {
+      "alias": "  - college_mathematics",
+      "acc,none": 0.36,
+      "acc_stderr,none": 0.048241815132442176
+    },
+    "mmlu_college_physics": {
+      "alias": "  - college_physics",
+      "acc,none": 0.5098039215686274,
+      "acc_stderr,none": 0.04974229460422813
+    },
+    "mmlu_computer_security": {
+      "alias": "  - computer_security",
+      "acc,none": 0.75,
+      "acc_stderr,none": 0.04351941398892446
+    },
+    "mmlu_conceptual_physics": {
+      "alias": "  - conceptual_physics",
+      "acc,none": 0.5617021276595745,
+      "acc_stderr,none": 0.03243618636108098
+    },
+    "mmlu_electrical_engineering": {
+      "alias": "  - electrical_engineering",
+      "acc,none": 0.5241379310344828,
+      "acc_stderr,none": 0.04161808503501534
+    },
+    "mmlu_elementary_mathematics": {
+      "alias": "  - elementary_mathematics",
+      "acc,none": 0.5079365079365079,
+      "acc_stderr,none": 0.025748065871673272
+    },
+    "mmlu_high_school_biology": {
+      "alias": "  - high_school_biology",
+      "acc,none": 0.7774193548387097,
+      "acc_stderr,none": 0.02366421667164245
+    },
+    "mmlu_high_school_chemistry": {
+      "alias": "  - high_school_chemistry",
+      "acc,none": 0.4729064039408867,
+      "acc_stderr,none": 0.03512819077876112
+    },
+    "mmlu_high_school_computer_science": {
+      "alias": "  - high_school_computer_science",
+      "acc,none": 0.68,
+      "acc_stderr,none": 0.046882617226215076
+    },
+    "mmlu_high_school_mathematics": {
+      "alias": "  - high_school_mathematics",
+      "acc,none": 0.32592592592592595,
+      "acc_stderr,none": 0.028578348365473138
+    },
+    "mmlu_high_school_physics": {
+      "alias": "  - high_school_physics",
+      "acc,none": 0.423841059602649,
+      "acc_stderr,none": 0.04034846678603395
+    },
+    "mmlu_high_school_statistics": {
+      "alias": "  - high_school_statistics",
+      "acc,none": 0.625,
+      "acc_stderr,none": 0.033016908987210894
+    },
+    "mmlu_machine_learning": {
+      "alias": "  - machine_learning",
+      "acc,none": 0.48214285714285715,
+      "acc_stderr,none": 0.047427623612430116
+    }
+  },
+  "groups": {
+    "mmlu": {
+      "acc,none": 0.6062526705597493,
+      "acc_stderr,none": 0.0039012229208027567,
+      "alias": "mmlu"
+    },
+    "mmlu_humanities": {
+      "acc,none": 0.5353878852284804,
+      "acc_stderr,none": 0.006831690695056719,
+      "alias": " - humanities"
+    },
+    "mmlu_other": {
+      "acc,none": 0.6543289346636627,
+      "acc_stderr,none": 0.00823423676596704,
+      "alias": " - other"
+    },
+    "mmlu_social_sciences": {
+      "acc,none": 0.7250568735781605,
+      "acc_stderr,none": 0.007866203494559304,
+      "alias": " - social sciences"
+    },
+    "mmlu_stem": {
+      "acc,none": 0.5486837932128132,
+      "acc_stderr,none": 0.008554328968275694,
+      "alias": " - stem"
+    }
+  },
+  "group_subtasks": {
+    "mmlu_humanities": [
+      "mmlu_formal_logic",
+      "mmlu_high_school_european_history",
+      "mmlu_high_school_us_history",
+      "mmlu_high_school_world_history",
+      "mmlu_international_law",
+      "mmlu_jurisprudence",
+      "mmlu_logical_fallacies",
+      "mmlu_moral_disputes",
+      "mmlu_moral_scenarios",
+      "mmlu_philosophy",
+      "mmlu_prehistory",
+      "mmlu_professional_law",
+      "mmlu_world_religions"
+    ],
+    "mmlu_social_sciences": [
+      "mmlu_econometrics",
+      "mmlu_high_school_geography",
+      "mmlu_high_school_government_and_politics",
+      "mmlu_high_school_macroeconomics",
+      "mmlu_high_school_microeconomics",
+      "mmlu_high_school_psychology",
+      "mmlu_human_sexuality",
+      "mmlu_professional_psychology",
+      "mmlu_public_relations",
+      "mmlu_security_studies",
+      "mmlu_sociology",
+      "mmlu_us_foreign_policy"
+    ],
+    "mmlu_other": [
+      "mmlu_business_ethics",
+      "mmlu_clinical_knowledge",
+      "mmlu_college_medicine",
+      "mmlu_global_facts",
+      "mmlu_human_aging",
+      "mmlu_management",
+      "mmlu_marketing",
+      "mmlu_medical_genetics",
+      "mmlu_miscellaneous",
+      "mmlu_nutrition",
+      "mmlu_professional_accounting",
+      "mmlu_professional_medicine",
+      "mmlu_virology"
+    ],
+    "mmlu_stem": [
+      "mmlu_abstract_algebra",
+      "mmlu_anatomy",
+      "mmlu_astronomy",
+      "mmlu_college_biology",
+      "mmlu_college_chemistry",
+      "mmlu_college_computer_science",
+      "mmlu_college_mathematics",
+      "mmlu_college_physics",
+      "mmlu_computer_security",
+      "mmlu_conceptual_physics",
+      "mmlu_electrical_engineering",
+      "mmlu_elementary_mathematics",
+      "mmlu_high_school_biology",
+      "mmlu_high_school_chemistry",
+      "mmlu_high_school_computer_science",
+      "mmlu_high_school_mathematics",
+      "mmlu_high_school_physics",
+      "mmlu_high_school_statistics",
+      "mmlu_machine_learning"
+    ],
+    "mmlu": [
+      "mmlu_stem",
+      "mmlu_other",
+      "mmlu_social_sciences",
+      "mmlu_humanities"
+    ]
+  },
+  "configs": {
+    "mmlu_abstract_algebra": {
+      "task": "mmlu_abstract_algebra",
+      "task_alias": "abstract_algebra",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "abstract_algebra",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about abstract algebra.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_anatomy": {
+      "task": "mmlu_anatomy",
+      "task_alias": "anatomy",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "anatomy",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about anatomy.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_astronomy": {
+      "task": "mmlu_astronomy",
+      "task_alias": "astronomy",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "astronomy",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about astronomy.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_business_ethics": {
+      "task": "mmlu_business_ethics",
+      "task_alias": "business_ethics",
+      "tag": "mmlu_other_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "business_ethics",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about business ethics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_clinical_knowledge": {
+      "task": "mmlu_clinical_knowledge",
+      "task_alias": "clinical_knowledge",
+      "tag": "mmlu_other_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "clinical_knowledge",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about clinical knowledge.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_college_biology": {
+      "task": "mmlu_college_biology",
+      "task_alias": "college_biology",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "college_biology",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about college biology.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_college_chemistry": {
+      "task": "mmlu_college_chemistry",
+      "task_alias": "college_chemistry",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "college_chemistry",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about college chemistry.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_college_computer_science": {
+      "task": "mmlu_college_computer_science",
+      "task_alias": "college_computer_science",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "college_computer_science",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about college computer science.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_college_mathematics": {
+      "task": "mmlu_college_mathematics",
+      "task_alias": "college_mathematics",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "college_mathematics",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about college mathematics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_college_medicine": {
+      "task": "mmlu_college_medicine",
+      "task_alias": "college_medicine",
+      "tag": "mmlu_other_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "college_medicine",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about college medicine.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_college_physics": {
+      "task": "mmlu_college_physics",
+      "task_alias": "college_physics",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "college_physics",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about college physics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_computer_security": {
+      "task": "mmlu_computer_security",
+      "task_alias": "computer_security",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "computer_security",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about computer security.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_conceptual_physics": {
+      "task": "mmlu_conceptual_physics",
+      "task_alias": "conceptual_physics",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "conceptual_physics",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about conceptual physics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_econometrics": {
+      "task": "mmlu_econometrics",
+      "task_alias": "econometrics",
+      "tag": "mmlu_social_sciences_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "econometrics",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about econometrics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_electrical_engineering": {
+      "task": "mmlu_electrical_engineering",
+      "task_alias": "electrical_engineering",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "electrical_engineering",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about electrical engineering.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_elementary_mathematics": {
+      "task": "mmlu_elementary_mathematics",
+      "task_alias": "elementary_mathematics",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "elementary_mathematics",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about elementary mathematics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_formal_logic": {
+      "task": "mmlu_formal_logic",
+      "task_alias": "formal_logic",
+      "tag": "mmlu_humanities_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "formal_logic",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about formal logic.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_global_facts": {
+      "task": "mmlu_global_facts",
+      "task_alias": "global_facts",
+      "tag": "mmlu_other_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "global_facts",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about global facts.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_high_school_biology": {
+      "task": "mmlu_high_school_biology",
+      "task_alias": "high_school_biology",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "high_school_biology",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about high school biology.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_high_school_chemistry": {
+      "task": "mmlu_high_school_chemistry",
+      "task_alias": "high_school_chemistry",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "high_school_chemistry",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about high school chemistry.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_high_school_computer_science": {
+      "task": "mmlu_high_school_computer_science",
+      "task_alias": "high_school_computer_science",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "high_school_computer_science",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about high school computer science.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_high_school_european_history": {
+      "task": "mmlu_high_school_european_history",
+      "task_alias": "high_school_european_history",
+      "tag": "mmlu_humanities_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "high_school_european_history",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about high school european history.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_high_school_geography": {
+      "task": "mmlu_high_school_geography",
+      "task_alias": "high_school_geography",
+      "tag": "mmlu_social_sciences_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "high_school_geography",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about high school geography.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_high_school_government_and_politics": {
+      "task": "mmlu_high_school_government_and_politics",
+      "task_alias": "high_school_government_and_politics",
+      "tag": "mmlu_social_sciences_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "high_school_government_and_politics",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about high school government and politics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_high_school_macroeconomics": {
+      "task": "mmlu_high_school_macroeconomics",
+      "task_alias": "high_school_macroeconomics",
+      "tag": "mmlu_social_sciences_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "high_school_macroeconomics",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about high school macroeconomics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_high_school_mathematics": {
+      "task": "mmlu_high_school_mathematics",
+      "task_alias": "high_school_mathematics",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "high_school_mathematics",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about high school mathematics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_high_school_microeconomics": {
+      "task": "mmlu_high_school_microeconomics",
+      "task_alias": "high_school_microeconomics",
+      "tag": "mmlu_social_sciences_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "high_school_microeconomics",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about high school microeconomics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_high_school_physics": {
+      "task": "mmlu_high_school_physics",
+      "task_alias": "high_school_physics",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "high_school_physics",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about high school physics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_high_school_psychology": {
+      "task": "mmlu_high_school_psychology",
+      "task_alias": "high_school_psychology",
+      "tag": "mmlu_social_sciences_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "high_school_psychology",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about high school psychology.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_high_school_statistics": {
+      "task": "mmlu_high_school_statistics",
+      "task_alias": "high_school_statistics",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "high_school_statistics",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about high school statistics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_high_school_us_history": {
+      "task": "mmlu_high_school_us_history",
+      "task_alias": "high_school_us_history",
+      "tag": "mmlu_humanities_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "high_school_us_history",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about high school us history.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_high_school_world_history": {
+      "task": "mmlu_high_school_world_history",
+      "task_alias": "high_school_world_history",
+      "tag": "mmlu_humanities_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "high_school_world_history",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about high school world history.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_human_aging": {
+      "task": "mmlu_human_aging",
+      "task_alias": "human_aging",
+      "tag": "mmlu_other_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "human_aging",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about human aging.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_human_sexuality": {
+      "task": "mmlu_human_sexuality",
+      "task_alias": "human_sexuality",
+      "tag": "mmlu_social_sciences_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "human_sexuality",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about human sexuality.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_international_law": {
+      "task": "mmlu_international_law",
+      "task_alias": "international_law",
+      "tag": "mmlu_humanities_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "international_law",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about international law.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_jurisprudence": {
+      "task": "mmlu_jurisprudence",
+      "task_alias": "jurisprudence",
+      "tag": "mmlu_humanities_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "jurisprudence",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about jurisprudence.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_logical_fallacies": {
+      "task": "mmlu_logical_fallacies",
+      "task_alias": "logical_fallacies",
+      "tag": "mmlu_humanities_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "logical_fallacies",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about logical fallacies.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_machine_learning": {
+      "task": "mmlu_machine_learning",
+      "task_alias": "machine_learning",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "machine_learning",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about machine learning.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_management": {
+      "task": "mmlu_management",
+      "task_alias": "management",
+      "tag": "mmlu_other_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "management",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about management.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_marketing": {
+      "task": "mmlu_marketing",
+      "task_alias": "marketing",
+      "tag": "mmlu_other_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "marketing",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about marketing.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_medical_genetics": {
+      "task": "mmlu_medical_genetics",
+      "task_alias": "medical_genetics",
+      "tag": "mmlu_other_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "medical_genetics",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about medical genetics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_miscellaneous": {
+      "task": "mmlu_miscellaneous",
+      "task_alias": "miscellaneous",
+      "tag": "mmlu_other_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "miscellaneous",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about miscellaneous.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_moral_disputes": {
+      "task": "mmlu_moral_disputes",
+      "task_alias": "moral_disputes",
+      "tag": "mmlu_humanities_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "moral_disputes",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about moral disputes.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_moral_scenarios": {
+      "task": "mmlu_moral_scenarios",
+      "task_alias": "moral_scenarios",
+      "tag": "mmlu_humanities_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "moral_scenarios",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about moral scenarios.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_nutrition": {
+      "task": "mmlu_nutrition",
+      "task_alias": "nutrition",
+      "tag": "mmlu_other_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "nutrition",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about nutrition.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_philosophy": {
+      "task": "mmlu_philosophy",
+      "task_alias": "philosophy",
+      "tag": "mmlu_humanities_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "philosophy",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about philosophy.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_prehistory": {
+      "task": "mmlu_prehistory",
+      "task_alias": "prehistory",
+      "tag": "mmlu_humanities_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "prehistory",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about prehistory.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_professional_accounting": {
+      "task": "mmlu_professional_accounting",
+      "task_alias": "professional_accounting",
+      "tag": "mmlu_other_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "professional_accounting",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about professional accounting.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_professional_law": {
+      "task": "mmlu_professional_law",
+      "task_alias": "professional_law",
+      "tag": "mmlu_humanities_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "professional_law",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about professional law.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_professional_medicine": {
+      "task": "mmlu_professional_medicine",
+      "task_alias": "professional_medicine",
+      "tag": "mmlu_other_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "professional_medicine",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about professional medicine.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_professional_psychology": {
+      "task": "mmlu_professional_psychology",
+      "task_alias": "professional_psychology",
+      "tag": "mmlu_social_sciences_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "professional_psychology",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about professional psychology.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_public_relations": {
+      "task": "mmlu_public_relations",
+      "task_alias": "public_relations",
+      "tag": "mmlu_social_sciences_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "public_relations",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about public relations.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_security_studies": {
+      "task": "mmlu_security_studies",
+      "task_alias": "security_studies",
+      "tag": "mmlu_social_sciences_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "security_studies",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about security studies.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_sociology": {
+      "task": "mmlu_sociology",
+      "task_alias": "sociology",
+      "tag": "mmlu_social_sciences_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "sociology",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about sociology.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_us_foreign_policy": {
+      "task": "mmlu_us_foreign_policy",
+      "task_alias": "us_foreign_policy",
+      "tag": "mmlu_social_sciences_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "us_foreign_policy",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about us foreign policy.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_virology": {
+      "task": "mmlu_virology",
+      "task_alias": "virology",
+      "tag": "mmlu_other_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "virology",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about virology.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    },
+    "mmlu_world_religions": {
+      "task": "mmlu_world_religions",
+      "task_alias": "world_religions",
+      "tag": "mmlu_humanities_tasks",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "world_religions",
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about world religions.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "model": "<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf",
+        "tokenizer": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+        "tensor_parallel_size": 2,
+        "max_model_len": 16384,
+        "dtype": "float16",
+        "gpu_memory_utilization": 0.6
+      }
+    }
+  },
+  "versions": {
+    "mmlu": 2,
+    "mmlu_abstract_algebra": 1.0,
+    "mmlu_anatomy": 1.0,
+    "mmlu_astronomy": 1.0,
+    "mmlu_business_ethics": 1.0,
+    "mmlu_clinical_knowledge": 1.0,
+    "mmlu_college_biology": 1.0,
+    "mmlu_college_chemistry": 1.0,
+    "mmlu_college_computer_science": 1.0,
+    "mmlu_college_mathematics": 1.0,
+    "mmlu_college_medicine": 1.0,
+    "mmlu_college_physics": 1.0,
+    "mmlu_computer_security": 1.0,
+    "mmlu_conceptual_physics": 1.0,
+    "mmlu_econometrics": 1.0,
+    "mmlu_electrical_engineering": 1.0,
+    "mmlu_elementary_mathematics": 1.0,
+    "mmlu_formal_logic": 1.0,
+    "mmlu_global_facts": 1.0,
+    "mmlu_high_school_biology": 1.0,
+    "mmlu_high_school_chemistry": 1.0,
+    "mmlu_high_school_computer_science": 1.0,
+    "mmlu_high_school_european_history": 1.0,
+    "mmlu_high_school_geography": 1.0,
+    "mmlu_high_school_government_and_politics": 1.0,
+    "mmlu_high_school_macroeconomics": 1.0,
+    "mmlu_high_school_mathematics": 1.0,
+    "mmlu_high_school_microeconomics": 1.0,
+    "mmlu_high_school_physics": 1.0,
+    "mmlu_high_school_psychology": 1.0,
+    "mmlu_high_school_statistics": 1.0,
+    "mmlu_high_school_us_history": 1.0,
+    "mmlu_high_school_world_history": 1.0,
+    "mmlu_human_aging": 1.0,
+    "mmlu_human_sexuality": 1.0,
+    "mmlu_humanities": 2,
+    "mmlu_international_law": 1.0,
+    "mmlu_jurisprudence": 1.0,
+    "mmlu_logical_fallacies": 1.0,
+    "mmlu_machine_learning": 1.0,
+    "mmlu_management": 1.0,
+    "mmlu_marketing": 1.0,
+    "mmlu_medical_genetics": 1.0,
+    "mmlu_miscellaneous": 1.0,
+    "mmlu_moral_disputes": 1.0,
+    "mmlu_moral_scenarios": 1.0,
+    "mmlu_nutrition": 1.0,
+    "mmlu_other": 2,
+    "mmlu_philosophy": 1.0,
+    "mmlu_prehistory": 1.0,
+    "mmlu_professional_accounting": 1.0,
+    "mmlu_professional_law": 1.0,
+    "mmlu_professional_medicine": 1.0,
+    "mmlu_professional_psychology": 1.0,
+    "mmlu_public_relations": 1.0,
+    "mmlu_security_studies": 1.0,
+    "mmlu_social_sciences": 2,
+    "mmlu_sociology": 1.0,
+    "mmlu_stem": 2,
+    "mmlu_us_foreign_policy": 1.0,
+    "mmlu_virology": 1.0,
+    "mmlu_world_religions": 1.0
+  },
+  "n-shot": {
+    "mmlu_abstract_algebra": 0,
+    "mmlu_anatomy": 0,
+    "mmlu_astronomy": 0,
+    "mmlu_business_ethics": 0,
+    "mmlu_clinical_knowledge": 0,
+    "mmlu_college_biology": 0,
+    "mmlu_college_chemistry": 0,
+    "mmlu_college_computer_science": 0,
+    "mmlu_college_mathematics": 0,
+    "mmlu_college_medicine": 0,
+    "mmlu_college_physics": 0,
+    "mmlu_computer_security": 0,
+    "mmlu_conceptual_physics": 0,
+    "mmlu_econometrics": 0,
+    "mmlu_electrical_engineering": 0,
+    "mmlu_elementary_mathematics": 0,
+    "mmlu_formal_logic": 0,
+    "mmlu_global_facts": 0,
+    "mmlu_high_school_biology": 0,
+    "mmlu_high_school_chemistry": 0,
+    "mmlu_high_school_computer_science": 0,
+    "mmlu_high_school_european_history": 0,
+    "mmlu_high_school_geography": 0,
+    "mmlu_high_school_government_and_politics": 0,
+    "mmlu_high_school_macroeconomics": 0,
+    "mmlu_high_school_mathematics": 0,
+    "mmlu_high_school_microeconomics": 0,
+    "mmlu_high_school_physics": 0,
+    "mmlu_high_school_psychology": 0,
+    "mmlu_high_school_statistics": 0,
+    "mmlu_high_school_us_history": 0,
+    "mmlu_high_school_world_history": 0,
+    "mmlu_human_aging": 0,
+    "mmlu_human_sexuality": 0,
+    "mmlu_international_law": 0,
+    "mmlu_jurisprudence": 0,
+    "mmlu_logical_fallacies": 0,
+    "mmlu_machine_learning": 0,
+    "mmlu_management": 0,
+    "mmlu_marketing": 0,
+    "mmlu_medical_genetics": 0,
+    "mmlu_miscellaneous": 0,
+    "mmlu_moral_disputes": 0,
+    "mmlu_moral_scenarios": 0,
+    "mmlu_nutrition": 0,
+    "mmlu_philosophy": 0,
+    "mmlu_prehistory": 0,
+    "mmlu_professional_accounting": 0,
+    "mmlu_professional_law": 0,
+    "mmlu_professional_medicine": 0,
+    "mmlu_professional_psychology": 0,
+    "mmlu_public_relations": 0,
+    "mmlu_security_studies": 0,
+    "mmlu_sociology": 0,
+    "mmlu_us_foreign_policy": 0,
+    "mmlu_virology": 0,
+    "mmlu_world_religions": 0
+  },
+  "higher_is_better": {
+    "mmlu": {
+      "acc": true
+    },
+    "mmlu_abstract_algebra": {
+      "acc": true
+    },
+    "mmlu_anatomy": {
+      "acc": true
+    },
+    "mmlu_astronomy": {
+      "acc": true
+    },
+    "mmlu_business_ethics": {
+      "acc": true
+    },
+    "mmlu_clinical_knowledge": {
+      "acc": true
+    },
+    "mmlu_college_biology": {
+      "acc": true
+    },
+    "mmlu_college_chemistry": {
+      "acc": true
+    },
+    "mmlu_college_computer_science": {
+      "acc": true
+    },
+    "mmlu_college_mathematics": {
+      "acc": true
+    },
+    "mmlu_college_medicine": {
+      "acc": true
+    },
+    "mmlu_college_physics": {
+      "acc": true
+    },
+    "mmlu_computer_security": {
+      "acc": true
+    },
+    "mmlu_conceptual_physics": {
+      "acc": true
+    },
+    "mmlu_econometrics": {
+      "acc": true
+    },
+    "mmlu_electrical_engineering": {
+      "acc": true
+    },
+    "mmlu_elementary_mathematics": {
+      "acc": true
+    },
+    "mmlu_formal_logic": {
+      "acc": true
+    },
+    "mmlu_global_facts": {
+      "acc": true
+    },
+    "mmlu_high_school_biology": {
+      "acc": true
+    },
+    "mmlu_high_school_chemistry": {
+      "acc": true
+    },
+    "mmlu_high_school_computer_science": {
+      "acc": true
+    },
+    "mmlu_high_school_european_history": {
+      "acc": true
+    },
+    "mmlu_high_school_geography": {
+      "acc": true
+    },
+    "mmlu_high_school_government_and_politics": {
+      "acc": true
+    },
+    "mmlu_high_school_macroeconomics": {
+      "acc": true
+    },
+    "mmlu_high_school_mathematics": {
+      "acc": true
+    },
+    "mmlu_high_school_microeconomics": {
+      "acc": true
+    },
+    "mmlu_high_school_physics": {
+      "acc": true
+    },
+    "mmlu_high_school_psychology": {
+      "acc": true
+    },
+    "mmlu_high_school_statistics": {
+      "acc": true
+    },
+    "mmlu_high_school_us_history": {
+      "acc": true
+    },
+    "mmlu_high_school_world_history": {
+      "acc": true
+    },
+    "mmlu_human_aging": {
+      "acc": true
+    },
+    "mmlu_human_sexuality": {
+      "acc": true
+    },
+    "mmlu_humanities": {
+      "acc": true
+    },
+    "mmlu_international_law": {
+      "acc": true
+    },
+    "mmlu_jurisprudence": {
+      "acc": true
+    },
+    "mmlu_logical_fallacies": {
+      "acc": true
+    },
+    "mmlu_machine_learning": {
+      "acc": true
+    },
+    "mmlu_management": {
+      "acc": true
+    },
+    "mmlu_marketing": {
+      "acc": true
+    },
+    "mmlu_medical_genetics": {
+      "acc": true
+    },
+    "mmlu_miscellaneous": {
+      "acc": true
+    },
+    "mmlu_moral_disputes": {
+      "acc": true
+    },
+    "mmlu_moral_scenarios": {
+      "acc": true
+    },
+    "mmlu_nutrition": {
+      "acc": true
+    },
+    "mmlu_other": {
+      "acc": true
+    },
+    "mmlu_philosophy": {
+      "acc": true
+    },
+    "mmlu_prehistory": {
+      "acc": true
+    },
+    "mmlu_professional_accounting": {
+      "acc": true
+    },
+    "mmlu_professional_law": {
+      "acc": true
+    },
+    "mmlu_professional_medicine": {
+      "acc": true
+    },
+    "mmlu_professional_psychology": {
+      "acc": true
+    },
+    "mmlu_public_relations": {
+      "acc": true
+    },
+    "mmlu_security_studies": {
+      "acc": true
+    },
+    "mmlu_social_sciences": {
+      "acc": true
+    },
+    "mmlu_sociology": {
+      "acc": true
+    },
+    "mmlu_stem": {
+      "acc": true
+    },
+    "mmlu_us_foreign_policy": {
+      "acc": true
+    },
+    "mmlu_virology": {
+      "acc": true
+    },
+    "mmlu_world_religions": {
+      "acc": true
+    }
+  },
+  "n-samples": {
+    "mmlu_abstract_algebra": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_anatomy": {
+      "original": 135,
+      "effective": 135
+    },
+    "mmlu_astronomy": {
+      "original": 152,
+      "effective": 152
+    },
+    "mmlu_college_biology": {
+      "original": 144,
+      "effective": 144
+    },
+    "mmlu_college_chemistry": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_college_computer_science": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_college_mathematics": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_college_physics": {
+      "original": 102,
+      "effective": 102
+    },
+    "mmlu_computer_security": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_conceptual_physics": {
+      "original": 235,
+      "effective": 235
+    },
+    "mmlu_electrical_engineering": {
+      "original": 145,
+      "effective": 145
+    },
+    "mmlu_elementary_mathematics": {
+      "original": 378,
+      "effective": 378
+    },
+    "mmlu_high_school_biology": {
+      "original": 310,
+      "effective": 310
+    },
+    "mmlu_high_school_chemistry": {
+      "original": 203,
+      "effective": 203
+    },
+    "mmlu_high_school_computer_science": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_high_school_mathematics": {
+      "original": 270,
+      "effective": 270
+    },
+    "mmlu_high_school_physics": {
+      "original": 151,
+      "effective": 151
+    },
+    "mmlu_high_school_statistics": {
+      "original": 216,
+      "effective": 216
+    },
+    "mmlu_machine_learning": {
+      "original": 112,
+      "effective": 112
+    },
+    "mmlu_business_ethics": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_clinical_knowledge": {
+      "original": 265,
+      "effective": 265
+    },
+    "mmlu_college_medicine": {
+      "original": 173,
+      "effective": 173
+    },
+    "mmlu_global_facts": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_human_aging": {
+      "original": 223,
+      "effective": 223
+    },
+    "mmlu_management": {
+      "original": 103,
+      "effective": 103
+    },
+    "mmlu_marketing": {
+      "original": 234,
+      "effective": 234
+    },
+    "mmlu_medical_genetics": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_miscellaneous": {
+      "original": 783,
+      "effective": 783
+    },
+    "mmlu_nutrition": {
+      "original": 306,
+      "effective": 306
+    },
+    "mmlu_professional_accounting": {
+      "original": 282,
+      "effective": 282
+    },
+    "mmlu_professional_medicine": {
+      "original": 272,
+      "effective": 272
+    },
+    "mmlu_virology": {
+      "original": 166,
+      "effective": 166
+    },
+    "mmlu_econometrics": {
+      "original": 114,
+      "effective": 114
+    },
+    "mmlu_high_school_geography": {
+      "original": 198,
+      "effective": 198
+    },
+    "mmlu_high_school_government_and_politics": {
+      "original": 193,
+      "effective": 193
+    },
+    "mmlu_high_school_macroeconomics": {
+      "original": 390,
+      "effective": 390
+    },
+    "mmlu_high_school_microeconomics": {
+      "original": 238,
+      "effective": 238
+    },
+    "mmlu_high_school_psychology": {
+      "original": 545,
+      "effective": 545
+    },
+    "mmlu_human_sexuality": {
+      "original": 131,
+      "effective": 131
+    },
+    "mmlu_professional_psychology": {
+      "original": 612,
+      "effective": 612
+    },
+    "mmlu_public_relations": {
+      "original": 110,
+      "effective": 110
+    },
+    "mmlu_security_studies": {
+      "original": 245,
+      "effective": 245
+    },
+    "mmlu_sociology": {
+      "original": 201,
+      "effective": 201
+    },
+    "mmlu_us_foreign_policy": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_formal_logic": {
+      "original": 126,
+      "effective": 126
+    },
+    "mmlu_high_school_european_history": {
+      "original": 165,
+      "effective": 165
+    },
+    "mmlu_high_school_us_history": {
+      "original": 204,
+      "effective": 204
+    },
+    "mmlu_high_school_world_history": {
+      "original": 237,
+      "effective": 237
+    },
+    "mmlu_international_law": {
+      "original": 121,
+      "effective": 121
+    },
+    "mmlu_jurisprudence": {
+      "original": 108,
+      "effective": 108
+    },
+    "mmlu_logical_fallacies": {
+      "original": 163,
+      "effective": 163
+    },
+    "mmlu_moral_disputes": {
+      "original": 346,
+      "effective": 346
+    },
+    "mmlu_moral_scenarios": {
+      "original": 895,
+      "effective": 895
+    },
+    "mmlu_philosophy": {
+      "original": 311,
+      "effective": 311
+    },
+    "mmlu_prehistory": {
+      "original": 324,
+      "effective": 324
+    },
+    "mmlu_professional_law": {
+      "original": 1534,
+      "effective": 1534
+    },
+    "mmlu_world_religions": {
+      "original": 171,
+      "effective": 171
+    }
+  },
+  "config": {
+    "model": "vllm",
+    "model_args": "pretrained=/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct,model=<EXPERIMENT_ROOT>/pi_agent_stego/qwen2.5-coder-7b-instruct-base-q8_0.gguf,tokenizer=/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct,tensor_parallel_size=2,max_model_len=16384,dtype=float16,gpu_memory_utilization=0.6",
+    "batch_size": 1,
+    "batch_sizes": [],
+    "device": null,
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null,
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },
+  "git_hash": null,
+  "date": 1786629167.5075543,
+  "pretty_env_info": "PyTorch version: 2.9.1+cu128\nIs debug build: False\nCUDA used to build PyTorch: 12.8\nROCM used to build PyTorch: N/A\n\nOS: Ubuntu 24.04.4 LTS (x86_64)\nGCC version: (Ubuntu 12.4.0-2ubuntu1~24.04.1) 12.4.0\nClang version: 18.1.3 (1ubuntu1)\nCMake version: version 3.28.3\nLibc version: glibc-2.39\n\nPython version: 3.12.12 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 20:16:04) [GCC 11.2.0] (64-bit runtime)\nPython platform: Linux-6.17.0-35-generic-x86_64-with-glibc2.39\nIs CUDA available: True\nCUDA runtime version: 13.3.73\nCUDA_MODULE_LOADING set to: \nGPU models and configuration: \nGPU 0: NVIDIA RTX PRO 6000 Blackwell Workstation Edition\nGPU 1: NVIDIA RTX PRO 6000 Blackwell Workstation Edition\n\nNvidia driver version: Could not collect\ncuDNN version: Could not collect\nIs XPU available: False\nHIP runtime version: N/A\nMIOpen runtime version: N/A\nIs XNNPACK available: True\n\nCPU:\n架构：                                   x86_64\nCPU 运行模式：                           32-bit, 64-bit\nAddress sizes:                           52 bits physical, 57 bits virtual\n字节序：                                 Little Endian\nCPU:                                     240\n在线 CPU 列表：                          0-239\n厂商 ID：                                GenuineIntel\n型号名称：                               Intel(R) Xeon(R) 6985P-C\nCPU 系列：                               6\n型号：                                   173\n每个核的线程数：                         2\n每个座的核数：                           120\n座：                                     1\n步进：                                   1\nCPU(s) scaling MHz:                      20%\nCPU 最大 MHz：                           4200.0000\nCPU 最小 MHz：                           800.0000\nBogoMIPS：                               4400.00\n标记：                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cat_l2 cdp_l3 intel_ppin cdp_l2 ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local split_lock_detect user_shstk avx_vnni avx512_bf16 wbnoinvd dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req hfi vnmi avx512vbmi umip pku ospke waitpkg avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq la57 rdpid bus_lock_detect cldemote movdiri movdir64b enqcmd fsrm md_clear serialize tsxldtrk pconfig arch_lbr ibt amx_bf16 avx512_fp16 amx_tile amx_int8 flush_l1d arch_capabilities\n虚拟化：                                 VT-x\nL1d 缓存：                               5.6 MiB (120 instances)\nL1i 缓存：                               7.5 MiB (120 instances)\nL2 缓存：                                240 MiB (120 instances)\nL3 缓存：                                504 MiB (1 instance)\nNUMA 节点：                              3\nNUMA 节点0 CPU：                         0-39,120-159\nNUMA 节点1 CPU：                         40-79,160-199\nNUMA 节点2 CPU：                         80-119,200-239\nVulnerability Gather data sampling:      Not affected\nVulnerability Ghostwrite:                Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Not affected\nVulnerability Old microcode:             Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Not affected\nVulnerability Spec rstack overflow:      Not affected\nVulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; Enhanced / Automatic IBRS; IBPB conditional; PBRSB-eIBRS Not affected; BHI BHI_DIS_S\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Not affected\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Mitigation; IBPB before exit to userspace\n\nVersions of relevant libraries:\n[pip3] numpy==2.2.6\n[pip3] nvidia-cublas-cu12==12.8.4.1\n[pip3] nvidia-cuda-cupti-cu12==12.8.90\n[pip3] nvidia-cuda-nvrtc-cu12==12.8.93\n[pip3] nvidia-cuda-runtime-cu12==12.8.90\n[pip3] nvidia-cudnn-cu12==9.10.2.21\n[pip3] nvidia-cudnn-frontend==1.18.0\n[pip3] nvidia-cufft-cu12==11.3.3.83\n[pip3] nvidia-curand-cu12==10.3.9.90\n[pip3] nvidia-cusolver-cu12==11.7.3.90\n[pip3] nvidia-cusparse-cu12==12.5.8.93\n[pip3] nvidia-cusparselt-cu12==0.7.1\n[pip3] nvidia-nccl-cu12==2.27.5\n[pip3] nvidia-nvjitlink-cu12==12.8.93\n[pip3] nvidia-nvtx-cu12==12.8.90\n[pip3] torch==2.9.1\n[pip3] torchao==0.15.0\n[pip3] torchaudio==2.9.1\n[pip3] torchdata==0.11.0\n[pip3] torchvision==0.24.1\n[pip3] triton==3.5.1\n[conda] _anaconda_depends                2025.06              py313_mkl_2\n[conda] blas                             1.0                  mkl\n[conda] intel-openmp                     2023.1.0             hdb19cb5_46306\n[conda] mkl                              2023.1.0             h213fc3f_46344\n[conda] mkl-service                      2.4.0                py313h5eee18b_2\n[conda] mkl_fft                          1.3.11               py313h5eee18b_0\n[conda] mkl_random                       1.2.8                py313h06d7b56_0\n[conda] numpy                            2.1.3                py313hf4aebb8_0\n[conda] numpy-base                       2.1.3                py313h3fc9231_0\n[conda] numpydoc                         1.7.0                py313h06a4308_0\n[conda] tbb                              2021.8.0             hdb19cb5_0",
+  "transformers_version": "4.57.1",
+  "lm_eval_version": "0.4.9.2",
+  "upper_git_hash": null,
+  "tokenizer_pad_token": [
+    "<|endoftext|>",
+    "151643"
+  ],
+  "tokenizer_eos_token": [
+    "<|im_end|>",
+    "151645"
+  ],
+  "tokenizer_bos_token": [
+    null,
+    "None"
+  ],
+  "eot_token_id": 151645,
+  "max_length": 16384,
+  "task_hashes": {
+    "mmlu_abstract_algebra": "1ecc29cafeff483bf80347adc2878dae00d01596988032f438afce6291c8cfe7",
+    "mmlu_anatomy": "51232e78f32967e0dd431bab9309f69be490f9998b4ddb93b641b09ba1f613cf",
+    "mmlu_astronomy": "3e8d7c33bd0431518a3d5d4b1666bdabccf46c4cc4cfe95a3886cb2266743f86",
+    "mmlu_college_biology": "5378a297efa1cd71344228c95dcb29ba54757c7e527261400a4d65fd8ceed92b",
+    "mmlu_college_chemistry": "714e60ea7e340f0344ffde41b247a19b68e6384152a1bdc9acc0ecf24cd0e7cd",
+    "mmlu_college_computer_science": "2b66d244f98e61e6a78e5ed48b728e0ca2ca81c7757ccdd086fe6b0c1cf02da1",
+    "mmlu_college_mathematics": "90b1ce25d7d38abd925181ae3aad095cfd783375fe8de0607a57420f47454f0f",
+    "mmlu_college_physics": "2abddb12a247904f9ba60b39766b19a8967c24fe8eee021022a353b93d73742c",
+    "mmlu_computer_security": "8ffba21cebb9e39d5794c848a22e7e37cddff5c59f7b47a1d89872d9e8704b0c",
+    "mmlu_conceptual_physics": "c0da3219fe7e5292dad2aa7e72790e3eba951711007cc57618b0850d941b85ec",
+    "mmlu_electrical_engineering": "0a02cb16a31ec7debba4190ab1cc31afadb9416764e0b074b9b96553f346b892",
+    "mmlu_elementary_mathematics": "6048f1506468e757010d537a0ceedaadc587c18159a03e7664b5994843afedc2",
+    "mmlu_high_school_biology": "2aabe83bb100a352d24a0136c24e612b68490bbe818c33f06cc6cee5379ecad8",
+    "mmlu_high_school_chemistry": "dd3321fd42c8717094f57dd0eaeab0002d9ed192518a7de7aaef4913796c30f0",
+    "mmlu_high_school_computer_science": "888aabb9a7ac77299e8b2b8429fa44c1fbbb5ac8165f556a0b00b347e51de3b5",
+    "mmlu_high_school_mathematics": "9b9567fc5c7875065ac91eac69621904f201cab822621440a2442a390f62b497",
+    "mmlu_high_school_physics": "53edb93aefb6fc54fba283278bae10a58a7902902ff55edc30cb9c81745dbaa8",
+    "mmlu_high_school_statistics": "e0d652bf0cb6f927b0fc738e58a141f0ba8f9073615f4ddd70bf7a3b97998f21",
+    "mmlu_machine_learning": "13ad1d3650a26d655a2a2eaa3be1f106d990e5b693b0e9006f8ebef221d2ed82",
+    "mmlu_business_ethics": "6ec93578c18c7bba58a384ecaa7e6e84c5e681262b34b1caa76abbbb0f9ebb02",
+    "mmlu_clinical_knowledge": "cf39fec90aa76a379e440c1f0d5f5b04d9f32edc4004ffcfb8eadcc25c18b118",
+    "mmlu_college_medicine": "00cc41d26670913bdee6181e5b602726dde9f03e6a43236c2bf57486149845be",
+    "mmlu_global_facts": "6163d6678b902c8cb5cd6c50f59bc0f31a9a356e977fcd6184614f48e3320e7a",
+    "mmlu_human_aging": "4b4276095e96dc6e2872517b2becc2ebe9fad0f42b321486f6f2ceaef81f385e",
+    "mmlu_management": "84a18a4a3039f23b7dd18838c89a80171025a1a45eda3305464a3cfcd8257b69",
+    "mmlu_marketing": "d6382d405e202221a78087356861723acb445fbd6f1db94152201f788b5c0606",
+    "mmlu_medical_genetics": "b4546cc241c5811dddfec47d0bba37122fbd65545c93d60f50b993e810d37e2d",
+    "mmlu_miscellaneous": "ecf4c3e0dc895ca5b7803d1b3f01fe3027b461f900ac001d36f5dd750c8eca1d",
+    "mmlu_nutrition": "732959f39ac0c6c0e9c3823082d3669467531cebfb5f7550d79bcc31e5cfdbce",
+    "mmlu_professional_accounting": "3c555bc35f86d097f509755f487781d2bd288de5dfe9aa59d8009a1dd0583c45",
+    "mmlu_professional_medicine": "0821fa48ca3715604bbef122215aea4e55f218dad6ba5191da2eb831971ac6f9",
+    "mmlu_virology": "ba4fc492ed4e9af97e30850257d2fdc5e7b53b37e7b4d68d443f7bd157aac21f",
+    "mmlu_econometrics": "bc667156b739500e02f7c8cb8f9621b6d62ea2011e1eaa3404cb45f6d16778ec",
+    "mmlu_high_school_geography": "915db5f9f9c584c6886ae92cfc28ad9c364bf685f22c15009ad8bf064b4a8027",
+    "mmlu_high_school_government_and_politics": "411c6c6c179d1e2a252fab88f33123721540fc70f8223310e1f1349ec0b67753",
+    "mmlu_high_school_macroeconomics": "291b29471838255d1a2dd704960610e98b7e3f2fd001e3aabc6b25be0c236e29",
+    "mmlu_high_school_microeconomics": "6f4a887cb73beee5414248002f75216c16d7c8ff739b37a2607c6bcfad16712b",
+    "mmlu_high_school_psychology": "ce01f01ff9a3bdc3e956ada7ec7c02f13771c386d076323056ac00eec0095785",
+    "mmlu_human_sexuality": "9395014a475c63632383587439df5c48c5dd3333eaa8d10ef9e0eaabd0997c3a",
+    "mmlu_professional_psychology": "ab273adb58e2b365b3811e4ed4c6485c9630f78058580273703eb2573dde9010",
+    "mmlu_public_relations": "da7dfa166f545d33a61c930908eee4f8d8544cad6328569b1c4b341becaf68f1",
+    "mmlu_security_studies": "85ea8f6c3b791998f3c1d57164b6e28bcf4498f65fc1988dfa4a6a65d31fb505",
+    "mmlu_sociology": "055d024e9587edc811c54e6cdd8fd74d535c6f5b1aad17cfd5f1598a1371606a",
+    "mmlu_us_foreign_policy": "a99e6492b6831a5df8c7f4c76edf15b500e59ab4c87dc73fdbd61d43bc704682",
+    "mmlu_formal_logic": "5fef452fe37d3c5aefce6276a26a839e5ee5d655d72adf50bbf0a8ae0e8d74e4",
+    "mmlu_high_school_european_history": "0b7be1963c7e224bffc18d72fe277408c4980f854a5fc94805fc008133640f44",
+    "mmlu_high_school_us_history": "1b31fdc7e0d51803fa6107a0c7aa3b6968031bc449ed3513a7349956fa0b53d3",
+    "mmlu_high_school_world_history": "9e352460adb245947aaf9671f135ae6484e44a115312955c45c7caaa0688f160",
+    "mmlu_international_law": "3d2036ffe61014fa8a2de679c6bee2c0c3ade112f03cd55e4a6fba5bdc56bf7b",
+    "mmlu_jurisprudence": "1548c06ef17823048b473d028f4889b3cf014beac4ac808521898ee141a34d23",
+    "mmlu_logical_fallacies": "66f9691122f3fa813b86fda1131037c03cf42babe650c7374924f41882716332",
+    "mmlu_moral_disputes": "84f580166c00063790619588b4f9fcd2f800a6a04778f08c1bada043bfdc6ec0",
+    "mmlu_moral_scenarios": "0dda4f43fd25e66311e64f4590698bfcc4c00c24ac58dbfec74b613512280ffc",
+    "mmlu_philosophy": "ff6284cd5c6bfdb17898ef97dabc97916b70fc7485c57543edabdd44b1d8b543",
+    "mmlu_prehistory": "efb58ea420f5b7975ff34766ddc7470676e1ababa0b4705bfdf150f6871fdd83",
+    "mmlu_professional_law": "b108c04f61cbbb4b9351de3730d7e3396710c7702c6cf75703155dbfdbc7819d",
+    "mmlu_world_religions": "9634e441f5f53329b4b6c760b08b1a130f8f03b3cc1902b23d07f57db76b7263"
+  },
+  "model_source": "vllm",
+  "model_name": "/mnt/4TB/models/Qwen2.5-Coder-7B-Instruct",
+  "model_name_sanitized": "__mnt__4TB__models__Qwen2.5-Coder-7B-Instruct",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": "{%- if tools %}\n    {{- '<|im_start|>system\\n' }}\n    {%- if messages[0]['role'] == 'system' %}\n        {{- messages[0]['content'] }}\n    {%- else %}\n        {{- 'You are Qwen, created by Alibaba Cloud. You are a helpful assistant.' }}\n    {%- endif %}\n    {{- \"\\n\\n# Tools\\n\\nYou may call one or more functions to assist with the user query.\\n\\nYou are provided with function signatures within <tools></tools> XML tags:\\n<tools>\" }}\n    {%- for tool in tools %}\n        {{- \"\\n\" }}\n        {{- tool | tojson }}\n    {%- endfor %}\n    {{- \"\\n</tools>\\n\\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\\n<tool_call>\\n{\\\"name\\\": <function-name>, \\\"arguments\\\": <args-json-object>}\\n</tool_call><|im_end|>\\n\" }}\n{%- else %}\n    {%- if messages[0]['role'] == 'system' %}\n        {{- '<|im_start|>system\\n' + messages[0]['content'] + '<|im_end|>\\n' }}\n    {%- else %}\n        {{- '<|im_start|>system\\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\\n' }}\n    {%- endif %}\n{%- endif %}\n{%- for message in messages %}\n    {%- if (message.role == \"user\") or (message.role == \"system\" and not loop.first) or (message.role == \"assistant\" and not message.tool_calls) %}\n        {{- '<|im_start|>' + message.role + '\\n' + message.content + '<|im_end|>' + '\\n' }}\n    {%- elif message.role == \"assistant\" %}\n        {{- '<|im_start|>' + message.role }}\n        {%- if message.content %}\n            {{- '\\n' + message.content }}\n        {%- endif %}\n        {%- for tool_call in message.tool_calls %}\n            {%- if tool_call.function is defined %}\n                {%- set tool_call = tool_call.function %}\n            {%- endif %}\n            {{- '\\n<tool_call>\\n{\"name\": \"' }}\n            {{- tool_call.name }}\n            {{- '\", \"arguments\": ' }}\n            {{- tool_call.arguments | tojson }}\n            {{- '}\\n</tool_call>' }}\n        {%- endfor %}\n        {{- '<|im_end|>\\n' }}\n    {%- elif message.role == \"tool\" %}\n        {%- if (loop.index0 == 0) or (messages[loop.index0 - 1].role != \"tool\") %}\n            {{- '<|im_start|>user' }}\n        {%- endif %}\n        {{- '\\n<tool_response>\\n' }}\n        {{- message.content }}\n        {{- '\\n</tool_response>' }}\n        {%- if loop.last or (messages[loop.index0 + 1].role != \"tool\") %}\n            {{- '<|im_end|>\\n' }}\n        {%- endif %}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|im_start|>assistant\\n' }}\n{%- endif %}\n",
+  "chat_template_sha": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+  "start_time": 2777554.157068617,
+  "end_time": 2781732.674584541,
+  "total_evaluation_time_seconds": "4178.517515923828"
+}

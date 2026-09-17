@@ -1,0 +1,98 @@
+INFO 01-31 13:18:35 [utils.py:261] non-default args: {'seed': 1234, 'max_model_len': 32768, 'disable_log_stats': True, 'model': '/mnt/4TB/models/Qwen3-30B-A3B-Instruct-2507/'}
+INFO 01-31 13:18:35 [model.py:541] Resolved architecture: Qwen3MoeForCausalLM
+INFO 01-31 13:18:35 [model.py:1561] Using max model len 32768
+INFO 01-31 13:18:35 [scheduler.py:226] Chunked prefill is enabled with max_num_batched_tokens=16384.
+INFO 01-31 13:18:35 [vllm.py:624] Asynchronous scheduling is enabled.
+[0;36m(EngineCore_DP0 pid=58157)[0;0m INFO 01-31 13:18:35 [core.py:96] Initializing a V1 LLM engine (v0.15.0) with config: model='/mnt/4TB/models/Qwen3-30B-A3B-Instruct-2507/', speculative_config=None, tokenizer='/mnt/4TB/models/Qwen3-30B-A3B-Instruct-2507/', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=32768, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, enable_return_routed_experts=False, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser='', reasoning_parser_plugin='', enable_in_reasoning=False), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None, kv_cache_metrics=False, kv_cache_metrics_sample=0.01, cudagraph_metrics=False, enable_layerwise_nvtx_tracing=False, enable_mfu_metrics=False, enable_mm_processor_stats=False, enable_logging_iteration_details=False), seed=1234, served_model_name=/mnt/4TB/models/Qwen3-30B-A3B-Instruct-2507/, enable_prefix_caching=True, enable_chunked_prefill=True, pooler_config=None, compilation_config={'level': None, 'mode': <CompilationMode.VLLM_COMPILE: 3>, 'debug_dump_path': None, 'cache_dir': '', 'compile_cache_save_format': 'binary', 'backend': 'inductor', 'custom_ops': ['none'], 'splitting_ops': ['vllm::unified_attention', 'vllm::unified_attention_with_output', 'vllm::unified_mla_attention', 'vllm::unified_mla_attention_with_output', 'vllm::mamba_mixer2', 'vllm::mamba_mixer', 'vllm::short_conv', 'vllm::linear_attention', 'vllm::plamo2_mamba_mixer', 'vllm::gdn_attention_core', 'vllm::kda_attention', 'vllm::sparse_attn_indexer', 'vllm::rocm_aiter_sparse_attn_indexer'], 'compile_mm_encoder': False, 'compile_sizes': [], 'compile_ranges_split_points': [16384], 'inductor_compile_config': {'enable_auto_functionalized_v2': False, 'combo_kernels': True, 'benchmark_combo_kernel': True}, 'inductor_passes': {}, 'cudagraph_mode': <CUDAGraphMode.FULL_AND_PIECEWISE: (2, 1)>, 'cudagraph_num_of_warmups': 1, 'cudagraph_capture_sizes': [1, 2, 4, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96, 104, 112, 120, 128, 136, 144, 152, 160, 168, 176, 184, 192, 200, 208, 216, 224, 232, 240, 248, 256, 272, 288, 304, 320, 336, 352, 368, 384, 400, 416, 432, 448, 464, 480, 496, 512], 'cudagraph_copy_inputs': False, 'cudagraph_specialize_lora': True, 'use_inductor_graph_partition': False, 'pass_config': {'fuse_norm_quant': False, 'fuse_act_quant': False, 'fuse_attn_quant': False, 'eliminate_noops': True, 'enable_sp': False, 'fuse_gemm_comms': False, 'fuse_allreduce_rms': False}, 'max_cudagraph_capture_size': 512, 'dynamic_shapes_config': {'type': <DynamicShapesType.BACKED: 'backed'>, 'evaluate_guards': False, 'assume_32_bit_indexing': True}, 'local_cache_dir': None}
+[0;36m(EngineCore_DP0 pid=58157)[0;0m INFO 01-31 13:18:36 [parallel_state.py:1212] world_size=1 rank=0 local_rank=0 distributed_init_method=tcp://10.161.44.9:57721 backend=nccl
+[0;36m(EngineCore_DP0 pid=58157)[0;0m INFO 01-31 13:18:36 [parallel_state.py:1423] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, PCP rank 0, TP rank 0, EP rank 0
+[0;36m(EngineCore_DP0 pid=58157)[0;0m INFO 01-31 13:18:37 [gpu_model_runner.py:4021] Starting to load model /mnt/4TB/models/Qwen3-30B-A3B-Instruct-2507/...
+[0;36m(EngineCore_DP0 pid=58157)[0;0m INFO 01-31 13:18:37 [cuda.py:364] Using FLASH_ATTN attention backend out of potential backends: ('FLASH_ATTN', 'FLASHINFER', 'TRITON_ATTN', 'FLEX_ATTENTION')
+[0;36m(EngineCore_DP0 pid=58157)[0;0m INFO 01-31 13:18:37 [unquantized.py:103] Using TRITON backend for Unquantized MoE
+[0;36m(EngineCore_DP0 pid=58157)[0;0m INFO 01-31 13:18:47 [default_loader.py:291] Loading weights took 9.98 seconds
+[0;36m(EngineCore_DP0 pid=58157)[0;0m INFO 01-31 13:18:48 [gpu_model_runner.py:4118] Model loading took 56.93 GiB memory and 10.442965 seconds
+[0;36m(EngineCore_DP0 pid=58157)[0;0m INFO 01-31 13:18:54 [backends.py:805] Using cache directory: ./.cache/vllm/torch_compile_cache/ea94a90f47/rank_0_0/backbone for vLLM's torch.compile
+[0;36m(EngineCore_DP0 pid=58157)[0;0m INFO 01-31 13:18:54 [backends.py:865] Dynamo bytecode transform time: 6.31 s
+[0;36m(EngineCore_DP0 pid=58157)[0;0m WARNING 01-31 13:18:57 [fused_moe.py:1089] Using default MoE config. Performance might be sub-optimal! Config file not found at ./anaconda3/envs/llamacpp/lib/python3.12/site-packages/vllm/model_executor/layers/fused_moe/configs/E=128,N=768,device_name=NVIDIA_RTX_PRO_6000_Blackwell_Workstation_Edition.json
+[0;36m(EngineCore_DP0 pid=58157)[0;0m INFO 01-31 13:18:58 [backends.py:267] Directly load the compiled graph(s) for compile range (1, 16384) from the cache, took 1.177 s
+[0;36m(EngineCore_DP0 pid=58157)[0;0m INFO 01-31 13:18:58 [monitor.py:34] torch.compile takes 7.49 s in total
+[0;36m(EngineCore_DP0 pid=58157)[0;0m INFO 01-31 13:18:59 [gpu_worker.py:356] Available KV cache memory: 21.87 GiB
+[0;36m(EngineCore_DP0 pid=58157)[0;0m INFO 01-31 13:18:59 [kv_cache_utils.py:1307] GPU KV cache size: 238,896 tokens
+[0;36m(EngineCore_DP0 pid=58157)[0;0m INFO 01-31 13:18:59 [kv_cache_utils.py:1312] Maximum concurrency for 32,768 tokens per request: 7.29x
+[0;36m(EngineCore_DP0 pid=58157)[0;0m INFO 01-31 13:19:08 [gpu_model_runner.py:5051] Graph capturing finished in 9 secs, took -0.27 GiB
+[0;36m(EngineCore_DP0 pid=58157)[0;0m INFO 01-31 13:19:08 [core.py:272] init engine (profile, create kv cache, warmup model) took 20.18 seconds
+INFO 01-31 13:19:09 [llm.py:343] Supported tasks: ['generate']
+vllm ({'pretrained': '/mnt/4TB/models/Qwen3-30B-A3B-Instruct-2507/', 'tensor_parallel_size': 1, 'max_model_len': 32768}), gen_kwargs: ({}), limit: None, num_fewshot: None, batch_size: 1
+|                 Tasks                 |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|---------------------------------------|------:|------|-----:|------|---|-----:|---|-----:|
+|mmlu                                   |      2|none  |      |acc   |↑  |0.7132|±  |0.0035|
+| - humanities                          |      2|none  |      |acc   |↑  |0.6825|±  |0.0065|
+|  - formal_logic                       |      1|none  |     0|acc   |↑  |0.4206|±  |0.0442|
+|  - high_school_european_history       |      1|none  |     0|acc   |↑  |0.7818|±  |0.0323|
+|  - high_school_us_history             |      1|none  |     0|acc   |↑  |0.8382|±  |0.0258|
+|  - high_school_world_history          |      1|none  |     0|acc   |↑  |0.8397|±  |0.0239|
+|  - international_law                  |      1|none  |     0|acc   |↑  |0.9008|±  |0.0273|
+|  - jurisprudence                      |      1|none  |     0|acc   |↑  |0.8333|±  |0.0360|
+|  - logical_fallacies                  |      1|none  |     0|acc   |↑  |0.7546|±  |0.0338|
+|  - moral_disputes                     |      1|none  |     0|acc   |↑  |0.8035|±  |0.0214|
+|  - moral_scenarios                    |      1|none  |     0|acc   |↑  |0.5844|±  |0.0165|
+|  - philosophy                         |      1|none  |     0|acc   |↑  |0.7814|±  |0.0235|
+|  - prehistory                         |      1|none  |     0|acc   |↑  |0.8889|±  |0.0175|
+|  - professional_law                   |      1|none  |     0|acc   |↑  |0.5580|±  |0.0127|
+|  - world_religions                    |      1|none  |     0|acc   |↑  |0.8713|±  |0.0257|
+| - other                               |      2|none  |      |acc   |↑  |0.7683|±  |0.0072|
+|  - business_ethics                    |      1|none  |     0|acc   |↑  |0.7800|±  |0.0416|
+|  - clinical_knowledge                 |      1|none  |     0|acc   |↑  |0.8038|±  |0.0244|
+|  - college_medicine                   |      1|none  |     0|acc   |↑  |0.7457|±  |0.0332|
+|  - global_facts                       |      1|none  |     0|acc   |↑  |0.5000|±  |0.0503|
+|  - human_aging                        |      1|none  |     0|acc   |↑  |0.7758|±  |0.0280|
+|  - management                         |      1|none  |     0|acc   |↑  |0.8252|±  |0.0376|
+|  - marketing                          |      1|none  |     0|acc   |↑  |0.8932|±  |0.0202|
+|  - medical_genetics                   |      1|none  |     0|acc   |↑  |0.8600|±  |0.0349|
+|  - miscellaneous                      |      1|none  |     0|acc   |↑  |0.8748|±  |0.0118|
+|  - nutrition                          |      1|none  |     0|acc   |↑  |0.8464|±  |0.0206|
+|  - professional_accounting            |      1|none  |     0|acc   |↑  |0.5071|±  |0.0298|
+|  - professional_medicine              |      1|none  |     0|acc   |↑  |0.6838|±  |0.0282|
+|  - virology                           |      1|none  |     0|acc   |↑  |0.5482|±  |0.0387|
+| - social sciences                     |      2|none  |      |acc   |↑  |0.8531|±  |0.0062|
+|  - econometrics                       |      1|none  |     0|acc   |↑  |0.5263|±  |0.0470|
+|  - high_school_geography              |      1|none  |     0|acc   |↑  |0.8990|±  |0.0215|
+|  - high_school_government_and_politics|      1|none  |     0|acc   |↑  |0.9637|±  |0.0135|
+|  - high_school_macroeconomics         |      1|none  |     0|acc   |↑  |0.7897|±  |0.0207|
+|  - high_school_microeconomics         |      1|none  |     0|acc   |↑  |0.8655|±  |0.0222|
+|  - high_school_psychology             |      1|none  |     0|acc   |↑  |0.9229|±  |0.0114|
+|  - human_sexuality                    |      1|none  |     0|acc   |↑  |0.8855|±  |0.0279|
+|  - professional_psychology            |      1|none  |     0|acc   |↑  |0.8415|±  |0.0148|
+|  - public_relations                   |      1|none  |     0|acc   |↑  |0.7636|±  |0.0407|
+|  - security_studies                   |      1|none  |     0|acc   |↑  |0.8000|±  |0.0256|
+|  - sociology                          |      1|none  |     0|acc   |↑  |0.8856|±  |0.0225|
+|  - us_foreign_policy                  |      1|none  |     0|acc   |↑  |0.9500|±  |0.0219|
+| - stem                                |      2|none  |      |acc   |↑  |0.5683|±  |0.0078|
+|  - abstract_algebra                   |      1|none  |     0|acc   |↑  |0.2600|±  |0.0441|
+|  - anatomy                            |      1|none  |     0|acc   |↑  |0.8000|±  |0.0346|
+|  - astronomy                          |      1|none  |     0|acc   |↑  |0.8816|±  |0.0263|
+|  - college_biology                    |      1|none  |     0|acc   |↑  |0.8750|±  |0.0277|
+|  - college_chemistry                  |      1|none  |     0|acc   |↑  |0.4500|±  |0.0500|
+|  - college_computer_science           |      1|none  |     0|acc   |↑  |0.6200|±  |0.0488|
+|  - college_mathematics                |      1|none  |     0|acc   |↑  |0.2700|±  |0.0446|
+|  - college_physics                    |      1|none  |     0|acc   |↑  |0.4314|±  |0.0493|
+|  - computer_security                  |      1|none  |     0|acc   |↑  |0.7800|±  |0.0416|
+|  - conceptual_physics                 |      1|none  |     0|acc   |↑  |0.7915|±  |0.0266|
+|  - electrical_engineering             |      1|none  |     0|acc   |↑  |0.6414|±  |0.0400|
+|  - elementary_mathematics             |      1|none  |     0|acc   |↑  |0.2910|±  |0.0234|
+|  - high_school_biology                |      1|none  |     0|acc   |↑  |0.8677|±  |0.0193|
+|  - high_school_chemistry              |      1|none  |     0|acc   |↑  |0.5369|±  |0.0351|
+|  - high_school_computer_science       |      1|none  |     0|acc   |↑  |0.6400|±  |0.0482|
+|  - high_school_mathematics            |      1|none  |     0|acc   |↑  |0.2074|±  |0.0247|
+|  - high_school_physics                |      1|none  |     0|acc   |↑  |0.4636|±  |0.0407|
+|  - high_school_statistics             |      1|none  |     0|acc   |↑  |0.5324|±  |0.0340|
+|  - machine_learning                   |      1|none  |     0|acc   |↑  |0.6250|±  |0.0460|
+
+|      Groups      |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|------------------|------:|------|------|------|---|-----:|---|-----:|
+|mmlu              |      2|none  |      |acc   |↑  |0.7132|±  |0.0035|
+| - humanities     |      2|none  |      |acc   |↑  |0.6825|±  |0.0065|
+| - other          |      2|none  |      |acc   |↑  |0.7683|±  |0.0072|
+| - social sciences|      2|none  |      |acc   |↑  |0.8531|±  |0.0062|
+| - stem           |      2|none  |      |acc   |↑  |0.5683|±  |0.0078|
+
